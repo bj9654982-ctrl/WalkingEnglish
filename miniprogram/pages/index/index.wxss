@@ -1,0 +1,4 @@
+@import '../../styles/hub.wxss';
+.hero-button { display:flex; width:100%; justify-content:space-between; padding:20rpx 25rpx; font-size:26rpx; background:#f3e8bf; color:#3b513d; border-radius:14rpx; margin-top:28rpx; line-height:1.5; }
+.hero-alias { font-size:24rpx; font-weight:400; margin-left:12rpx; }
+.footer-note { text-align:center; margin:30rpx 0 4rpx; font-size:21rpx; }

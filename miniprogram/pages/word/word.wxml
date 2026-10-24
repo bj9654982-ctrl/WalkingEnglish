@@ -1,0 +1,101 @@
+<!--pages/word/word.wxml-->
+<view class="word-page">
+
+  <view class="page-back" hover-class="page-back-hover" bindtap="goBack">
+    <text class="page-back-icon">‹</text>
+    <text>返回</text>
+  </view>
+
+  <!-- 学习阶段 -->
+  <block wx:if="{{stage === 'learn'}}">
+    <view class="learn-head">
+      <text class="learn-mountain">{{mountainName}}</text>
+      <text class="learn-count">{{cardIndex + 1}} / {{groupSize}}</text>
+    </view>
+
+    <view class="word-card">
+      <view class="word-spell">{{card.w}}</view>
+      <view class="word-phonetic">{{card.ph}}</view><speech-button text="{{card.w}}" label="单词发音" />
+      <view class="word-mean">
+        <text class="word-pos">{{card.pos}}</text>
+        <text class="mean-text">{{card.mean}}</text>
+      </view>
+      <view class="card-line"></view>
+      <view class="word-example">{{card.ex}}</view><speech-button text="{{card.ex}}" label="朗读例句" />
+      <view class="word-example-zh">{{card.exZh}}</view>
+      
+    </view>
+
+    <view class="learn-nav">
+      <view class="dots">
+        <view wx:for="{{group}}" wx:key="w" class="dot {{index <= cardIndex ? 'dot-active' : ''}}"></view>
+      </view>
+      <view class="nav-btns">
+        <view wx:if="{{cardIndex > 0}}" class="nav-ghost" bindtap="prevCard">上一张</view>
+        <view class="nav-primary" bindtap="nextCard">{{isLastCard ? '我记住了，开始测试' : '下一张'}}</view>
+      </view>
+    </view>
+  </block>
+
+  <!-- 测验阶段 -->
+  <block wx:elif="{{stage === 'quiz'}}">
+    <view class="quiz-head">
+      <text class="quiz-title">{{mode === 'review' ? '营地复习 · 先回忆，再选择' : '选择正确的释义'}}</text>
+      <text class="quiz-progress">已通过 {{passedCount}} / {{groupSize}}</text>
+    </view>
+    <view class="quiz-progress-bar">
+      <view class="quiz-progress-fill" style="width: {{passedCount / groupSize * 100}}%;"></view>
+    </view>
+
+    <view class="quiz-word-card">
+      <view class="quiz-word">{{currentQuiz.word.w}}</view>
+      <view class="quiz-phonetic">{{currentQuiz.word.ph}}</view><speech-button text="{{currentQuiz.word.w}}" label="单词发音" />
+    </view>
+
+    <view class="options">
+      <view
+        wx:for="{{currentQuiz.options}}"
+        wx:key="text"
+        wx:for-index="oi"
+        class="option {{locked && item.correct ? 'option-right' : ''}} {{locked && oi === selected && !item.correct ? 'option-wrong' : ''}}"
+        data-idx="{{oi}}"
+        bindtap="chooseOption"
+      >
+        <text class="option-label">{{item.text}}</text>
+        <text wx:if="{{locked && item.correct}}" class="option-mark">✓</text>
+        <text wx:elif="{{locked && oi === selected}}" class="option-mark">✕</text>
+      </view>
+    </view>
+    <view class="quiz-tip">{{mode === 'review' ? '答错会提前安排复习；隔天回忆正确才增加掌握度' : '答对即保存并前进一步，错词会重新出现'}}</view>
+  </block>
+
+  <!-- 结果阶段 -->
+  <block wx:elif="{{stage === 'result'}}">
+    <view class="result-wrap">
+      <view class="result-glow"></view>
+      <view wx:if="{{mode !== 'review' && resultInfo.completed}}" class="result-badge">登顶成功</view>
+      <view wx:else class="result-step">{{mode === 'review' ? '复习完成' : '前进 ' + resultInfo.newlyLearned + ' 步'}}</view>
+      <view class="result-title">{{mode === 'review' ? '营地已点亮 ' + resultInfo.litCamps + '/3' : (resultInfo.completed ? '最后一段，走向山顶' : '又向前走了一段路')}}</view>
+      <view class="result-stats glass-card">
+        <view class="result-stat">
+          <view class="rs-num">{{resultInfo.groupSize}}</view>
+          <view class="rs-label">本组单词</view>
+        </view>
+        <view class="result-stat">
+          <view class="rs-num">{{resultInfo.wrongTotal}}</view>
+          <view class="rs-label">答错次数</view>
+        </view>
+        <view class="result-stat">
+          <view class="rs-num">{{resultInfo.minutes}}'</view>
+          <view class="rs-label">学习用时</view>
+        </view>
+      </view>
+      <view class="result-btn" bindtap="nextAction">回到山道</view>
+    </view>
+  </block>
+
+  <view wx:if="{{stage === 'empty'}}" class="result-wrap">
+    <view class="result-title">{{emptyText}}</view>
+    <view class="result-btn" bindtap="nextAction">回到山道</view>
+  </view>
+</view>

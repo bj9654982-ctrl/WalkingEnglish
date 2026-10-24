@@ -1,0 +1,124 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/reading/reading",
+    "pages/practice/practice",
+    "pages/discover/discover",
+    "pages/profile/profile",
+    "pages/camp/camp",
+    "pages/social/social",
+    "pages/chat/chat",
+    "pages/trail/trail",
+    "pages/word/word",
+    "pages/summit/summit"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f5f1e7",
+    "navigationBarTitleText": "山径英语",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f1e7",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#849080",
+    "selectedColor": "#365b48",
+    "backgroundColor": "#faf7ef",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "单词",
+        "iconPath": "assets/tabs/words.png",
+        "selectedIconPath": "assets/tabs/words-on.png"
+      },
+      {
+        "pagePath": "pages/reading/reading",
+        "text": "阅读",
+        "iconPath": "assets/tabs/reading.png",
+        "selectedIconPath": "assets/tabs/reading-on.png"
+      },
+      {
+        "pagePath": "pages/practice/practice",
+        "text": "练习",
+        "iconPath": "assets/tabs/practice.png",
+        "selectedIconPath": "assets/tabs/practice-on.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "assets/tabs/discover.png",
+        "selectedIconPath": "assets/tabs/discover-on.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/tabs/profile.png",
+        "selectedIconPath": "assets/tabs/profile-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "subPackages": [
+    {
+      "root": "audio/pack0",
+      "name": "voice0",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack1",
+      "name": "voice1",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack2",
+      "name": "voice2",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack3",
+      "name": "voice3",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack4",
+      "name": "voice4",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack5",
+      "name": "voice5",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack6",
+      "name": "voice6",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "audio/pack7",
+      "name": "voice7",
+      "pages": [
+        "ready"
+      ]
+    }
+  ],
+  "usingComponents": {
+    "speech-button": "/components/speech-button/speech-button"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": { "study-sheet": "/components/study-sheet/study-sheet" },
+  "disableScroll": true,
+  "navigationBarTitleText": "山道"
+}

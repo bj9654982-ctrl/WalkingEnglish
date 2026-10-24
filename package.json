@@ -1,0 +1,15 @@
+{
+  "name": "walkingenglish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node verify.js && node tests/regression.js && node tests/features.js && node tests/social.js && node tests/social-client.js && node tests/speech.js",
+    "test:native": "node tools/check-native.js",
+    "cloud:catalog": "node tools/build-cloud-routes.js",
+    "preview": "node tools/preview-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

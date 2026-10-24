@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>山径英语 · 水彩山道预览</title>
+<style>body{margin:0;background:#1c3029;font-family:system-ui;color:#e1e1c6}main{display:flex;align-items:flex-start;justify-content:center;gap:36px;padding:28px}iframe{width:390px;height:844px;border:1px solid #7d866e;border-radius:24px;background:#e0e3d3;box-shadow:0 20px 60px #0b211d}aside{max-width:250px;padding-top:50px}h1{font-size:25px;font-weight:500}p{font-size:14px;line-height:1.9;color:#b9c6af}button,select{display:block;margin:12px 0;padding:11px 18px;border:1px solid #71836b;border-radius:6px;color:#e0ddbb;background:#354f3e;font:inherit}button{cursor:pointer}@media(max-width:700px){main{padding:0;gap:0}aside{display:none}iframe{width:100vw;height:100vh;border:0;border-radius:0}}</style>
+<link rel=stylesheet href=/tools/preview-layout.css></head><body><main><iframe id="phone" src="/tools/preview-phone.html"></iframe><aside><p>WALKING ENGLISH / 02</p><h1>把每一个词<br>走成一段风景</h1><p>实际山道绘制代码与页面样式。<br>水彩远山 · 视差树影 · 灯火营地</p><select id="mountain"><option value="0">枫多山 · 晨雾</option><option value="1">斧头山 · 湖风</option><option value="2">风筝山 · 晴空</option><option value="3">夹山 · 幽谷</option><option value="4">团山 · 浮云</option><option value="5">喻家山 · 暮色</option><option value="6">南望山 · 落日</option></select><button id="advance">演示：答对一词，前进一步</button><button id="camp">查看营地附近</button><button id="reset">清空预览进度</button><p>这里使用独立的浏览器预览存档。微信内的学习记录不受影响。</p><p id="result"></p></aside></main><script>
+const phone=document.getElementById('phone');
+document.getElementById('mountain').onchange=e=>phone.src='/tools/preview-phone.html?id='+e.target.value;
+document.getElementById('advance').onclick=()=>phone.contentWindow.previewAdvance();
+document.getElementById('camp').onclick=()=>phone.contentWindow.previewCamp();
+document.getElementById('reset').onclick=()=>{Object.keys(localStorage).filter(key=>key.startsWith('trail-preview:')).forEach(key=>localStorage.removeItem(key));phone.contentWindow.location.reload()};
+</script></body></html>

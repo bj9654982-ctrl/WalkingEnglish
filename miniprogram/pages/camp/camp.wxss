@@ -1,0 +1,2 @@
+@import '../../styles/hub.wxss';
+.camp-art{text-align:center;font-size:110rpx;color:#9caa7c;padding:35rpx}.camp-art text{display:block;font-size:25rpx;letter-spacing:5rpx;margin-top:14rpx}

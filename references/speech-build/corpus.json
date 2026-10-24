@@ -1,0 +1,4898 @@
+[
+  {
+    "id": "trail",
+    "text": "trail",
+    "pack": 1,
+    "path": "audio/pack1/897abbb178d59a98b5bb.mp3"
+  },
+  {
+    "id": "the trail leads up to the top of the mountain",
+    "text": "The trail leads up to the top of the mountain.",
+    "pack": 1,
+    "path": "audio/pack1/e9a19f85e3ec27176731.mp3"
+  },
+  {
+    "id": "hike",
+    "text": "hike",
+    "pack": 0,
+    "path": "audio/pack0/c02d7803a91c395845d5.mp3"
+  },
+  {
+    "id": "we plan to hike along the east lake this weekend",
+    "text": "We plan to hike along the East Lake this weekend.",
+    "pack": 7,
+    "path": "audio/pack7/b764d0d24624b4153a2f.mp3"
+  },
+  {
+    "id": "mountain",
+    "text": "mountain",
+    "pack": 3,
+    "path": "audio/pack3/3b80d38f7686a8b5f8e6.mp3"
+  },
+  {
+    "id": "the mountain looks beautiful in the morning light",
+    "text": "The mountain looks beautiful in the morning light.",
+    "pack": 7,
+    "path": "audio/pack7/27dc43d911826823cc07.mp3"
+  },
+  {
+    "id": "hill",
+    "text": "hill",
+    "pack": 7,
+    "path": "audio/pack7/f77fcbb21ddefc82222a.mp3"
+  },
+  {
+    "id": "a gentle hill stands beside the lake",
+    "text": "A gentle hill stands beside the lake.",
+    "pack": 7,
+    "path": "audio/pack7/9fbf4689e46279b54114.mp3"
+  },
+  {
+    "id": "lake",
+    "text": "lake",
+    "pack": 7,
+    "path": "audio/pack7/6f021f0268d5dd0d4e28.mp3"
+  },
+  {
+    "id": "the water of the lake is clear and calm",
+    "text": "The water of the lake is clear and calm.",
+    "pack": 4,
+    "path": "audio/pack4/c446ce49edece06ddaaf.mp3"
+  },
+  {
+    "id": "path",
+    "text": "path",
+    "pack": 0,
+    "path": "audio/pack0/a0af9f865bf637e67368.mp3"
+  },
+  {
+    "id": "follow the stone path through the forest",
+    "text": "Follow the stone path through the forest.",
+    "pack": 0,
+    "path": "audio/pack0/106814ca91e8763e6b2b.mp3"
+  },
+  {
+    "id": "tree",
+    "text": "tree",
+    "pack": 4,
+    "path": "audio/pack4/dc9c5edb8b2d479e697b.mp3"
+  },
+  {
+    "id": "a tall tree stands at the corner of the road",
+    "text": "A tall tree stands at the corner of the road.",
+    "pack": 4,
+    "path": "audio/pack4/5c11bc31c3392a79557e.mp3"
+  },
+  {
+    "id": "leaf",
+    "text": "leaf",
+    "pack": 7,
+    "path": "audio/pack7/9f91161f43433e49a6de.mp3"
+  },
+  {
+    "id": "a green leaf fell onto my shoulder",
+    "text": "A green leaf fell onto my shoulder.",
+    "pack": 6,
+    "path": "audio/pack6/f6662f5ae96448519a9e.mp3"
+  },
+  {
+    "id": "root",
+    "text": "root",
+    "pack": 0,
+    "path": "audio/pack0/4813494d137e1631bba3.mp3"
+  },
+  {
+    "id": "the old tree has deep roots",
+    "text": "The old tree has deep roots.",
+    "pack": 6,
+    "path": "audio/pack6/56d001c65f2f04a512b3.mp3"
+  },
+  {
+    "id": "branch",
+    "text": "branch",
+    "pack": 3,
+    "path": "audio/pack3/f38c764c8aa00b6578f4.mp3"
+  },
+  {
+    "id": "a bird is sitting on that branch",
+    "text": "A bird is sitting on that branch.",
+    "pack": 2,
+    "path": "audio/pack2/0ae84885cc8120483abb.mp3"
+  },
+  {
+    "id": "stone",
+    "text": "stone",
+    "pack": 4,
+    "path": "audio/pack4/dc3d50da8dac041f660e.mp3"
+  },
+  {
+    "id": "we sat on a smooth stone to rest",
+    "text": "We sat on a smooth stone to rest.",
+    "pack": 1,
+    "path": "audio/pack1/a164d6a34bb1209d8d4c.mp3"
+  },
+  {
+    "id": "rock",
+    "text": "rock",
+    "pack": 5,
+    "path": "audio/pack5/350a770c0ec9f353e1a5.mp3"
+  },
+  {
+    "id": "be careful, the rock is wet and slippery",
+    "text": "Be careful, the rock is wet and slippery.",
+    "pack": 3,
+    "path": "audio/pack3/53376661489bbb81a4b7.mp3"
+  },
+  {
+    "id": "sky",
+    "text": "sky",
+    "pack": 5,
+    "path": "audio/pack5/05f514fae7ca5710f9e9.mp3"
+  },
+  {
+    "id": "the sky turned pink before sunrise",
+    "text": "The sky turned pink before sunrise.",
+    "pack": 2,
+    "path": "audio/pack2/72aaf376cf047c766500.mp3"
+  },
+  {
+    "id": "cloud",
+    "text": "cloud",
+    "pack": 6,
+    "path": "audio/pack6/56681010b753e1abe52c.mp3"
+  },
+  {
+    "id": "white clouds drifted slowly above the hills",
+    "text": "White clouds drifted slowly above the hills.",
+    "pack": 3,
+    "path": "audio/pack3/bbe8d5287c437441daac.mp3"
+  },
+  {
+    "id": "wind",
+    "text": "wind",
+    "pack": 3,
+    "path": "audio/pack3/9b58e68145a79ca0e199.mp3"
+  },
+  {
+    "id": "a cool wind blew from the lake",
+    "text": "A cool wind blew from the lake.",
+    "pack": 6,
+    "path": "audio/pack6/c6e3200c26325f5238f3.mp3"
+  },
+  {
+    "id": "rain",
+    "text": "rain",
+    "pack": 1,
+    "path": "audio/pack1/319b44c570a417ff3444.mp3"
+  },
+  {
+    "id": "the rain made the trail muddy",
+    "text": "The rain made the trail muddy.",
+    "pack": 1,
+    "path": "audio/pack1/015aa55b3a67a3dc4086.mp3"
+  },
+  {
+    "id": "sun",
+    "text": "sun",
+    "pack": 7,
+    "path": "audio/pack7/27756f050e14a1cb1c1e.mp3"
+  },
+  {
+    "id": "the sun rose above the mountain",
+    "text": "The sun rose above the mountain.",
+    "pack": 4,
+    "path": "audio/pack4/dc8b91be71aae1b7067e.mp3"
+  },
+  {
+    "id": "moon",
+    "text": "moon",
+    "pack": 6,
+    "path": "audio/pack6/9e78b43ea00edcac8299.mp3"
+  },
+  {
+    "id": "the moon lit our way home",
+    "text": "The moon lit our way home.",
+    "pack": 3,
+    "path": "audio/pack3/3be3ce2647d8969704fc.mp3"
+  },
+  {
+    "id": "star",
+    "text": "star",
+    "pack": 2,
+    "path": "audio/pack2/525eca1d5089dbdcbb67.mp3"
+  },
+  {
+    "id": "we watched the stars from the top of the hill",
+    "text": "We watched the stars from the top of the hill.",
+    "pack": 1,
+    "path": "audio/pack1/a98426883c2127e353d6.mp3"
+  },
+  {
+    "id": "bird",
+    "text": "bird",
+    "pack": 2,
+    "path": "audio/pack2/7a5179eecc0fe18760ba.mp3"
+  },
+  {
+    "id": "the birds sing loudly in the early morning",
+    "text": "The birds sing loudly in the early morning.",
+    "pack": 5,
+    "path": "audio/pack5/858e0bc0527a765441a2.mp3"
+  },
+  {
+    "id": "forest",
+    "text": "forest",
+    "pack": 1,
+    "path": "audio/pack1/619a2ccf126ce837dc7c.mp3"
+  },
+  {
+    "id": "the forest is cool even at noon",
+    "text": "The forest is cool even at noon.",
+    "pack": 0,
+    "path": "audio/pack0/98c39dd655991704528c.mp3"
+  },
+  {
+    "id": "river",
+    "text": "river",
+    "pack": 7,
+    "path": "audio/pack7/5f5a8ed8f139be6df7cf.mp3"
+  },
+  {
+    "id": "a small river runs through the valley",
+    "text": "A small river runs through the valley.",
+    "pack": 1,
+    "path": "audio/pack1/3991c1d831c03e19332d.mp3"
+  },
+  {
+    "id": "water",
+    "text": "water",
+    "pack": 7,
+    "path": "audio/pack7/0f4168490e38b8447e11.mp3"
+  },
+  {
+    "id": "drink some water before you climb",
+    "text": "Drink some water before you climb.",
+    "pack": 0,
+    "path": "audio/pack0/30a2c103d918c55d569c.mp3"
+  },
+  {
+    "id": "grass",
+    "text": "grass",
+    "pack": 6,
+    "path": "audio/pack6/f6cc5b085b61387ac2c1.mp3"
+  },
+  {
+    "id": "the grass was wet with dew",
+    "text": "The grass was wet with dew.",
+    "pack": 1,
+    "path": "audio/pack1/3940dcfdbc67db012147.mp3"
+  },
+  {
+    "id": "flower",
+    "text": "flower",
+    "pack": 0,
+    "path": "audio/pack0/c06b0cfe0cc5e900c577.mp3"
+  },
+  {
+    "id": "small yellow flowers grow along the trail",
+    "text": "Small yellow flowers grow along the trail.",
+    "pack": 1,
+    "path": "audio/pack1/89d57b6c8df7b10ea7c1.mp3"
+  },
+  {
+    "id": "seed",
+    "text": "seed",
+    "pack": 1,
+    "path": "audio/pack1/19b25856e1c150ca834c.mp3"
+  },
+  {
+    "id": "the wind carries seeds to new places",
+    "text": "The wind carries seeds to new places.",
+    "pack": 2,
+    "path": "audio/pack2/fa46cfcf721148ca9a13.mp3"
+  },
+  {
+    "id": "top",
+    "text": "top",
+    "pack": 0,
+    "path": "audio/pack0/28720365c5e7476a011e.mp3"
+  },
+  {
+    "id": "from the top, we could see the whole lake",
+    "text": "From the top, we could see the whole lake.",
+    "pack": 2,
+    "path": "audio/pack2/02757f9d15ef110dff64.mp3"
+  },
+  {
+    "id": "climb",
+    "text": "climb",
+    "pack": 7,
+    "path": "audio/pack7/d73d3e7a7e1d181671a5.mp3"
+  },
+  {
+    "id": "it takes one hour to climb the hill",
+    "text": "It takes one hour to climb the hill.",
+    "pack": 2,
+    "path": "audio/pack2/12c5a1ccaf631af38b2e.mp3"
+  },
+  {
+    "id": "walk",
+    "text": "walk",
+    "pack": 2,
+    "path": "audio/pack2/7a6c4fac6c5cd7209ee2.mp3"
+  },
+  {
+    "id": "we walked slowly and enjoyed the view",
+    "text": "We walked slowly and enjoyed the view.",
+    "pack": 6,
+    "path": "audio/pack6/6e9d5de84c8e41f38913.mp3"
+  },
+  {
+    "id": "step",
+    "text": "step",
+    "pack": 6,
+    "path": "audio/pack6/3e64cc41cf8e07b43936.mp3"
+  },
+  {
+    "id": "watch your step on the loose stones",
+    "text": "Watch your step on the loose stones.",
+    "pack": 0,
+    "path": "audio/pack0/e05cb2c396da4dcf8563.mp3"
+  },
+  {
+    "id": "foot",
+    "text": "foot",
+    "pack": 2,
+    "path": "audio/pack2/22e4f6912a6980d6fd59.mp3"
+  },
+  {
+    "id": "my feet hurt after the long walk",
+    "text": "My feet hurt after the long walk.",
+    "pack": 5,
+    "path": "audio/pack5/a5fec849c43bf45f9e05.mp3"
+  },
+  {
+    "id": "boot",
+    "text": "boot",
+    "pack": 5,
+    "path": "audio/pack5/4509beb0ab401d71fa4a.mp3"
+  },
+  {
+    "id": "wear strong boots for the hike",
+    "text": "Wear strong boots for the hike.",
+    "pack": 5,
+    "path": "audio/pack5/156778c29c154d7563fc.mp3"
+  },
+  {
+    "id": "map",
+    "text": "map",
+    "pack": 0,
+    "path": "audio/pack0/60be9861750facbfad87.mp3"
+  },
+  {
+    "id": "the map shows every mountain and lake",
+    "text": "The map shows every mountain and lake.",
+    "pack": 1,
+    "path": "audio/pack1/112c19244f3d9a2ad07c.mp3"
+  },
+  {
+    "id": "bottle",
+    "text": "bottle",
+    "pack": 5,
+    "path": "audio/pack5/7def9c79e5be6d7a7002.mp3"
+  },
+  {
+    "id": "i carry a bottle of water in my bag",
+    "text": "I carry a bottle of water in my bag.",
+    "pack": 1,
+    "path": "audio/pack1/997483aae792752b6ab6.mp3"
+  },
+  {
+    "id": "rest",
+    "text": "Rest.",
+    "pack": 6,
+    "path": "audio/pack6/2e09d5210db8417757b0.mp3"
+  },
+  {
+    "id": "let us rest under this tree for a while",
+    "text": "Let us rest under this tree for a while.",
+    "pack": 0,
+    "path": "audio/pack0/e8fa8316f737c84cc36f.mp3"
+  },
+  {
+    "id": "tired",
+    "text": "tired",
+    "pack": 4,
+    "path": "audio/pack4/c405760daf9bc32b76f4.mp3"
+  },
+  {
+    "id": "i felt tired but happy at the end of the day",
+    "text": "I felt tired but happy at the end of the day.",
+    "pack": 6,
+    "path": "audio/pack6/9e820d59826aee955fd5.mp3"
+  },
+  {
+    "id": "fresh",
+    "text": "fresh",
+    "pack": 0,
+    "path": "audio/pack0/d098ab5e44b9aabb755f.mp3"
+  },
+  {
+    "id": "the air in the mountains is so fresh",
+    "text": "The air in the mountains is so fresh.",
+    "pack": 3,
+    "path": "audio/pack3/531f62c9aa3c66523635.mp3"
+  },
+  {
+    "id": "nature",
+    "text": "nature",
+    "pack": 6,
+    "path": "audio/pack6/5697abca7a318e6871d9.mp3"
+  },
+  {
+    "id": "i love being close to nature",
+    "text": "I love being close to nature.",
+    "pack": 2,
+    "path": "audio/pack2/4a736781a74df6e6889b.mp3"
+  },
+  {
+    "id": "view",
+    "text": "view",
+    "pack": 3,
+    "path": "audio/pack3/2bcb43cbc8f6b7ef6633.mp3"
+  },
+  {
+    "id": "the view from the summit is amazing",
+    "text": "The view from the summit is amazing.",
+    "pack": 1,
+    "path": "audio/pack1/61ff7b5d947b1f7d45fe.mp3"
+  },
+  {
+    "id": "sunrise",
+    "text": "sunrise",
+    "pack": 1,
+    "path": "audio/pack1/e9f2a0186210e30a516d.mp3"
+  },
+  {
+    "id": "we got up early to watch the sunrise",
+    "text": "We got up early to watch the sunrise.",
+    "pack": 7,
+    "path": "audio/pack7/efe735d1dde7d985b409.mp3"
+  },
+  {
+    "id": "sunset",
+    "text": "sunset",
+    "pack": 0,
+    "path": "audio/pack0/0829103205fbe7963996.mp3"
+  },
+  {
+    "id": "the sunset painted the sky in gold",
+    "text": "The sunset painted the sky in gold.",
+    "pack": 1,
+    "path": "audio/pack1/09b53f0ed895f20de5a5.mp3"
+  },
+  {
+    "id": "breeze",
+    "text": "breeze",
+    "pack": 6,
+    "path": "audio/pack6/7e92c11499fd4106a899.mp3"
+  },
+  {
+    "id": "a gentle breeze moved through the leaves",
+    "text": "A gentle breeze moved through the leaves.",
+    "pack": 2,
+    "path": "audio/pack2/02f61394a92fbaffe861.mp3"
+  },
+  {
+    "id": "uphill",
+    "text": "uphill",
+    "pack": 7,
+    "path": "audio/pack7/07ee4f2eceed77346add.mp3"
+  },
+  {
+    "id": "the last part of the trail is all uphill",
+    "text": "The last part of the trail is all uphill.",
+    "pack": 0,
+    "path": "audio/pack0/485fc21de00620d754ee.mp3"
+  },
+  {
+    "id": "downhill",
+    "text": "downhill",
+    "pack": 4,
+    "path": "audio/pack4/842f1868ffb5aa803056.mp3"
+  },
+  {
+    "id": "after the peak, the path goes downhill",
+    "text": "After the peak, the path goes downhill.",
+    "pack": 4,
+    "path": "audio/pack4/848ba540a04e184e07f3.mp3"
+  },
+  {
+    "id": "valley",
+    "text": "valley",
+    "pack": 2,
+    "path": "audio/pack2/627fd3d05a49a1839fad.mp3"
+  },
+  {
+    "id": "the valley was filled with morning fog",
+    "text": "The valley was filled with morning fog.",
+    "pack": 0,
+    "path": "audio/pack0/700462db43d4ccf10c4d.mp3"
+  },
+  {
+    "id": "peak",
+    "text": "peak",
+    "pack": 6,
+    "path": "audio/pack6/9ee9e606474e322872c8.mp3"
+  },
+  {
+    "id": "they reached the peak before noon",
+    "text": "They reached the peak before noon.",
+    "pack": 4,
+    "path": "audio/pack4/3cab4ef0538df9e8c8cc.mp3"
+  },
+  {
+    "id": "ridge",
+    "text": "ridge",
+    "pack": 0,
+    "path": "audio/pack0/409e364456fa93642cd2.mp3"
+  },
+  {
+    "id": "the trail follows a narrow ridge",
+    "text": "The trail follows a narrow ridge.",
+    "pack": 5,
+    "path": "audio/pack5/6df910f90215affdc3bb.mp3"
+  },
+  {
+    "id": "slope",
+    "text": "slope",
+    "pack": 3,
+    "path": "audio/pack3/fb1acd44962209a65826.mp3"
+  },
+  {
+    "id": "the slope is steeper than it looks",
+    "text": "The slope is steeper than it looks.",
+    "pack": 5,
+    "path": "audio/pack5/85ff3a08c01c7a0b332c.mp3"
+  },
+  {
+    "id": "mud",
+    "text": "mud",
+    "pack": 7,
+    "path": "audio/pack7/af07ff91ab7ce2a7d1f9.mp3"
+  },
+  {
+    "id": "my shoes were covered in mud",
+    "text": "My shoes were covered in mud.",
+    "pack": 3,
+    "path": "audio/pack3/cb967649c34f77fa17ad.mp3"
+  },
+  {
+    "id": "dust",
+    "text": "dust",
+    "pack": 3,
+    "path": "audio/pack3/abb32701117d50a93f8f.mp3"
+  },
+  {
+    "id": "the dry path rose with dust",
+    "text": "The dry path rose with dust.",
+    "pack": 2,
+    "path": "audio/pack2/1a939f816b2090c54d6d.mp3"
+  },
+  {
+    "id": "shade",
+    "text": "shade",
+    "pack": 0,
+    "path": "audio/pack0/e02d7fca852ac60ed43f.mp3"
+  },
+  {
+    "id": "we took a break in the shade",
+    "text": "We took a break in the shade.",
+    "pack": 5,
+    "path": "audio/pack5/ed629707dbd99686dfed.mp3"
+  },
+  {
+    "id": "sunlight",
+    "text": "sunlight",
+    "pack": 2,
+    "path": "audio/pack2/921a95e8b614f668981d.mp3"
+  },
+  {
+    "id": "warm sunlight fell through the branches",
+    "text": "Warm sunlight fell through the branches.",
+    "pack": 3,
+    "path": "audio/pack3/d31ae6123ccf081ea685.mp3"
+  },
+  {
+    "id": "shadow",
+    "text": "shadow",
+    "pack": 3,
+    "path": "audio/pack3/0bb09d80600eec3eb9d7.mp3"
+  },
+  {
+    "id": "the tree cast a long shadow on the ground",
+    "text": "The tree cast a long shadow on the ground.",
+    "pack": 2,
+    "path": "audio/pack2/9acd175cf0d0a6f3aff4.mp3"
+  },
+  {
+    "id": "breathe",
+    "text": "breathe",
+    "pack": 2,
+    "path": "audio/pack2/aa8430ca0e63091efb65.mp3"
+  },
+  {
+    "id": "breathe deeply and enjoy the fresh air",
+    "text": "Breathe deeply and enjoy the fresh air.",
+    "pack": 5,
+    "path": "audio/pack5/cdac0f5ec0fb3c59357d.mp3"
+  },
+  {
+    "id": "sweat",
+    "text": "sweat",
+    "pack": 5,
+    "path": "audio/pack5/cdaad7e096dd8f07d486.mp3"
+  },
+  {
+    "id": "sweat ran down his face on the uphill part",
+    "text": "Sweat ran down his face on the uphill part.",
+    "pack": 0,
+    "path": "audio/pack0/f047d73bded39fe037da.mp3"
+  },
+  {
+    "id": "drink",
+    "text": "drink",
+    "pack": 1,
+    "path": "audio/pack1/218ae6b44966c8a9913e.mp3"
+  },
+  {
+    "id": "we drank from a cool spring",
+    "text": "We drank from a cool spring.",
+    "pack": 5,
+    "path": "audio/pack5/251836d9d443aedaf030.mp3"
+  },
+  {
+    "id": "snack",
+    "text": "snack",
+    "pack": 7,
+    "path": "audio/pack7/ff488ab8733e4c47df71.mp3"
+  },
+  {
+    "id": "we shared snacks at the top of the mountain",
+    "text": "We shared snacks at the top of the mountain.",
+    "pack": 5,
+    "path": "audio/pack5/05082be279dc017f9131.mp3"
+  },
+  {
+    "id": "journey",
+    "text": "journey",
+    "pack": 5,
+    "path": "audio/pack5/cde56892bbebbf6c5fe5.mp3"
+  },
+  {
+    "id": "the journey up the hill took two hours",
+    "text": "The journey up the hill took two hours.",
+    "pack": 0,
+    "path": "audio/pack0/6874cce175983c4392db.mp3"
+  },
+  {
+    "id": "distance",
+    "text": "distance",
+    "pack": 3,
+    "path": "audio/pack3/63e6ce93e1bcb5122b14.mp3"
+  },
+  {
+    "id": "the distance to the peak is two kilometers",
+    "text": "The distance to the peak is two kilometers.",
+    "pack": 4,
+    "path": "audio/pack4/6430f9bbfd368fa23f96.mp3"
+  },
+  {
+    "id": "direction",
+    "text": "direction",
+    "pack": 3,
+    "path": "audio/pack3/93c4abe27cf169610253.mp3"
+  },
+  {
+    "id": "a wooden sign showed the direction of the trail",
+    "text": "A wooden sign showed the direction of the trail.",
+    "pack": 7,
+    "path": "audio/pack7/ef0832adbf420174d896.mp3"
+  },
+  {
+    "id": "sign",
+    "text": "sign",
+    "pack": 3,
+    "path": "audio/pack3/0b6f395ca14ac202374d.mp3"
+  },
+  {
+    "id": "follow the signs to the summit",
+    "text": "Follow the signs to the summit.",
+    "pack": 6,
+    "path": "audio/pack6/365143bce02b168c4282.mp3"
+  },
+  {
+    "id": "guide",
+    "text": "guide",
+    "pack": 3,
+    "path": "audio/pack3/83ca68be6227af2feb15.mp3"
+  },
+  {
+    "id": "the guide knows every path in these hills",
+    "text": "The guide knows every path in these hills.",
+    "pack": 2,
+    "path": "audio/pack2/f2281726fe86f7600043.mp3"
+  },
+  {
+    "id": "explore",
+    "text": "explore",
+    "pack": 7,
+    "path": "audio/pack7/6f281157ab246f0e1f35.mp3"
+  },
+  {
+    "id": "we explored a small path off the main trail",
+    "text": "We explored a small path off the main trail.",
+    "pack": 7,
+    "path": "audio/pack7/b7dd77431bec980c98a5.mp3"
+  },
+  {
+    "id": "discover",
+    "text": "discover",
+    "pack": 3,
+    "path": "audio/pack3/5b90071aea261a5b8380.mp3"
+  },
+  {
+    "id": "we discovered a quiet lake behind the hill",
+    "text": "We discovered a quiet lake behind the hill.",
+    "pack": 7,
+    "path": "audio/pack7/3753c57084036529dcd0.mp3"
+  },
+  {
+    "id": "enjoy",
+    "text": "enjoy",
+    "pack": 5,
+    "path": "audio/pack5/75fba329cb6ee8907a1f.mp3"
+  },
+  {
+    "id": "enjoy every step of the climb",
+    "text": "Enjoy every step of the climb.",
+    "pack": 6,
+    "path": "audio/pack6/9e0f7f6786033c7bb750.mp3"
+  },
+  {
+    "id": "relax",
+    "text": "relax",
+    "pack": 1,
+    "path": "audio/pack1/51945df720a5a6e21693.mp3"
+  },
+  {
+    "id": "sit down and relax after the long walk",
+    "text": "Sit down and relax after the long walk.",
+    "pack": 6,
+    "path": "audio/pack6/76de15288b6e4f766e31.mp3"
+  },
+  {
+    "id": "smile",
+    "text": "smile",
+    "pack": 2,
+    "path": "audio/pack2/fa1eadc4c69956674126.mp3"
+  },
+  {
+    "id": "she smiled when she saw the lake below",
+    "text": "She smiled when she saw the lake below.",
+    "pack": 3,
+    "path": "audio/pack3/135e1bb492514b748ace.mp3"
+  },
+  {
+    "id": "friend",
+    "text": "friend",
+    "pack": 5,
+    "path": "audio/pack5/cde48537ca2c28084ff5.mp3"
+  },
+  {
+    "id": "i hiked with two good friends",
+    "text": "I hiked with two good friends.",
+    "pack": 5,
+    "path": "audio/pack5/ad8ea6526e0ddf017a89.mp3"
+  },
+  {
+    "id": "together",
+    "text": "together",
+    "pack": 4,
+    "path": "audio/pack4/0c24734d7bf5954f08e5.mp3"
+  },
+  {
+    "id": "we walked together up the mountain",
+    "text": "We walked together up the mountain.",
+    "pack": 0,
+    "path": "audio/pack0/600dbada71d79fdaf137.mp3"
+  },
+  {
+    "id": "alone",
+    "text": "alone",
+    "pack": 2,
+    "path": "audio/pack2/facf8b54e5c0b8c426bb.mp3"
+  },
+  {
+    "id": "he likes to hike alone in the morning",
+    "text": "He likes to hike alone in the morning.",
+    "pack": 0,
+    "path": "audio/pack0/b0e0cba9f535287e4cc3.mp3"
+  },
+  {
+    "id": "quiet",
+    "text": "quiet",
+    "pack": 0,
+    "path": "audio/pack0/008f0747f4e27c8462ba.mp3"
+  },
+  {
+    "id": "the forest was quiet except for the wind",
+    "text": "The forest was quiet except for the wind.",
+    "pack": 2,
+    "path": "audio/pack2/928cfd826edec41cdaa9.mp3"
+  },
+  {
+    "id": "loud",
+    "text": "loud",
+    "pack": 3,
+    "path": "audio/pack3/db1a60bbff220d0910f0.mp3"
+  },
+  {
+    "id": "a loud bird call came from the tree",
+    "text": "A loud bird call came from the tree.",
+    "pack": 7,
+    "path": "audio/pack7/2f746b5aca2212e92a75.mp3"
+  },
+  {
+    "id": "warm",
+    "text": "warm",
+    "pack": 7,
+    "path": "audio/pack7/0f0aa408c1832abefd06.mp3"
+  },
+  {
+    "id": "the afternoon sun felt warm on our faces",
+    "text": "The afternoon sun felt warm on our faces.",
+    "pack": 3,
+    "path": "audio/pack3/1b66453ea62f403e8c26.mp3"
+  },
+  {
+    "id": "cool",
+    "text": "cool",
+    "pack": 3,
+    "path": "audio/pack3/c34045c1a1db8d1b3fca.mp3"
+  },
+  {
+    "id": "the breeze on the ridge was cool",
+    "text": "The breeze on the ridge was cool.",
+    "pack": 1,
+    "path": "audio/pack1/89fe9f8bc242d70c4b34.mp3"
+  },
+  {
+    "id": "weather",
+    "text": "weather",
+    "pack": 5,
+    "path": "audio/pack5/e5e72beb4e3c6926d3dc.mp3"
+  },
+  {
+    "id": "the weather was perfect for hiking",
+    "text": "The weather was perfect for hiking.",
+    "pack": 0,
+    "path": "audio/pack0/805b0dffb74f8304a7c0.mp3"
+  },
+  {
+    "id": "season",
+    "text": "season",
+    "pack": 7,
+    "path": "audio/pack7/8f8e24f65c57e9d506fe.mp3"
+  },
+  {
+    "id": "autumn is the best season for these trails",
+    "text": "Autumn is the best season for these trails.",
+    "pack": 6,
+    "path": "audio/pack6/0e2fd4b1c973470d658c.mp3"
+  },
+  {
+    "id": "spring",
+    "text": "spring",
+    "pack": 2,
+    "path": "audio/pack2/622a494d3ea8c7ba2fed.mp3"
+  },
+  {
+    "id": "wild flowers bloom here in spring",
+    "text": "Wild flowers bloom here in spring.",
+    "pack": 2,
+    "path": "audio/pack2/42643637cce4d4e83544.mp3"
+  },
+  {
+    "id": "summer",
+    "text": "summer",
+    "pack": 0,
+    "path": "audio/pack0/e83664255c6963e962bb.mp3"
+  },
+  {
+    "id": "the forest shade is welcome in summer",
+    "text": "The forest shade is welcome in summer.",
+    "pack": 4,
+    "path": "audio/pack4/cce1a99dc65f893c8b4a.mp3"
+  },
+  {
+    "id": "autumn",
+    "text": "autumn",
+    "pack": 6,
+    "path": "audio/pack6/defae04158b9c17d7b4a.mp3"
+  },
+  {
+    "id": "the leaves turn gold in autumn",
+    "text": "The leaves turn gold in autumn.",
+    "pack": 6,
+    "path": "audio/pack6/568e9883893fb3c83b3e.mp3"
+  },
+  {
+    "id": "winter",
+    "text": "winter",
+    "pack": 0,
+    "path": "audio/pack0/30c5461fc27b84f1f1ad.mp3"
+  },
+  {
+    "id": "the trail is quiet and clear in winter",
+    "text": "The trail is quiet and clear in winter.",
+    "pack": 1,
+    "path": "audio/pack1/7958a8a05d541adcbda7.mp3"
+  },
+  {
+    "id": "monkey",
+    "text": "monkey",
+    "pack": 0,
+    "path": "audio/pack0/000c285457fc971f862a.mp3"
+  },
+  {
+    "id": "we saw monkeys in the trees on fengduo hill",
+    "text": "We saw monkeys in the trees on Fengduo Hill.",
+    "pack": 7,
+    "path": "audio/pack7/6f29da537ac83d77b4d7.mp3"
+  },
+  {
+    "id": "kite",
+    "text": "kite",
+    "pack": 6,
+    "path": "audio/pack6/8e8c7d42b456c9e4ec52.mp3"
+  },
+  {
+    "id": "colourful kites flew over the hilltop",
+    "text": "Colourful kites flew over the hilltop.",
+    "pack": 5,
+    "path": "audio/pack5/158bd78ca07ad8da27bb.mp3"
+  },
+  {
+    "id": "adventure",
+    "text": "adventure",
+    "pack": 7,
+    "path": "audio/pack7/47360b8c5f58c5ba04c8.mp3"
+  },
+  {
+    "id": "every hike is a small adventure",
+    "text": "Every hike is a small adventure.",
+    "pack": 3,
+    "path": "audio/pack3/8b2bbe3a4807f268f808.mp3"
+  },
+  {
+    "id": "summit",
+    "text": "summit",
+    "pack": 3,
+    "path": "audio/pack3/13984a4e7e0edce830a0.mp3"
+  },
+  {
+    "id": "a warm light waited for us at the summit",
+    "text": "A warm light waited for us at the summit.",
+    "pack": 2,
+    "path": "audio/pack2/bad544f90f9355c5aa6a.mp3"
+  },
+  {
+    "id": "waterfall",
+    "text": "waterfall",
+    "pack": 4,
+    "path": "audio/pack4/3cb562c897155ca6e376.mp3"
+  },
+  {
+    "id": "a small waterfall sang beside the trail",
+    "text": "A small waterfall sang beside the trail.",
+    "pack": 5,
+    "path": "audio/pack5/05379743046d6b12730c.mp3"
+  },
+  {
+    "id": "ability",
+    "text": "ability",
+    "pack": 4,
+    "path": "audio/pack4/bcffaab67df49e37c9e3.mp3"
+  },
+  {
+    "id": "reading improves your ability to learn new words",
+    "text": "Reading improves your ability to learn new words.",
+    "pack": 6,
+    "path": "audio/pack6/f62e95769ae06e8d21a9.mp3"
+  },
+  {
+    "id": "achieve",
+    "text": "achieve",
+    "pack": 4,
+    "path": "audio/pack4/1c6b6b9e01275af3ac76.mp3"
+  },
+  {
+    "id": "you can achieve your goal step by step",
+    "text": "You can achieve your goal step by step.",
+    "pack": 7,
+    "path": "audio/pack7/7fa365bc60c4c2e8e1d3.mp3"
+  },
+  {
+    "id": "active",
+    "text": "active",
+    "pack": 6,
+    "path": "audio/pack6/96879611650f80a81392.mp3"
+  },
+  {
+    "id": "she is active in the hiking club",
+    "text": "She is active in the hiking club.",
+    "pack": 1,
+    "path": "audio/pack1/699a16df98e68503b071.mp3"
+  },
+  {
+    "id": "actually",
+    "text": "actually",
+    "pack": 4,
+    "path": "audio/pack4/e4c05c565b8cac5ea254.mp3"
+  },
+  {
+    "id": "the view is even better than it actually looks in photos",
+    "text": "The view is even better than it actually looks in photos.",
+    "pack": 2,
+    "path": "audio/pack2/827aeed29a17cfbbf273.mp3"
+  },
+  {
+    "id": "admire",
+    "text": "admire",
+    "pack": 3,
+    "path": "audio/pack3/13f31855069f273d8fb4.mp3"
+  },
+  {
+    "id": "we stopped to admire the lake below",
+    "text": "We stopped to admire the lake below.",
+    "pack": 1,
+    "path": "audio/pack1/712fae3e8724c39f5886.mp3"
+  },
+  {
+    "id": "admit",
+    "text": "admit",
+    "pack": 5,
+    "path": "audio/pack5/358970fc5c749bdd2821.mp3"
+  },
+  {
+    "id": "he admitted that the slope was harder than expected",
+    "text": "He admitted that the slope was harder than expected.",
+    "pack": 5,
+    "path": "audio/pack5/6d65c5436951d0c26a60.mp3"
+  },
+  {
+    "id": "advance",
+    "text": "advance",
+    "pack": 4,
+    "path": "audio/pack4/e40dfff1a71eb7baf65e.mp3"
+  },
+  {
+    "id": "we advanced slowly along the muddy trail",
+    "text": "We advanced slowly along the muddy trail.",
+    "pack": 0,
+    "path": "audio/pack0/18ab5605e8736e5c7548.mp3"
+  },
+  {
+    "id": "affect",
+    "text": "affect",
+    "pack": 5,
+    "path": "audio/pack5/8528058461899c6b3e79.mp3"
+  },
+  {
+    "id": "the cold wind affected our speed",
+    "text": "The cold wind affected our speed.",
+    "pack": 1,
+    "path": "audio/pack1/f90ede58bf5a836e3d4e.mp3"
+  },
+  {
+    "id": "afford",
+    "text": "afford",
+    "pack": 1,
+    "path": "audio/pack1/f901528b18bc7e90bcae.mp3"
+  },
+  {
+    "id": "we could not afford to waste any more water",
+    "text": "We could not afford to waste any more water.",
+    "pack": 2,
+    "path": "audio/pack2/e23ffe1668d08c7763d2.mp3"
+  },
+  {
+    "id": "aim",
+    "text": "aim",
+    "pack": 2,
+    "path": "audio/pack2/a27f98238d2c1c02f2a1.mp3"
+  },
+  {
+    "id": "our aim is to reach the summit before noon",
+    "text": "Our aim is to reach the summit before noon.",
+    "pack": 0,
+    "path": "audio/pack0/b8d5c5cc040edfa99835.mp3"
+  },
+  {
+    "id": "allow",
+    "text": "allow",
+    "pack": 1,
+    "path": "audio/pack1/410083735735a10e658a.mp3"
+  },
+  {
+    "id": "the trail allows only one person at a time",
+    "text": "The trail allows only one person at a time.",
+    "pack": 0,
+    "path": "audio/pack0/e815602a5187a07c5e38.mp3"
+  },
+  {
+    "id": "ancient",
+    "text": "ancient",
+    "pack": 1,
+    "path": "audio/pack1/41dda3b2113b5898b198.mp3"
+  },
+  {
+    "id": "ancient trees stand along the old path",
+    "text": "Ancient trees stand along the old path.",
+    "pack": 1,
+    "path": "audio/pack1/79cb397460e944216a47.mp3"
+  },
+  {
+    "id": "announce",
+    "text": "announce",
+    "pack": 1,
+    "path": "audio/pack1/f178ad42d80eb9cd1638.mp3"
+  },
+  {
+    "id": "a sign announced that the trail was open",
+    "text": "A sign announced that the trail was open.",
+    "pack": 2,
+    "path": "audio/pack2/5a549a33deb621d1ecc6.mp3"
+  },
+  {
+    "id": "anxious",
+    "text": "anxious",
+    "pack": 2,
+    "path": "audio/pack2/faef616df2ec24420964.mp3"
+  },
+  {
+    "id": "she felt anxious before the steep climb",
+    "text": "She felt anxious before the steep climb.",
+    "pack": 7,
+    "path": "audio/pack7/0f0b14bbbee1a6956435.mp3"
+  },
+  {
+    "id": "appear",
+    "text": "appear",
+    "pack": 5,
+    "path": "audio/pack5/adf5a890f0aec8298377.mp3"
+  },
+  {
+    "id": "the lake appeared through the trees",
+    "text": "The lake appeared through the trees.",
+    "pack": 5,
+    "path": "audio/pack5/e5d9b1c2db19dc42d60d.mp3"
+  },
+  {
+    "id": "arrange",
+    "text": "arrange",
+    "pack": 4,
+    "path": "audio/pack4/3c1f2776b86f209e6a0f.mp3"
+  },
+  {
+    "id": "we arranged to meet at the foot of the hill",
+    "text": "We arranged to meet at the foot of the hill.",
+    "pack": 0,
+    "path": "audio/pack0/10681d715df6cdd10e9c.mp3"
+  },
+  {
+    "id": "attempt",
+    "text": "attempt",
+    "pack": 7,
+    "path": "audio/pack7/c7ce66d0fb14e3c2d4d9.mp3"
+  },
+  {
+    "id": "they attempted the ridge in strong wind",
+    "text": "They attempted the ridge in strong wind.",
+    "pack": 7,
+    "path": "audio/pack7/b72416a2b45eae2da81f.mp3"
+  },
+  {
+    "id": "attitude",
+    "text": "attitude",
+    "pack": 6,
+    "path": "audio/pack6/b67cab457e406488e88a.mp3"
+  },
+  {
+    "id": "a positive attitude makes the climb easier",
+    "text": "A positive attitude makes the climb easier.",
+    "pack": 7,
+    "path": "audio/pack7/afb0f573e59982e44ea6.mp3"
+  },
+  {
+    "id": "attract",
+    "text": "attract",
+    "pack": 3,
+    "path": "audio/pack3/8bec0a29bc921c822367.mp3"
+  },
+  {
+    "id": "the sunset attracts many hikers to the peak",
+    "text": "The sunset attracts many hikers to the peak.",
+    "pack": 1,
+    "path": "audio/pack1/5175b39b22738513ac2f.mp3"
+  },
+  {
+    "id": "average",
+    "text": "average",
+    "pack": 0,
+    "path": "audio/pack0/184df936d41b2da8d101.mp3"
+  },
+  {
+    "id": "the average hiker needs five hours for the full trail",
+    "text": "The average hiker needs five hours for the full trail.",
+    "pack": 1,
+    "path": "audio/pack1/3988b8119d5ec28270c7.mp3"
+  },
+  {
+    "id": "balance",
+    "text": "balance",
+    "pack": 7,
+    "path": "audio/pack7/5751e048eb6fee3eb9bb.mp3"
+  },
+  {
+    "id": "keep your balance on the loose rocks",
+    "text": "Keep your balance on the loose rocks.",
+    "pack": 2,
+    "path": "audio/pack2/825a32e996d7214465b0.mp3"
+  },
+  {
+    "id": "battle",
+    "text": "battle",
+    "pack": 6,
+    "path": "audio/pack6/16f5e2322d05ddf58fa7.mp3"
+  },
+  {
+    "id": "she battled against the uphill wind",
+    "text": "She battled against the uphill wind.",
+    "pack": 3,
+    "path": "audio/pack3/3be88ee0f968270e3578.mp3"
+  },
+  {
+    "id": "benefit",
+    "text": "benefit",
+    "pack": 1,
+    "path": "audio/pack1/e97469619c0d7aa7bf47.mp3"
+  },
+  {
+    "id": "hiking benefits both the body and the mind",
+    "text": "Hiking benefits both the body and the mind.",
+    "pack": 4,
+    "path": "audio/pack4/1449b226834c0321259b.mp3"
+  },
+  {
+    "id": "beyond",
+    "text": "beyond",
+    "pack": 6,
+    "path": "audio/pack6/5e8818d1dd1914902733.mp3"
+  },
+  {
+    "id": "beyond the ridge, we could see the city",
+    "text": "Beyond the ridge, we could see the city.",
+    "pack": 2,
+    "path": "audio/pack2/8a42537b544818ff3bf1.mp3"
+  },
+  {
+    "id": "border",
+    "text": "border",
+    "pack": 7,
+    "path": "audio/pack7/4f1a55de40bce9010e81.mp3"
+  },
+  {
+    "id": "the path follows the border of the forest",
+    "text": "The path follows the border of the forest.",
+    "pack": 6,
+    "path": "audio/pack6/c650b790710d60498e99.mp3"
+  },
+  {
+    "id": "brave",
+    "text": "brave",
+    "pack": 1,
+    "path": "audio/pack1/a1bb216b2bbb7eb30b25.mp3"
+  },
+  {
+    "id": "the brave hiker climbed the steep rock",
+    "text": "The brave hiker climbed the steep rock.",
+    "pack": 5,
+    "path": "audio/pack5/bd36a777a94ed5645a50.mp3"
+  },
+  {
+    "id": "brief",
+    "text": "brief",
+    "pack": 1,
+    "path": "audio/pack1/29a8825bd242f14386ee.mp3"
+  },
+  {
+    "id": "we took a brief rest before the final slope",
+    "text": "We took a brief rest before the final slope.",
+    "pack": 4,
+    "path": "audio/pack4/5487bdc8e898dbb28402.mp3"
+  },
+  {
+    "id": "calm",
+    "text": "calm",
+    "pack": 3,
+    "path": "audio/pack3/2b4b2eadf7b2aece598d.mp3"
+  },
+  {
+    "id": "the calm lake looked like a mirror",
+    "text": "The calm lake looked like a mirror.",
+    "pack": 2,
+    "path": "audio/pack2/92dd56cd8126e6288572.mp3"
+  },
+  {
+    "id": "celebrate",
+    "text": "celebrate",
+    "pack": 4,
+    "path": "audio/pack4/9c457a4c48c5fe751b46.mp3"
+  },
+  {
+    "id": "we celebrated our victory at the summit",
+    "text": "We celebrated our victory at the summit.",
+    "pack": 7,
+    "path": "audio/pack7/bf97fe7ab6133d60c50e.mp3"
+  },
+  {
+    "id": "challenge",
+    "text": "challenge",
+    "pack": 5,
+    "path": "audio/pack5/2dd00bd77e0222ced882.mp3"
+  },
+  {
+    "id": "the seven hills are a real challenge",
+    "text": "The seven hills are a real challenge.",
+    "pack": 3,
+    "path": "audio/pack3/e3378fc26bbdf671371a.mp3"
+  },
+  {
+    "id": "character",
+    "text": "character",
+    "pack": 3,
+    "path": "audio/pack3/4bcef3de76eaf574c6ba.mp3"
+  },
+  {
+    "id": "the long journey showed his true character",
+    "text": "The long journey showed his true character.",
+    "pack": 0,
+    "path": "audio/pack0/68bae7ce108e8a62ed00.mp3"
+  },
+  {
+    "id": "charge",
+    "text": "charge",
+    "pack": 7,
+    "path": "audio/pack7/97488fbab3282166738a.mp3"
+  },
+  {
+    "id": "the guide was in charge of the whole group",
+    "text": "The guide was in charge of the whole group.",
+    "pack": 0,
+    "path": "audio/pack0/30f83f05acb078f97300.mp3"
+  },
+  {
+    "id": "claim",
+    "text": "claim",
+    "pack": 5,
+    "path": "audio/pack5/dd1b3c312cf7d8161303.mp3"
+  },
+  {
+    "id": "she claimed the peak just before the rain",
+    "text": "She claimed the peak just before the rain.",
+    "pack": 5,
+    "path": "audio/pack5/e5ed7f415fe90c4048ac.mp3"
+  },
+  {
+    "id": "comfort",
+    "text": "comfort",
+    "pack": 6,
+    "path": "audio/pack6/8e9498bf9ee96ee667bc.mp3"
+  },
+  {
+    "id": "the warm sunlight gave us comfort",
+    "text": "The warm sunlight gave us comfort.",
+    "pack": 1,
+    "path": "audio/pack1/21d47452d34938d03290.mp3"
+  },
+  {
+    "id": "common",
+    "text": "common",
+    "pack": 2,
+    "path": "audio/pack2/92a5dc04bd6f9fb8f29f.mp3"
+  },
+  {
+    "id": "pine trees are common on these hills",
+    "text": "Pine trees are common on these hills.",
+    "pack": 0,
+    "path": "audio/pack0/28d22455114adcdd0671.mp3"
+  },
+  {
+    "id": "compare",
+    "text": "compare",
+    "pack": 2,
+    "path": "audio/pack2/1241626eb8ca542931d7.mp3"
+  },
+  {
+    "id": "compare the two paths before you choose",
+    "text": "Compare the two paths before you choose.",
+    "pack": 0,
+    "path": "audio/pack0/00d1b6757de996ef6555.mp3"
+  },
+  {
+    "id": "complete",
+    "text": "complete",
+    "pack": 6,
+    "path": "audio/pack6/eebbf6457e46a7f63acd.mp3"
+  },
+  {
+    "id": "we completed the trail in six hours",
+    "text": "We completed the trail in six hours.",
+    "pack": 5,
+    "path": "audio/pack5/5d4a1ff361c1bacf8649.mp3"
+  },
+  {
+    "id": "concern",
+    "text": "concern",
+    "pack": 7,
+    "path": "audio/pack7/2f1b86bf5531b8e8545e.mp3"
+  },
+  {
+    "id": "the dark clouds concerned every hiker",
+    "text": "The dark clouds concerned every hiker.",
+    "pack": 1,
+    "path": "audio/pack1/e17d7bb8ed630982214b.mp3"
+  },
+  {
+    "id": "confidence",
+    "text": "confidence",
+    "pack": 7,
+    "path": "audio/pack7/ff0139d07c592e9ae929.mp3"
+  },
+  {
+    "id": "every new word gives you more confidence",
+    "text": "Every new word gives you more confidence.",
+    "pack": 0,
+    "path": "audio/pack0/b02bfcdc149d96521ee1.mp3"
+  },
+  {
+    "id": "consider",
+    "text": "consider",
+    "pack": 1,
+    "path": "audio/pack1/2181584795ff55116093.mp3"
+  },
+  {
+    "id": "consider the weather before you start",
+    "text": "Consider the weather before you start.",
+    "pack": 0,
+    "path": "audio/pack0/085d03cde385276d0f57.mp3"
+  },
+  {
+    "id": "courage",
+    "text": "courage",
+    "pack": 4,
+    "path": "audio/pack4/4492aabd733f37cb76fc.mp3"
+  },
+  {
+    "id": "it takes courage to walk the narrow ridge",
+    "text": "It takes courage to walk the narrow ridge.",
+    "pack": 2,
+    "path": "audio/pack2/b2019bd5012971145e77.mp3"
+  },
+  {
+    "id": "create",
+    "text": "create",
+    "pack": 2,
+    "path": "audio/pack2/fa8847b0c33183273f59.mp3"
+  },
+  {
+    "id": "the morning light created a golden path",
+    "text": "The morning light created a golden path.",
+    "pack": 5,
+    "path": "audio/pack5/f5f16daec38e81956b4a.mp3"
+  },
+  {
+    "id": "curious",
+    "text": "curious",
+    "pack": 1,
+    "path": "audio/pack1/a9e7a8af89a3e21f6b9e.mp3"
+  },
+  {
+    "id": "the monkeys were curious about our bags",
+    "text": "The monkeys were curious about our bags.",
+    "pack": 6,
+    "path": "audio/pack6/de370b1de2af53be4acd.mp3"
+  },
+  {
+    "id": "declare",
+    "text": "declare",
+    "pack": 7,
+    "path": "audio/pack7/b7012df7548775c20321.mp3"
+  },
+  {
+    "id": "he declared the view the best in wuhan",
+    "text": "He declared the view the best in Wuhan.",
+    "pack": 5,
+    "path": "audio/pack5/ed90b59948010aa097c4.mp3"
+  },
+  {
+    "id": "defeat",
+    "text": "defeat",
+    "pack": 7,
+    "path": "audio/pack7/5fff5b4eec6c48b6a82d.mp3"
+  },
+  {
+    "id": "we defeated the steepest slope together",
+    "text": "We defeated the steepest slope together.",
+    "pack": 0,
+    "path": "audio/pack0/884e11e04ad284285ee9.mp3"
+  },
+  {
+    "id": "defend",
+    "text": "defend",
+    "pack": 7,
+    "path": "audio/pack7/ff1f017072ccd92fb1db.mp3"
+  },
+  {
+    "id": "the trees defend the path from the wind",
+    "text": "The trees defend the path from the wind.",
+    "pack": 5,
+    "path": "audio/pack5/6592b9f63b86a5d5e558.mp3"
+  },
+  {
+    "id": "degree",
+    "text": "degree",
+    "pack": 3,
+    "path": "audio/pack3/b308a7f43bba8e7a366b.mp3"
+  },
+  {
+    "id": "the slope rises at an angle of thirty degrees",
+    "text": "The slope rises at an angle of thirty degrees.",
+    "pack": 1,
+    "path": "audio/pack1/113b766af20f71612711.mp3"
+  },
+  {
+    "id": "demand",
+    "text": "demand",
+    "pack": 7,
+    "path": "audio/pack7/dffc177fd0bbfd674906.mp3"
+  },
+  {
+    "id": "the final climb demands all your energy",
+    "text": "The final climb demands all your energy.",
+    "pack": 7,
+    "path": "audio/pack7/078a5e521dbcdb96102c.mp3"
+  },
+  {
+    "id": "describe",
+    "text": "describe",
+    "pack": 5,
+    "path": "audio/pack5/c52028f34e378d1e07b4.mp3"
+  },
+  {
+    "id": "words cannot describe the view from the top",
+    "text": "Words cannot describe the view from the top.",
+    "pack": 2,
+    "path": "audio/pack2/02bf94245666338fb8fa.mp3"
+  },
+  {
+    "id": "deserve",
+    "text": "deserve",
+    "pack": 7,
+    "path": "audio/pack7/d7f8d3e72469ce6887d0.mp3"
+  },
+  {
+    "id": "after seven hills, you deserve a long rest",
+    "text": "After seven hills, you deserve a long rest.",
+    "pack": 0,
+    "path": "audio/pack0/e82347ff01dacf11ebf5.mp3"
+  },
+  {
+    "id": "desire",
+    "text": "desire",
+    "pack": 3,
+    "path": "audio/pack3/83fa74e70278e5b9ff3f.mp3"
+  },
+  {
+    "id": "a strong desire to reach the top kept us going",
+    "text": "A strong desire to reach the top kept us going.",
+    "pack": 1,
+    "path": "audio/pack1/81e943550b7f8322e8f5.mp3"
+  },
+  {
+    "id": "determine",
+    "text": "determine",
+    "pack": 5,
+    "path": "audio/pack5/3d8eefab379df52272c2.mp3"
+  },
+  {
+    "id": "we determined to finish before sunset",
+    "text": "We determined to finish before sunset.",
+    "pack": 3,
+    "path": "audio/pack3/b35ed256f159ea3806b7.mp3"
+  },
+  {
+    "id": "devote",
+    "text": "devote",
+    "pack": 4,
+    "path": "audio/pack4/2483f281f1555930244a.mp3"
+  },
+  {
+    "id": "she devoted every morning to learning english",
+    "text": "She devoted every morning to learning English.",
+    "pack": 2,
+    "path": "audio/pack2/4ad20c67385daee5cab8.mp3"
+  },
+  {
+    "id": "eager",
+    "text": "eager",
+    "pack": 4,
+    "path": "audio/pack4/0ca0c5ea4a249dfcba50.mp3"
+  },
+  {
+    "id": "the hikers were eager to see the lake",
+    "text": "The hikers were eager to see the lake.",
+    "pack": 3,
+    "path": "audio/pack3/0b031dc03ed4f77a82c4.mp3"
+  },
+  {
+    "id": "earn",
+    "text": "earn",
+    "pack": 7,
+    "path": "audio/pack7/cf07a76f938476da14a1.mp3"
+  },
+  {
+    "id": "you earn every step up the mountain",
+    "text": "You earn every step up the mountain.",
+    "pack": 5,
+    "path": "audio/pack5/85f70182dfa1e3a0800c.mp3"
+  },
+  {
+    "id": "effort",
+    "text": "effort",
+    "pack": 4,
+    "path": "audio/pack4/a4f12c3895258d0b6e32.mp3"
+  },
+  {
+    "id": "with one last effort, we reached the summit",
+    "text": "With one last effort, we reached the summit.",
+    "pack": 4,
+    "path": "audio/pack4/6ce385c4ef6802c653f7.mp3"
+  },
+  {
+    "id": "encourage",
+    "text": "encourage",
+    "pack": 6,
+    "path": "audio/pack6/0e970e43d0c1ed6d91dc.mp3"
+  },
+  {
+    "id": "the guide encouraged us to keep climbing",
+    "text": "The guide encouraged us to keep climbing.",
+    "pack": 2,
+    "path": "audio/pack2/baefcbe0108bf2d303d9.mp3"
+  },
+  {
+    "id": "energy",
+    "text": "energy",
+    "pack": 0,
+    "path": "audio/pack0/381cfb6e1e428419d5d6.mp3"
+  },
+  {
+    "id": "a short snack gave us new energy",
+    "text": "A short snack gave us new energy.",
+    "pack": 2,
+    "path": "audio/pack2/0a439a6aa51e48ee27c1.mp3"
+  },
+  {
+    "id": "entire",
+    "text": "entire",
+    "pack": 6,
+    "path": "audio/pack6/260b27ca3018bc10add7.mp3"
+  },
+  {
+    "id": "the entire trail is about twenty kilometers",
+    "text": "The entire trail is about twenty kilometers.",
+    "pack": 7,
+    "path": "audio/pack7/f7c3cbfa83685c0bd27a.mp3"
+  },
+  {
+    "id": "environment",
+    "text": "environment",
+    "pack": 2,
+    "path": "audio/pack2/ba5285161ba6eed0085f.mp3"
+  },
+  {
+    "id": "a quiet environment helps you remember words",
+    "text": "A quiet environment helps you remember words.",
+    "pack": 3,
+    "path": "audio/pack3/fb2f2b6ba9f41c16e78e.mp3"
+  },
+  {
+    "id": "especially",
+    "text": "especially",
+    "pack": 1,
+    "path": "audio/pack1/b109a53288ba6ef3ffa8.mp3"
+  },
+  {
+    "id": "the ridge is beautiful, especially at dawn",
+    "text": "The ridge is beautiful, especially at dawn.",
+    "pack": 4,
+    "path": "audio/pack4/0c2667bdf02ecb2d4210.mp3"
+  },
+  {
+    "id": "establish",
+    "text": "establish",
+    "pack": 2,
+    "path": "audio/pack2/3a19589098bc0e3a2b37.mp3"
+  },
+  {
+    "id": "we established a steady pace uphill",
+    "text": "We established a steady pace uphill.",
+    "pack": 5,
+    "path": "audio/pack5/35fcd9d95c70e518989d.mp3"
+  },
+  {
+    "id": "event",
+    "text": "event",
+    "pack": 0,
+    "path": "audio/pack0/b8e1f80bd70ae0784c78.mp3"
+  },
+  {
+    "id": "reaching the peak was the event of the day",
+    "text": "Reaching the peak was the event of the day.",
+    "pack": 2,
+    "path": "audio/pack2/2ae1880e9ae6a41264e4.mp3"
+  },
+  {
+    "id": "exact",
+    "text": "exact",
+    "pack": 2,
+    "path": "audio/pack2/fa79d4746c21cd960a17.mp3"
+  },
+  {
+    "id": "no one knows the exact height of the old tree",
+    "text": "No one knows the exact height of the old tree.",
+    "pack": 2,
+    "path": "audio/pack2/8254ec5547f63281c773.mp3"
+  },
+  {
+    "id": "excellent",
+    "text": "excellent",
+    "pack": 5,
+    "path": "audio/pack5/6d785acc7d4ce49fe4e4.mp3"
+  },
+  {
+    "id": "the view from nanwang hill is excellent",
+    "text": "The view from Nanwang Hill is excellent.",
+    "pack": 2,
+    "path": "audio/pack2/6a8360d8e646e1ba2223.mp3"
+  },
+  {
+    "id": "expect",
+    "text": "expect",
+    "pack": 7,
+    "path": "audio/pack7/77f2f036726eaa17f75c.mp3"
+  },
+  {
+    "id": "we expect to reach the lake by noon",
+    "text": "We expect to reach the lake by noon.",
+    "pack": 0,
+    "path": "audio/pack0/d8ec88867ab00f3a7f50.mp3"
+  },
+  {
+    "id": "experience",
+    "text": "experience",
+    "pack": 3,
+    "path": "audio/pack3/53e5e7c5a884893739c4.mp3"
+  },
+  {
+    "id": "hiking the seven hills is an unforgettable experience",
+    "text": "Hiking the seven hills is an unforgettable experience.",
+    "pack": 6,
+    "path": "audio/pack6/7efb731a3351a6451dfe.mp3"
+  },
+  {
+    "id": "express",
+    "text": "express",
+    "pack": 0,
+    "path": "audio/pack0/008231aaf99956982ffb.mp3"
+  },
+  {
+    "id": "words can hardly express the joy of the summit",
+    "text": "Words can hardly express the joy of the summit.",
+    "pack": 4,
+    "path": "audio/pack4/e47dafae42264fb1450f.mp3"
+  },
+  {
+    "id": "familiar",
+    "text": "familiar",
+    "pack": 2,
+    "path": "audio/pack2/3a419467866c1174426c.mp3"
+  },
+  {
+    "id": "the path became familiar after a few turns",
+    "text": "The path became familiar after a few turns.",
+    "pack": 5,
+    "path": "audio/pack5/c538b6708dcea9c21071.mp3"
+  },
+  {
+    "id": "fear",
+    "text": "fear",
+    "pack": 0,
+    "path": "audio/pack0/58d54e7c7553ce1fd758.mp3"
+  },
+  {
+    "id": "there is no fear on a clear, marked trail",
+    "text": "There is no fear on a clear, marked trail.",
+    "pack": 7,
+    "path": "audio/pack7/073016ceb56b7008242b.mp3"
+  },
+  {
+    "id": "focus",
+    "text": "focus",
+    "pack": 5,
+    "path": "audio/pack5/c51faa148557a08cbf79.mp3"
+  },
+  {
+    "id": "focus on the meaning of each sentence",
+    "text": "Focus on the meaning of each sentence.",
+    "pack": 5,
+    "path": "audio/pack5/5da4cef35a46c1e326ec.mp3"
+  },
+  {
+    "id": "forbid",
+    "text": "forbid",
+    "pack": 6,
+    "path": "audio/pack6/76626ec9e79c1c457cae.mp3"
+  },
+  {
+    "id": "signs forbid loud noise in the forest",
+    "text": "Signs forbid loud noise in the forest.",
+    "pack": 7,
+    "path": "audio/pack7/5f5e61ff54b0e51a66bb.mp3"
+  },
+  {
+    "id": "forgive",
+    "text": "forgive",
+    "pack": 3,
+    "path": "audio/pack3/1b06b788c4234e67fac9.mp3"
+  },
+  {
+    "id": "forgive yourself for a wrong answer and move on",
+    "text": "Forgive yourself for a wrong answer and move on.",
+    "pack": 7,
+    "path": "audio/pack7/ef73d1609b2a0fed61a0.mp3"
+  },
+  {
+    "id": "fortunate",
+    "text": "fortunate",
+    "pack": 5,
+    "path": "audio/pack5/05cecc98ad2e1e5b3266.mp3"
+  },
+  {
+    "id": "we were fortunate to have clear weather",
+    "text": "We were fortunate to have clear weather.",
+    "pack": 5,
+    "path": "audio/pack5/05bc3beaac2421af0188.mp3"
+  },
+  {
+    "id": "frequent",
+    "text": "frequent",
+    "pack": 0,
+    "path": "audio/pack0/403b8dc9df0dc3ced2f5.mp3"
+  },
+  {
+    "id": "rests became more frequent on the steep slope",
+    "text": "Rests became more frequent on the steep slope.",
+    "pack": 6,
+    "path": "audio/pack6/56514efdd5fe92085088.mp3"
+  },
+  {
+    "id": "gather",
+    "text": "gather",
+    "pack": 1,
+    "path": "audio/pack1/e9da0bd78f29fd838d1a.mp3"
+  },
+  {
+    "id": "we gathered our strength for the last climb",
+    "text": "We gathered our strength for the last climb.",
+    "pack": 6,
+    "path": "audio/pack6/ce728d75cbc7df7b3faf.mp3"
+  },
+  {
+    "id": "gentle",
+    "text": "gentle",
+    "pack": 4,
+    "path": "audio/pack4/dca13388cd38b5da22c8.mp3"
+  },
+  {
+    "id": "a gentle rain cooled the forest",
+    "text": "A gentle rain cooled the forest.",
+    "pack": 5,
+    "path": "audio/pack5/e5cc749067ada82b0a5e.mp3"
+  },
+  {
+    "id": "goal",
+    "text": "goal",
+    "pack": 3,
+    "path": "audio/pack3/0304523efff53f243d76.mp3"
+  },
+  {
+    "id": "the shining pillar marks the goal of the trail",
+    "text": "The shining pillar marks the goal of the trail.",
+    "pack": 1,
+    "path": "audio/pack1/2135b3770dc7de7383c1.mp3"
+  },
+  {
+    "id": "gradual",
+    "text": "gradual",
+    "pack": 0,
+    "path": "audio/pack0/68fc24ccdb4e48c7cee8.mp3"
+  },
+  {
+    "id": "the path makes a gradual rise to the ridge",
+    "text": "The path makes a gradual rise to the ridge.",
+    "pack": 6,
+    "path": "audio/pack6/96a06b3874d711035402.mp3"
+  },
+  {
+    "id": "grateful",
+    "text": "grateful",
+    "pack": 6,
+    "path": "audio/pack6/8652b6b8e1b1f91280c9.mp3"
+  },
+  {
+    "id": "we felt grateful for the shade of the trees",
+    "text": "We felt grateful for the shade of the trees.",
+    "pack": 2,
+    "path": "audio/pack2/5acc52582b3f5c22ca92.mp3"
+  },
+  {
+    "id": "guard",
+    "text": "guard",
+    "pack": 1,
+    "path": "audio/pack1/a9d4034da07d8ef31db1.mp3"
+  },
+  {
+    "id": "a wooden fence guards the dangerous edge",
+    "text": "A wooden fence guards the dangerous edge.",
+    "pack": 1,
+    "path": "audio/pack1/7990c437d7b438a2eb9c.mp3"
+  },
+  {
+    "id": "habit",
+    "text": "habit",
+    "pack": 1,
+    "path": "audio/pack1/09aee23b1fd4f638918d.mp3"
+  },
+  {
+    "id": "learning ten words a day is a good habit",
+    "text": "Learning ten words a day is a good habit.",
+    "pack": 6,
+    "path": "audio/pack6/16e4986ac74ec1557b27.mp3"
+  },
+  {
+    "id": "handle",
+    "text": "handle",
+    "pack": 2,
+    "path": "audio/pack2/c2a116aa910d147bd5bd.mp3"
+  },
+  {
+    "id": "she handled the steep path with confidence",
+    "text": "She handled the steep path with confidence.",
+    "pack": 1,
+    "path": "audio/pack1/419d7015671bb81d80b9.mp3"
+  },
+  {
+    "id": "honest",
+    "text": "honest",
+    "pack": 7,
+    "path": "audio/pack7/bf5b6382c2ea46ede311.mp3"
+  },
+  {
+    "id": "be honest when you do not know a word",
+    "text": "Be honest when you do not know a word.",
+    "pack": 2,
+    "path": "audio/pack2/c2d9a1c16ff7c1d44470.mp3"
+  },
+  {
+    "id": "honor",
+    "text": "honor",
+    "pack": 2,
+    "path": "audio/pack2/8ab4ca2f83725a04752a.mp3"
+  },
+  {
+    "id": "it is an honor to stand on the highest peak",
+    "text": "It is an honor to stand on the highest peak.",
+    "pack": 5,
+    "path": "audio/pack5/25e61041ae54a06bb098.mp3"
+  },
+  {
+    "id": "imagine",
+    "text": "imagine",
+    "pack": 7,
+    "path": "audio/pack7/7fdd65bbaaa687d48dc8.mp3"
+  },
+  {
+    "id": "imagine the whole city lying below your feet",
+    "text": "Imagine the whole city lying below your feet.",
+    "pack": 6,
+    "path": "audio/pack6/e6cd644bd51be23ac916.mp3"
+  },
+  {
+    "id": "improve",
+    "text": "improve",
+    "pack": 3,
+    "path": "audio/pack3/2b35ed6944dd2e8f7462.mp3"
+  },
+  {
+    "id": "practice every day to improve your english",
+    "text": "Practice every day to improve your English.",
+    "pack": 4,
+    "path": "audio/pack4/54977f31054bf5620b8a.mp3"
+  },
+  {
+    "id": "include",
+    "text": "include",
+    "pack": 0,
+    "path": "audio/pack0/c0cbff04cc90f5b4cd53.mp3"
+  },
+  {
+    "id": "the trail includes seven mountains and one lake",
+    "text": "The trail includes seven mountains and one lake.",
+    "pack": 1,
+    "path": "audio/pack1/b1e15e92f42cd8626455.mp3"
+  },
+  {
+    "id": "increase",
+    "text": "increase",
+    "pack": 2,
+    "path": "audio/pack2/e20a548f23fa36bc8d5b.mp3"
+  },
+  {
+    "id": "the wind increased as we climbed higher",
+    "text": "The wind increased as we climbed higher.",
+    "pack": 1,
+    "path": "audio/pack1/390c84bd987d1cd58c37.mp3"
+  },
+  {
+    "id": "independent",
+    "text": "independent",
+    "pack": 2,
+    "path": "audio/pack2/0275fca08c216c77b2a1.mp3"
+  },
+  {
+    "id": "the long hike made him feel independent",
+    "text": "The long hike made him feel independent.",
+    "pack": 1,
+    "path": "audio/pack1/2110e6e0c5a11967aa3f.mp3"
+  },
+  {
+    "id": "inspire",
+    "text": "inspire",
+    "pack": 4,
+    "path": "audio/pack4/1cb6508098e9e5955ef7.mp3"
+  },
+  {
+    "id": "the vast view inspired everyone in the group",
+    "text": "The vast view inspired everyone in the group.",
+    "pack": 7,
+    "path": "audio/pack7/f73ec2ff3a91850025eb.mp3"
+  },
+  {
+    "id": "instead",
+    "text": "instead",
+    "pack": 1,
+    "path": "audio/pack1/99262a0284ae7670f20f.mp3"
+  },
+  {
+    "id": "walk slowly instead of rushing uphill",
+    "text": "Walk slowly instead of rushing uphill.",
+    "pack": 1,
+    "path": "audio/pack1/01d9e6fa88309a91ef8b.mp3"
+  },
+  {
+    "id": "introduce",
+    "text": "introduce",
+    "pack": 7,
+    "path": "audio/pack7/0fee7196f6817d6f81e7.mp3"
+  },
+  {
+    "id": "the guide introduced the history of the hills",
+    "text": "The guide introduced the history of the hills.",
+    "pack": 1,
+    "path": "audio/pack1/6104d5ad4de083aa4ba6.mp3"
+  },
+  {
+    "id": "knowledge",
+    "text": "knowledge",
+    "pack": 0,
+    "path": "audio/pack0/e0f895872d65b2528fee.mp3"
+  },
+  {
+    "id": "every word is a small step toward knowledge",
+    "text": "Every word is a small step toward knowledge.",
+    "pack": 6,
+    "path": "audio/pack6/de103f282048830f0277.mp3"
+  },
+  {
+    "id": "lack",
+    "text": "lack",
+    "pack": 3,
+    "path": "audio/pack3/e3f315ea36abca8f80be.mp3"
+  },
+  {
+    "id": "a lack of water slowed us down",
+    "text": "A lack of water slowed us down.",
+    "pack": 0,
+    "path": "audio/pack0/78b7b28b546821b60f6a.mp3"
+  },
+  {
+    "id": "limit",
+    "text": "limit",
+    "pack": 5,
+    "path": "audio/pack5/55ea09e5715d0a8d9d94.mp3"
+  },
+  {
+    "id": "the fog limited our view of the valley",
+    "text": "The fog limited our view of the valley.",
+    "pack": 0,
+    "path": "audio/pack0/60bf1e993f9c3f25b3b6.mp3"
+  },
+  {
+    "id": "local",
+    "text": "local",
+    "pack": 5,
+    "path": "audio/pack5/25bf8e1a2393f1108d37.mp3"
+  },
+  {
+    "id": "the local hikers know every shortcut",
+    "text": "The local hikers know every shortcut.",
+    "pack": 2,
+    "path": "audio/pack2/3a8fb3cadc63172ec02f.mp3"
+  },
+  {
+    "id": "lonely",
+    "text": "lonely",
+    "pack": 4,
+    "path": "audio/pack4/1cb0f5a9e3a8e4ddd723.mp3"
+  },
+  {
+    "id": "the trail felt lonely after the other group left",
+    "text": "The trail felt lonely after the other group left.",
+    "pack": 3,
+    "path": "audio/pack3/db2eb0cb24d3f484f6a9.mp3"
+  },
+  {
+    "id": "progress",
+    "text": "progress",
+    "pack": 5,
+    "path": "audio/pack5/b5f90a96e680140d51e2.mp3"
+  },
+  {
+    "id": "every correct answer moves your progress forward",
+    "text": "Every correct answer moves your progress forward.",
+    "pack": 5,
+    "path": "audio/pack5/25bf4833b90c46911153.mp3"
+  },
+  {
+    "id": "practice",
+    "text": "practice",
+    "pack": 5,
+    "path": "audio/pack5/ada750e3f8464e9e1fd6.mp3"
+  },
+  {
+    "id": "daily practice is the shortest path to the top",
+    "text": "Daily practice is the shortest path to the top.",
+    "pack": 3,
+    "path": "audio/pack3/a32e9db493ecb989042c.mp3"
+  },
+  {
+    "id": "abandon",
+    "text": "abandon",
+    "pack": 7,
+    "path": "audio/pack7/df864c0596aa1a432205.mp3"
+  },
+  {
+    "id": "never abandon the trail when the fog grows thick",
+    "text": "Never abandon the trail when the fog grows thick.",
+    "pack": 4,
+    "path": "audio/pack4/1c959fb4a5b4715c04da.mp3"
+  },
+  {
+    "id": "abnormal",
+    "text": "abnormal",
+    "pack": 1,
+    "path": "audio/pack1/5129a4a62c66ddf286d4.mp3"
+  },
+  {
+    "id": "an abnormal silence fell over the forest",
+    "text": "An abnormal silence fell over the forest.",
+    "pack": 1,
+    "path": "audio/pack1/c9ad2b748c522bc14bb8.mp3"
+  },
+  {
+    "id": "abolish",
+    "text": "abolish",
+    "pack": 4,
+    "path": "audio/pack4/6cae1452b5d0bcb60e24.mp3"
+  },
+  {
+    "id": "the new path abolished the need for a steep climb",
+    "text": "The new path abolished the need for a steep climb.",
+    "pack": 2,
+    "path": "audio/pack2/7ad3daaeee02e51e5241.mp3"
+  },
+  {
+    "id": "absorb",
+    "text": "absorb",
+    "pack": 2,
+    "path": "audio/pack2/22b090dd46c756d3c307.mp3"
+  },
+  {
+    "id": "the moss absorbed the morning rain",
+    "text": "The moss absorbed the morning rain.",
+    "pack": 7,
+    "path": "audio/pack7/97382681715eb3623f67.mp3"
+  },
+  {
+    "id": "abstract",
+    "text": "abstract",
+    "pack": 5,
+    "path": "audio/pack5/c59ddd3f7ba697a4b820.mp3"
+  },
+  {
+    "id": "the mist gave the valley an abstract beauty",
+    "text": "The mist gave the valley an abstract beauty.",
+    "pack": 0,
+    "path": "audio/pack0/a833b0c1318160437736.mp3"
+  },
+  {
+    "id": "absurd",
+    "text": "absurd",
+    "pack": 4,
+    "path": "audio/pack4/5caab99c7830a1f670ea.mp3"
+  },
+  {
+    "id": "it seemed absurd to rest so close to the summit",
+    "text": "It seemed absurd to rest so close to the summit.",
+    "pack": 7,
+    "path": "audio/pack7/ef6620337ae55c328915.mp3"
+  },
+  {
+    "id": "accelerate",
+    "text": "accelerate",
+    "pack": 0,
+    "path": "audio/pack0/70430045cb502bc00fef.mp3"
+  },
+  {
+    "id": "our pace accelerated on the downhill path",
+    "text": "Our pace accelerated on the downhill path.",
+    "pack": 5,
+    "path": "audio/pack5/7d63f6b9ab31ef31f12a.mp3"
+  },
+  {
+    "id": "accommodate",
+    "text": "accommodate",
+    "pack": 7,
+    "path": "audio/pack7/87b477dbf62042149950.mp3"
+  },
+  {
+    "id": "the wide trail can accommodate many hikers",
+    "text": "The wide trail can accommodate many hikers.",
+    "pack": 7,
+    "path": "audio/pack7/1f20142eb602a387bf50.mp3"
+  },
+  {
+    "id": "accompany",
+    "text": "accompany",
+    "pack": 2,
+    "path": "audio/pack2/ca661cc657cf16dfe419.mp3"
+  },
+  {
+    "id": "a cool breeze accompanied us up the ridge",
+    "text": "A cool breeze accompanied us up the ridge.",
+    "pack": 1,
+    "path": "audio/pack1/515e0620562568dfb1f7.mp3"
+  },
+  {
+    "id": "accomplish",
+    "text": "accomplish",
+    "pack": 0,
+    "path": "audio/pack0/40df7df8c9ad3055fb82.mp3"
+  },
+  {
+    "id": "we accomplished the climb before the storm",
+    "text": "We accomplished the climb before the storm.",
+    "pack": 5,
+    "path": "audio/pack5/b58a7768c6008dba6848.mp3"
+  },
+  {
+    "id": "accumulate",
+    "text": "accumulate",
+    "pack": 5,
+    "path": "audio/pack5/2d1d52c3d18efcfdc850.mp3"
+  },
+  {
+    "id": "clouds accumulated above the western peaks",
+    "text": "Clouds accumulated above the western peaks.",
+    "pack": 3,
+    "path": "audio/pack3/03768a29b7ca753fb9f4.mp3"
+  },
+  {
+    "id": "acknowledge",
+    "text": "acknowledge",
+    "pack": 0,
+    "path": "audio/pack0/085afa73a88616efa822.mp3"
+  },
+  {
+    "id": "she acknowledged the effort of the whole group",
+    "text": "She acknowledged the effort of the whole group.",
+    "pack": 7,
+    "path": "audio/pack7/effb3c0ed249ba66bb0b.mp3"
+  },
+  {
+    "id": "acquire",
+    "text": "acquire",
+    "pack": 5,
+    "path": "audio/pack5/d5df61d74243bc947cb9.mp3"
+  },
+  {
+    "id": "children acquire language faster than adults",
+    "text": "Children acquire language faster than adults.",
+    "pack": 1,
+    "path": "audio/pack1/11cdab6767a88ccb4619.mp3"
+  },
+  {
+    "id": "adapt",
+    "text": "adapt",
+    "pack": 1,
+    "path": "audio/pack1/f1f61cc7216e18012d97.mp3"
+  },
+  {
+    "id": "the body adapts to the thin air at height",
+    "text": "The body adapts to the thin air at height.",
+    "pack": 5,
+    "path": "audio/pack5/4539d751d79471cd7eea.mp3"
+  },
+  {
+    "id": "adequate",
+    "text": "adequate",
+    "pack": 1,
+    "path": "audio/pack1/018fd478959f02a3a1cc.mp3"
+  },
+  {
+    "id": "take adequate water for the long ridge",
+    "text": "Take adequate water for the long ridge.",
+    "pack": 4,
+    "path": "audio/pack4/04f0362904296a456bc1.mp3"
+  },
+  {
+    "id": "adjust",
+    "text": "adjust",
+    "pack": 5,
+    "path": "audio/pack5/2549c096fc692b123129.mp3"
+  },
+  {
+    "id": "he adjusted his backpack before the steep part",
+    "text": "He adjusted his backpack before the steep part.",
+    "pack": 7,
+    "path": "audio/pack7/5f8a760f8b8867f8f593.mp3"
+  },
+  {
+    "id": "advocate",
+    "text": "advocate",
+    "pack": 4,
+    "path": "audio/pack4/3c054e0895eb388192f4.mp3"
+  },
+  {
+    "id": "many hikers advocate keeping the trails clean",
+    "text": "Many hikers advocate keeping the trails clean.",
+    "pack": 6,
+    "path": "audio/pack6/062404224bf9ee5086c6.mp3"
+  },
+  {
+    "id": "aesthetic",
+    "text": "aesthetic",
+    "pack": 6,
+    "path": "audio/pack6/e6b80b03ebc086c657a0.mp3"
+  },
+  {
+    "id": "the golden light had a strong aesthetic appeal",
+    "text": "The golden light had a strong aesthetic appeal.",
+    "pack": 2,
+    "path": "audio/pack2/421f36470ba62df63919.mp3"
+  },
+  {
+    "id": "allocate",
+    "text": "allocate",
+    "pack": 3,
+    "path": "audio/pack3/33b7bcc005217d257f0e.mp3"
+  },
+  {
+    "id": "allocate your energy wisely across seven hills",
+    "text": "Allocate your energy wisely across seven hills.",
+    "pack": 5,
+    "path": "audio/pack5/d587e539a578e0b230ab.mp3"
+  },
+  {
+    "id": "alternative",
+    "text": "alternative",
+    "pack": 7,
+    "path": "audio/pack7/27747689baf9903c9aae.mp3"
+  },
+  {
+    "id": "there is an alternative path around the rock",
+    "text": "There is an alternative path around the rock.",
+    "pack": 6,
+    "path": "audio/pack6/be7458cc043d93124b8a.mp3"
+  },
+  {
+    "id": "ambiguous",
+    "text": "ambiguous",
+    "pack": 2,
+    "path": "audio/pack2/6a651134eb4b24becd9a.mp3"
+  },
+  {
+    "id": "the trail became ambiguous in the fog",
+    "text": "The trail became ambiguous in the fog.",
+    "pack": 0,
+    "path": "audio/pack0/08d08c74550b93ae0449.mp3"
+  },
+  {
+    "id": "ambitious",
+    "text": "ambitious",
+    "pack": 4,
+    "path": "audio/pack4/e428ee1e7df9cd6b863c.mp3"
+  },
+  {
+    "id": "walking all seven hills is an ambitious plan",
+    "text": "Walking all seven hills is an ambitious plan.",
+    "pack": 4,
+    "path": "audio/pack4/e411bc6e3f4cc7f643dc.mp3"
+  },
+  {
+    "id": "analyze",
+    "text": "analyze",
+    "pack": 1,
+    "path": "audio/pack1/09cbad3beca70ddbcc89.mp3"
+  },
+  {
+    "id": "analyze the sentence before you choose an answer",
+    "text": "Analyze the sentence before you choose an answer.",
+    "pack": 6,
+    "path": "audio/pack6/ee02f1ac94f125434f1b.mp3"
+  },
+  {
+    "id": "anticipate",
+    "text": "anticipate",
+    "pack": 0,
+    "path": "audio/pack0/209665ea9dca91a10d42.mp3"
+  },
+  {
+    "id": "we anticipated a strong wind on the ridge",
+    "text": "We anticipated a strong wind on the ridge.",
+    "pack": 4,
+    "path": "audio/pack4/4cafaeeb4555a6fab04c.mp3"
+  },
+  {
+    "id": "apparent",
+    "text": "apparent",
+    "pack": 7,
+    "path": "audio/pack7/0794afd1bc3cdba65210.mp3"
+  },
+  {
+    "id": "the summit was apparent above the dark pines",
+    "text": "The summit was apparent above the dark pines.",
+    "pack": 2,
+    "path": "audio/pack2/32ddf3cb16cded416d06.mp3"
+  },
+  {
+    "id": "appeal",
+    "text": "appeal",
+    "pack": 2,
+    "path": "audio/pack2/da7e2d4b40b63f98e9fc.mp3"
+  },
+  {
+    "id": "the quiet valley appeals to solo hikers",
+    "text": "The quiet valley appeals to solo hikers.",
+    "pack": 7,
+    "path": "audio/pack7/0fca99f75e74e39d0d08.mp3"
+  },
+  {
+    "id": "applaud",
+    "text": "applaud",
+    "pack": 3,
+    "path": "audio/pack3/439872a2ee86c812ae38.mp3"
+  },
+  {
+    "id": "we applauded when the lake came into view",
+    "text": "We applauded when the lake came into view.",
+    "pack": 6,
+    "path": "audio/pack6/9665ba977b30fdaaa342.mp3"
+  },
+  {
+    "id": "appreciate",
+    "text": "appreciate",
+    "pack": 3,
+    "path": "audio/pack3/f3e8234402a37d502b91.mp3"
+  },
+  {
+    "id": "you appreciate the shade more after a steep climb",
+    "text": "You appreciate the shade more after a steep climb.",
+    "pack": 1,
+    "path": "audio/pack1/318befd100804c881f99.mp3"
+  },
+  {
+    "id": "approach",
+    "text": "approach",
+    "pack": 6,
+    "path": "audio/pack6/cec9111de36d4a50c3e6.mp3"
+  },
+  {
+    "id": "the light grew brighter as we approached the peak",
+    "text": "The light grew brighter as we approached the peak.",
+    "pack": 5,
+    "path": "audio/pack5/8d832fc6876609cb814e.mp3"
+  },
+  {
+    "id": "appropriate",
+    "text": "appropriate",
+    "pack": 3,
+    "path": "audio/pack3/c39a7d54f55beb0050b6.mp3"
+  },
+  {
+    "id": "wear shoes appropriate for wet rocks",
+    "text": "Wear shoes appropriate for wet rocks.",
+    "pack": 7,
+    "path": "audio/pack7/ef92dca6ed4cf5a7c04b.mp3"
+  },
+  {
+    "id": "arbitrary",
+    "text": "arbitrary",
+    "pack": 7,
+    "path": "audio/pack7/87288d68ed71bf8fa35e.mp3"
+  },
+  {
+    "id": "the path seemed to take arbitrary turns",
+    "text": "The path seemed to take arbitrary turns.",
+    "pack": 4,
+    "path": "audio/pack4/2c11025232c8cb8323af.mp3"
+  },
+  {
+    "id": "assemble",
+    "text": "assemble",
+    "pack": 3,
+    "path": "audio/pack3/63ebfab6ce4e84c4f846.mp3"
+  },
+  {
+    "id": "the group assembled at the stone gate",
+    "text": "The group assembled at the stone gate.",
+    "pack": 5,
+    "path": "audio/pack5/35f76b2d5a4fba37aa76.mp3"
+  },
+  {
+    "id": "assert",
+    "text": "assert",
+    "pack": 5,
+    "path": "audio/pack5/25450689bdd44d014020.mp3"
+  },
+  {
+    "id": "he asserted that we could finish by dusk",
+    "text": "He asserted that we could finish by dusk.",
+    "pack": 2,
+    "path": "audio/pack2/3a4278cafc835f198781.mp3"
+  },
+  {
+    "id": "assess",
+    "text": "assess",
+    "pack": 4,
+    "path": "audio/pack4/14b9005e4f90ef7ebbee.mp3"
+  },
+  {
+    "id": "assess the slope before you commit to it",
+    "text": "Assess the slope before you commit to it.",
+    "pack": 3,
+    "path": "audio/pack3/23f39b51539b7d629116.mp3"
+  },
+  {
+    "id": "assign",
+    "text": "assign",
+    "pack": 3,
+    "path": "audio/pack3/9300b4d2567aad13f65c.mp3"
+  },
+  {
+    "id": "the guide assigned the front position to me",
+    "text": "The guide assigned the front position to me.",
+    "pack": 5,
+    "path": "audio/pack5/359292f4f0d1b4e27003.mp3"
+  },
+  {
+    "id": "assimilate",
+    "text": "assimilate",
+    "pack": 3,
+    "path": "audio/pack3/633c0eb3ec6cf0f62d9e.mp3"
+  },
+  {
+    "id": "it takes time to assimilate new vocabulary",
+    "text": "It takes time to assimilate new vocabulary.",
+    "pack": 6,
+    "path": "audio/pack6/2e68720e3c235b76f913.mp3"
+  },
+  {
+    "id": "assume",
+    "text": "assume",
+    "pack": 2,
+    "path": "audio/pack2/82e05dae00a818a38267.mp3"
+  },
+  {
+    "id": "do not assume the fog will lift soon",
+    "text": "Do not assume the fog will lift soon.",
+    "pack": 2,
+    "path": "audio/pack2/12d801925b66fe166102.mp3"
+  },
+  {
+    "id": "assure",
+    "text": "assure",
+    "pack": 3,
+    "path": "audio/pack3/63be8044d77188f24a00.mp3"
+  },
+  {
+    "id": "the clear signs assured us of the way",
+    "text": "The clear signs assured us of the way.",
+    "pack": 3,
+    "path": "audio/pack3/eb1d14ba4d7a89857ed1.mp3"
+  },
+  {
+    "id": "atmosphere",
+    "text": "atmosphere",
+    "pack": 7,
+    "path": "audio/pack7/bfd5a8ed7357ec4de959.mp3"
+  },
+  {
+    "id": "the atmosphere on the summit was serene",
+    "text": "The atmosphere on the summit was serene.",
+    "pack": 5,
+    "path": "audio/pack5/2d49aaa676bc27a55da7.mp3"
+  },
+  {
+    "id": "attribute",
+    "text": "attribute",
+    "pack": 1,
+    "path": "audio/pack1/a92bfd02c450af0360de.mp3"
+  },
+  {
+    "id": "she attributed her success to daily practice",
+    "text": "She attributed her success to daily practice.",
+    "pack": 4,
+    "path": "audio/pack4/bc79855017166816b490.mp3"
+  },
+  {
+    "id": "authentic",
+    "text": "authentic",
+    "pack": 4,
+    "path": "audio/pack4/343600e3385c2d55d2f5.mp3"
+  },
+  {
+    "id": "the old stone steps give an authentic feel",
+    "text": "The old stone steps give an authentic feel.",
+    "pack": 7,
+    "path": "audio/pack7/576c6a499d616a883dd0.mp3"
+  },
+  {
+    "id": "authority",
+    "text": "authority",
+    "pack": 7,
+    "path": "audio/pack7/8f76fd501bb68ef71f4e.mp3"
+  },
+  {
+    "id": "the local authority maintains the trail",
+    "text": "The local authority maintains the trail.",
+    "pack": 2,
+    "path": "audio/pack2/821b43c3e53bd9aa0c28.mp3"
+  },
+  {
+    "id": "automatic",
+    "text": "automatic",
+    "pack": 3,
+    "path": "audio/pack3/53e0ff348c9be93a14d0.mp3"
+  },
+  {
+    "id": "after hours of walking, the steps became automatic",
+    "text": "After hours of walking, the steps became automatic.",
+    "pack": 7,
+    "path": "audio/pack7/9f4537abe1a24923cb39.mp3"
+  },
+  {
+    "id": "autonomy",
+    "text": "autonomy",
+    "pack": 1,
+    "path": "audio/pack1/e94d787f61ea3ee8eede.mp3"
+  },
+  {
+    "id": "the long hike gave him a sense of autonomy",
+    "text": "The long hike gave him a sense of autonomy.",
+    "pack": 3,
+    "path": "audio/pack3/db4b14037d0b3ee5e1e5.mp3"
+  },
+  {
+    "id": "avert",
+    "text": "avert",
+    "pack": 4,
+    "path": "audio/pack4/e4f0eb14a8be73512705.mp3"
+  },
+  {
+    "id": "a shortcut averted the steepest climb",
+    "text": "A shortcut averted the steepest climb.",
+    "pack": 7,
+    "path": "audio/pack7/c76dfb4318d826378491.mp3"
+  },
+  {
+    "id": "barren",
+    "text": "barren",
+    "pack": 2,
+    "path": "audio/pack2/72c0c8f6f0759124f4f5.mp3"
+  },
+  {
+    "id": "the rocky peak was almost barren",
+    "text": "The rocky peak was almost barren.",
+    "pack": 2,
+    "path": "audio/pack2/0a6919e2b67840917034.mp3"
+  },
+  {
+    "id": "betray",
+    "text": "betray",
+    "pack": 7,
+    "path": "audio/pack7/3fff1513949cbf175c91.mp3"
+  },
+  {
+    "id": "his tired legs betrayed him on the last slope",
+    "text": "His tired legs betrayed him on the last slope.",
+    "pack": 1,
+    "path": "audio/pack1/c1dffab455d623dc05e4.mp3"
+  },
+  {
+    "id": "bewilder",
+    "text": "bewilder",
+    "pack": 6,
+    "path": "audio/pack6/f68ca0bce1e92774d870.mp3"
+  },
+  {
+    "id": "the many forks bewildered the new hikers",
+    "text": "The many forks bewildered the new hikers.",
+    "pack": 5,
+    "path": "audio/pack5/e51f91231717a8f08d19.mp3"
+  },
+  {
+    "id": "boost",
+    "text": "boost",
+    "pack": 2,
+    "path": "audio/pack2/ca4264faf5970fc613d8.mp3"
+  },
+  {
+    "id": "a short rest boosted our confidence",
+    "text": "A short rest boosted our confidence.",
+    "pack": 2,
+    "path": "audio/pack2/dad8472512473fb34d8d.mp3"
+  },
+  {
+    "id": "bounce",
+    "text": "bounce",
+    "pack": 5,
+    "path": "audio/pack5/4d6723e5e454779e2bd1.mp3"
+  },
+  {
+    "id": "the hikers bounced along the downhill trail",
+    "text": "The hikers bounced along the downhill trail.",
+    "pack": 3,
+    "path": "audio/pack3/5374eb3c1b290508c828.mp3"
+  },
+  {
+    "id": "breed",
+    "text": "breed",
+    "pack": 0,
+    "path": "audio/pack0/a8ff1c41b8415cb2ae57.mp3"
+  },
+  {
+    "id": "the quiet forest breeds a rich variety of birds",
+    "text": "The quiet forest breeds a rich variety of birds.",
+    "pack": 1,
+    "path": "audio/pack1/b9ecca042a74dc3738ee.mp3"
+  },
+  {
+    "id": "burden",
+    "text": "burden",
+    "pack": 0,
+    "path": "audio/pack0/e0cf52185d52bfdbb20e.mp3"
+  },
+  {
+    "id": "a heavy backpack is a burden on the climb",
+    "text": "A heavy backpack is a burden on the climb.",
+    "pack": 6,
+    "path": "audio/pack6/26545d3a015114bcee27.mp3"
+  },
+  {
+    "id": "capacity",
+    "text": "capacity",
+    "pack": 4,
+    "path": "audio/pack4/ec21b3b973a3a0e70503.mp3"
+  },
+  {
+    "id": "the mind has a great capacity for new words",
+    "text": "The mind has a great capacity for new words.",
+    "pack": 7,
+    "path": "audio/pack7/b77442564b49b34666e2.mp3"
+  },
+  {
+    "id": "cater",
+    "text": "cater",
+    "pack": 6,
+    "path": "audio/pack6/be2925a2333b21d0a7a5.mp3"
+  },
+  {
+    "id": "the new trail caters to family hikers",
+    "text": "The new trail caters to family hikers.",
+    "pack": 2,
+    "path": "audio/pack2/12577bd7e9c89074d11c.mp3"
+  },
+  {
+    "id": "cease",
+    "text": "cease",
+    "pack": 5,
+    "path": "audio/pack5/2de1585bf8d440577ae3.mp3"
+  },
+  {
+    "id": "the wind ceased as we reached the summit",
+    "text": "The wind ceased as we reached the summit.",
+    "pack": 1,
+    "path": "audio/pack1/095263030b77d2c2df75.mp3"
+  },
+  {
+    "id": "chaos",
+    "text": "chaos",
+    "pack": 5,
+    "path": "audio/pack5/5d5bddb577102d0a960b.mp3"
+  },
+  {
+    "id": "the sudden rain caused chaos on the trail",
+    "text": "The sudden rain caused chaos on the trail.",
+    "pack": 5,
+    "path": "audio/pack5/1d0da61f5ece4721af3f.mp3"
+  },
+  {
+    "id": "characterize",
+    "text": "characterize",
+    "pack": 3,
+    "path": "audio/pack3/9bf86920ceaf8314f8df.mp3"
+  },
+  {
+    "id": "mist characterizes the high valleys",
+    "text": "Mist characterizes the high valleys.",
+    "pack": 4,
+    "path": "audio/pack4/c4f0cfe8fc302215d86b.mp3"
+  },
+  {
+    "id": "cherish",
+    "text": "cherish",
+    "pack": 0,
+    "path": "audio/pack0/70f31781c0a0488d7d96.mp3"
+  },
+  {
+    "id": "cherish the quiet moments on the ridge",
+    "text": "Cherish the quiet moments on the ridge.",
+    "pack": 6,
+    "path": "audio/pack6/6607c88f85f75b9ab868.mp3"
+  },
+  {
+    "id": "chronic",
+    "text": "chronic",
+    "pack": 3,
+    "path": "audio/pack3/238a314cb3737af198eb.mp3"
+  },
+  {
+    "id": "chronic fatigue can ruin a long hike",
+    "text": "Chronic fatigue can ruin a long hike.",
+    "pack": 1,
+    "path": "audio/pack1/d164d1425ec84138992a.mp3"
+  },
+  {
+    "id": "circulate",
+    "text": "circulate",
+    "pack": 1,
+    "path": "audio/pack1/510a60e068117bf45046.mp3"
+  },
+  {
+    "id": "cool air circulates through the pine trees",
+    "text": "Cool air circulates through the pine trees.",
+    "pack": 2,
+    "path": "audio/pack2/52c10fca14d601d63e17.mp3"
+  },
+  {
+    "id": "coincide",
+    "text": "coincide",
+    "pack": 7,
+    "path": "audio/pack7/ff0bf81e8aafefed9082.mp3"
+  },
+  {
+    "id": "our arrival coincided with the sunrise",
+    "text": "Our arrival coincided with the sunrise.",
+    "pack": 1,
+    "path": "audio/pack1/01836b351b6109af6110.mp3"
+  },
+  {
+    "id": "collapse",
+    "text": "collapse",
+    "pack": 3,
+    "path": "audio/pack3/93bc5d02dc2a24b53653.mp3"
+  },
+  {
+    "id": "the old fence collapsed under the wind",
+    "text": "The old fence collapsed under the wind.",
+    "pack": 2,
+    "path": "audio/pack2/1a38dd43b15b74ae330f.mp3"
+  },
+  {
+    "id": "commence",
+    "text": "commence",
+    "pack": 5,
+    "path": "audio/pack5/9d248136bfbecd673d50.mp3"
+  },
+  {
+    "id": "the climb commences at a small stone gate",
+    "text": "The climb commences at a small stone gate.",
+    "pack": 5,
+    "path": "audio/pack5/35efa3f25a17cf53f853.mp3"
+  },
+  {
+    "id": "commute",
+    "text": "commute",
+    "pack": 2,
+    "path": "audio/pack2/1a6674898edecd10d181.mp3"
+  },
+  {
+    "id": "many locals commute through these hills on foot",
+    "text": "Many locals commute through these hills on foot.",
+    "pack": 1,
+    "path": "audio/pack1/11c56b2b8d207ed4ca15.mp3"
+  },
+  {
+    "id": "compact",
+    "text": "compact",
+    "pack": 6,
+    "path": "audio/pack6/b6b54201f23d00f5b719.mp3"
+  },
+  {
+    "id": "the trail was compact after years of use",
+    "text": "The trail was compact after years of use.",
+    "pack": 0,
+    "path": "audio/pack0/60dc71f7b0432392b4e2.mp3"
+  },
+  {
+    "id": "comparable",
+    "text": "comparable",
+    "pack": 7,
+    "path": "audio/pack7/8751a3fcac50b3ba5e32.mp3"
+  },
+  {
+    "id": "few views are comparable to the sunset peak",
+    "text": "Few views are comparable to the sunset peak.",
+    "pack": 5,
+    "path": "audio/pack5/f5eb40718dba2f26b423.mp3"
+  },
+  {
+    "id": "compatible",
+    "text": "compatible",
+    "pack": 1,
+    "path": "audio/pack1/a1613be9e3df6e9a2d9f.mp3"
+  },
+  {
+    "id": "the new signs are compatible with the old map",
+    "text": "The new signs are compatible with the old map.",
+    "pack": 7,
+    "path": "audio/pack7/afa13e96de3c510d4eff.mp3"
+  },
+  {
+    "id": "compel",
+    "text": "compel",
+    "pack": 7,
+    "path": "audio/pack7/179151bcc55466461e65.mp3"
+  },
+  {
+    "id": "the storm compelled us to turn back",
+    "text": "The storm compelled us to turn back.",
+    "pack": 2,
+    "path": "audio/pack2/12c248876f6976eb1ee9.mp3"
+  },
+  {
+    "id": "compensate",
+    "text": "compensate",
+    "pack": 7,
+    "path": "audio/pack7/f7a02876a32b93a28f81.mp3"
+  },
+  {
+    "id": "the stunning view compensated for the hard climb",
+    "text": "The stunning view compensated for the hard climb.",
+    "pack": 3,
+    "path": "audio/pack3/4b856b7f056c7c768698.mp3"
+  },
+  {
+    "id": "competent",
+    "text": "competent",
+    "pack": 1,
+    "path": "audio/pack1/9923e7741b8d8c822759.mp3"
+  },
+  {
+    "id": "a competent guide knows the weather signs",
+    "text": "A competent guide knows the weather signs.",
+    "pack": 2,
+    "path": "audio/pack2/4ad1f9f36d18eda4a1d6.mp3"
+  },
+  {
+    "id": "compile",
+    "text": "compile",
+    "pack": 3,
+    "path": "audio/pack3/eba8dcd606bd0014b899.mp3"
+  },
+  {
+    "id": "we compiled a list of the seven peaks",
+    "text": "We compiled a list of the seven peaks.",
+    "pack": 6,
+    "path": "audio/pack6/a6e2bff70369d0c60b8b.mp3"
+  },
+  {
+    "id": "complex",
+    "text": "complex",
+    "pack": 2,
+    "path": "audio/pack2/ea4b35e8f83279eab1e6.mp3"
+  },
+  {
+    "id": "the ridge forms a complex line of peaks",
+    "text": "The ridge forms a complex line of peaks.",
+    "pack": 7,
+    "path": "audio/pack7/07f6c0eceb82a78e0dcb.mp3"
+  },
+  {
+    "id": "comply",
+    "text": "comply",
+    "pack": 2,
+    "path": "audio/pack2/3a55a1b23f2710974cdc.mp3"
+  },
+  {
+    "id": "hikers must comply with the trail rules",
+    "text": "Hikers must comply with the trail rules.",
+    "pack": 3,
+    "path": "audio/pack3/538c87232c9600eca533.mp3"
+  },
+  {
+    "id": "compose",
+    "text": "compose",
+    "pack": 3,
+    "path": "audio/pack3/db669af634b75c7f2984.mp3"
+  },
+  {
+    "id": "the forest is composed mainly of pines",
+    "text": "The forest is composed mainly of pines.",
+    "pack": 7,
+    "path": "audio/pack7/0fabbf1b370d2b9dce02.mp3"
+  },
+  {
+    "id": "comprehensive",
+    "text": "comprehensive",
+    "pack": 1,
+    "path": "audio/pack1/4994ad9e4f40b39e4773.mp3"
+  },
+  {
+    "id": "the guide gave a comprehensive map of the hills",
+    "text": "The guide gave a comprehensive map of the hills.",
+    "pack": 6,
+    "path": "audio/pack6/d609cb8e22bf49613034.mp3"
+  },
+  {
+    "id": "comprise",
+    "text": "comprise",
+    "pack": 5,
+    "path": "audio/pack5/15385eb4bd7f86378fcf.mp3"
+  },
+  {
+    "id": "the trail comprises seven mountains",
+    "text": "The trail comprises seven mountains.",
+    "pack": 1,
+    "path": "audio/pack1/a18ed0f8de6dc6bf0d0c.mp3"
+  },
+  {
+    "id": "conceal",
+    "text": "conceal",
+    "pack": 7,
+    "path": "audio/pack7/7fb137e027d85dc84ebd.mp3"
+  },
+  {
+    "id": "the fog concealed the path ahead",
+    "text": "The fog concealed the path ahead.",
+    "pack": 2,
+    "path": "audio/pack2/7a9cace33250b3146b73.mp3"
+  },
+  {
+    "id": "concede",
+    "text": "concede",
+    "pack": 3,
+    "path": "audio/pack3/b31ef75d8a6019e573de.mp3"
+  },
+  {
+    "id": "he conceded that the ridge was harder than expected",
+    "text": "He conceded that the ridge was harder than expected.",
+    "pack": 4,
+    "path": "audio/pack4/7c4dc2f4dce80eb9d242.mp3"
+  },
+  {
+    "id": "conceive",
+    "text": "conceive",
+    "pack": 7,
+    "path": "audio/pack7/d774ea6c0add29b76656.mp3"
+  },
+  {
+    "id": "we conceived the journey as a way to learn",
+    "text": "We conceived the journey as a way to learn.",
+    "pack": 6,
+    "path": "audio/pack6/3693953da049da419c9a.mp3"
+  },
+  {
+    "id": "condemn",
+    "text": "condemn",
+    "pack": 3,
+    "path": "audio/pack3/ab99e5c4c300ecabe4fe.mp3"
+  },
+  {
+    "id": "the broken path was condemned as unsafe",
+    "text": "The broken path was condemned as unsafe.",
+    "pack": 3,
+    "path": "audio/pack3/131273498a74a88d33d4.mp3"
+  },
+  {
+    "id": "confess",
+    "text": "confess",
+    "pack": 3,
+    "path": "audio/pack3/b33f0f602057e9cc4489.mp3"
+  },
+  {
+    "id": "she confessed that she had lost the map",
+    "text": "She confessed that she had lost the map.",
+    "pack": 6,
+    "path": "audio/pack6/564c00f2e8a0a3b67bd9.mp3"
+  },
+  {
+    "id": "confine",
+    "text": "confine",
+    "pack": 6,
+    "path": "audio/pack6/c64bc36dfe56ce798e5f.mp3"
+  },
+  {
+    "id": "the fence confines hikers to the marked trail",
+    "text": "The fence confines hikers to the marked trail.",
+    "pack": 3,
+    "path": "audio/pack3/63f56c21a79633c5c6a2.mp3"
+  },
+  {
+    "id": "conform",
+    "text": "conform",
+    "pack": 6,
+    "path": "audio/pack6/7693628103f401d6b976.mp3"
+  },
+  {
+    "id": "the new path conforms to the natural slope",
+    "text": "The new path conforms to the natural slope.",
+    "pack": 5,
+    "path": "audio/pack5/1d5d134400137c9ca897.mp3"
+  },
+  {
+    "id": "confront",
+    "text": "confront",
+    "pack": 1,
+    "path": "audio/pack1/199c48140d2be4278289.mp3"
+  },
+  {
+    "id": "we confronted a steep wall of rock",
+    "text": "We confronted a steep wall of rock.",
+    "pack": 3,
+    "path": "audio/pack3/f334c8b74f287d79ff9a.mp3"
+  },
+  {
+    "id": "consensus",
+    "text": "consensus",
+    "pack": 1,
+    "path": "audio/pack1/c983c585ac3c40d92083.mp3"
+  },
+  {
+    "id": "the group reached a consensus to rest",
+    "text": "The group reached a consensus to rest.",
+    "pack": 4,
+    "path": "audio/pack4/e434716be621c1fa7ac4.mp3"
+  },
+  {
+    "id": "consent",
+    "text": "consent",
+    "pack": 2,
+    "path": "audio/pack2/12423e0482f3e81cb1d2.mp3"
+  },
+  {
+    "id": "the guide consented to an early start",
+    "text": "The guide consented to an early start.",
+    "pack": 0,
+    "path": "audio/pack0/f00a03974cef34861e18.mp3"
+  },
+  {
+    "id": "consequence",
+    "text": "consequence",
+    "pack": 4,
+    "path": "audio/pack4/84bb160039a7955385c4.mp3"
+  },
+  {
+    "id": "ignoring the signs has serious consequences",
+    "text": "Ignoring the signs has serious consequences.",
+    "pack": 3,
+    "path": "audio/pack3/6370f017b9a58f714498.mp3"
+  },
+  {
+    "id": "conserve",
+    "text": "conserve",
+    "pack": 7,
+    "path": "audio/pack7/ffd29b0b05afb86693e3.mp3"
+  },
+  {
+    "id": "conserve your water on the long ridge",
+    "text": "Conserve your water on the long ridge.",
+    "pack": 4,
+    "path": "audio/pack4/bc19194bf31a3971ded9.mp3"
+  },
+  {
+    "id": "consist",
+    "text": "consist",
+    "pack": 2,
+    "path": "audio/pack2/cac787df74af316ac86d.mp3"
+  },
+  {
+    "id": "the journey consists of small daily steps",
+    "text": "The journey consists of small daily steps.",
+    "pack": 3,
+    "path": "audio/pack3/7bffaf0409d831acf8db.mp3"
+  },
+  {
+    "id": "constitute",
+    "text": "constitute",
+    "pack": 4,
+    "path": "audio/pack4/5c097b19679a817e5e02.mp3"
+  },
+  {
+    "id": "seven peaks constitute the east lake trail",
+    "text": "Seven peaks constitute the East Lake trail.",
+    "pack": 0,
+    "path": "audio/pack0/580ef531ad5ae9130208.mp3"
+  },
+  {
+    "id": "construct",
+    "text": "construct",
+    "pack": 2,
+    "path": "audio/pack2/b252d4eb5acf5aeaef1e.mp3"
+  },
+  {
+    "id": "workers constructed steps on the steep slope",
+    "text": "Workers constructed steps on the steep slope.",
+    "pack": 7,
+    "path": "audio/pack7/6fb24782d6194d3d16b6.mp3"
+  },
+  {
+    "id": "consult",
+    "text": "consult",
+    "pack": 1,
+    "path": "audio/pack1/89fc0f6aa4921aac940a.mp3"
+  },
+  {
+    "id": "consult the map at every fork",
+    "text": "Consult the map at every fork.",
+    "pack": 0,
+    "path": "audio/pack0/087e6c1ea37f28524557.mp3"
+  },
+  {
+    "id": "consume",
+    "text": "consume",
+    "pack": 6,
+    "path": "audio/pack6/96f39e3569ec878ecb0b.mp3"
+  },
+  {
+    "id": "the uphill climb consumes a lot of energy",
+    "text": "The uphill climb consumes a lot of energy.",
+    "pack": 5,
+    "path": "audio/pack5/3dc43a23fdfc85a2d974.mp3"
+  },
+  {
+    "id": "contemplate",
+    "text": "contemplate",
+    "pack": 4,
+    "path": "audio/pack4/0439cc4746fb3ca71444.mp3"
+  },
+  {
+    "id": "we sat quietly and contemplated the lake",
+    "text": "We sat quietly and contemplated the lake.",
+    "pack": 1,
+    "path": "audio/pack1/a9beda2efe63a4294e96.mp3"
+  },
+  {
+    "id": "contradict",
+    "text": "contradict",
+    "pack": 3,
+    "path": "audio/pack3/9b49415474163a330ca4.mp3"
+  },
+  {
+    "id": "the two signs seemed to contradict each other",
+    "text": "The two signs seemed to contradict each other.",
+    "pack": 3,
+    "path": "audio/pack3/1be8e0228164650bcc68.mp3"
+  },
+  {
+    "id": "contrast",
+    "text": "contrast",
+    "pack": 4,
+    "path": "audio/pack4/3426125bf109d4bb9ab5.mp3"
+  },
+  {
+    "id": "the bright peak stands in contrast to the dark valley",
+    "text": "The bright peak stands in contrast to the dark valley.",
+    "pack": 4,
+    "path": "audio/pack4/9c0358b88719497cc467.mp3"
+  },
+  {
+    "id": "contribute",
+    "text": "contribute",
+    "pack": 2,
+    "path": "audio/pack2/8aa73cb60552b99f7d6b.mp3"
+  },
+  {
+    "id": "every word contributes to your progress",
+    "text": "Every word contributes to your progress.",
+    "pack": 1,
+    "path": "audio/pack1/713eb671a4ce3404ba37.mp3"
+  },
+  {
+    "id": "controversial",
+    "text": "controversial",
+    "pack": 0,
+    "path": "audio/pack0/188aa6ae3ca8746e36e1.mp3"
+  },
+  {
+    "id": "the new trail remains a controversial plan",
+    "text": "The new trail remains a controversial plan.",
+    "pack": 6,
+    "path": "audio/pack6/de0486df9a6ac517b8f8.mp3"
+  },
+  {
+    "id": "convention",
+    "text": "convention",
+    "pack": 7,
+    "path": "audio/pack7/37806e80c15b91408f5e.mp3"
+  },
+  {
+    "id": "by convention, hikers greet each other on the trail",
+    "text": "By convention, hikers greet each other on the trail.",
+    "pack": 5,
+    "path": "audio/pack5/c5cdad6c52a325558835.mp3"
+  },
+  {
+    "id": "convert",
+    "text": "convert",
+    "pack": 4,
+    "path": "audio/pack4/c47579671ec3e9f349f9.mp3"
+  },
+  {
+    "id": "the old path was converted into a wide trail",
+    "text": "The old path was converted into a wide trail.",
+    "pack": 2,
+    "path": "audio/pack2/42872de0ae7cac469a48.mp3"
+  },
+  {
+    "id": "convey",
+    "text": "convey",
+    "pack": 7,
+    "path": "audio/pack7/4728b0c37dc84206db31.mp3"
+  },
+  {
+    "id": "a sentence conveys more than a single word",
+    "text": "A sentence conveys more than a single word.",
+    "pack": 7,
+    "path": "audio/pack7/ef3944dac710aaa7b540.mp3"
+  },
+  {
+    "id": "cooperate",
+    "text": "cooperate",
+    "pack": 0,
+    "path": "audio/pack0/30a9caa9170d230fa6b5.mp3"
+  },
+  {
+    "id": "the hikers cooperated on the steep rock",
+    "text": "The hikers cooperated on the steep rock.",
+    "pack": 2,
+    "path": "audio/pack2/9aac181190cdbc7606f8.mp3"
+  },
+  {
+    "id": "coordinate",
+    "text": "coordinate",
+    "pack": 4,
+    "path": "audio/pack4/ac7f1c227985687b4b72.mp3"
+  },
+  {
+    "id": "the guide coordinated the pace of the group",
+    "text": "The guide coordinated the pace of the group.",
+    "pack": 2,
+    "path": "audio/pack2/1a12ef923e5c4b749a7d.mp3"
+  },
+  {
+    "id": "crucial",
+    "text": "crucial",
+    "pack": 6,
+    "path": "audio/pack6/26dd7517f5ecee31f5df.mp3"
+  },
+  {
+    "id": "the last ridge is the crucial part of the hike",
+    "text": "The last ridge is the crucial part of the hike.",
+    "pack": 0,
+    "path": "audio/pack0/f08f06892846af1b8d73.mp3"
+  },
+  {
+    "id": "cultivate",
+    "text": "cultivate",
+    "pack": 7,
+    "path": "audio/pack7/2f1fd9f37ede108fb49f.mp3"
+  },
+  {
+    "id": "cultivate the habit of reading aloud",
+    "text": "Cultivate the habit of reading aloud.",
+    "pack": 7,
+    "path": "audio/pack7/0719cc04e67aad540519.mp3"
+  },
+  {
+    "id": "deceive",
+    "text": "deceive",
+    "pack": 7,
+    "path": "audio/pack7/4f2224ca4f0897e66c0b.mp3"
+  },
+  {
+    "id": "the fog deceived us about the distance",
+    "text": "The fog deceived us about the distance.",
+    "pack": 1,
+    "path": "audio/pack1/192b15846bcb73ec32f0.mp3"
+  },
+  {
+    "id": "decline",
+    "text": "decline",
+    "pack": 5,
+    "path": "audio/pack5/fd5f8cbed3d05d63b307.mp3"
+  },
+  {
+    "id": "the path declines gently toward the lake",
+    "text": "The path declines gently toward the lake.",
+    "pack": 6,
+    "path": "audio/pack6/2e886c07e2fec88fe572.mp3"
+  },
+  {
+    "id": "dedicate",
+    "text": "dedicate",
+    "pack": 2,
+    "path": "audio/pack2/d232f6a3a44c379b1e7b.mp3"
+  },
+  {
+    "id": "she dedicated the climb to her old teacher",
+    "text": "She dedicated the climb to her old teacher.",
+    "pack": 3,
+    "path": "audio/pack3/3b9fb6f152eb2aa87c43.mp3"
+  },
+  {
+    "id": "deduce",
+    "text": "deduce",
+    "pack": 7,
+    "path": "audio/pack7/c7b1864582709b74a910.mp3"
+  },
+  {
+    "id": "deduce the meaning from the context",
+    "text": "Deduce the meaning from the context.",
+    "pack": 6,
+    "path": "audio/pack6/0642e397250dc7b25c44.mp3"
+  },
+  {
+    "id": "deliberate",
+    "text": "deliberate",
+    "pack": 2,
+    "path": "audio/pack2/2277d8c05881e3c9bbc5.mp3"
+  },
+  {
+    "id": "his steps were slow and deliberate",
+    "text": "His steps were slow and deliberate.",
+    "pack": 4,
+    "path": "audio/pack4/f48003ce4a1793da19a6.mp3"
+  },
+  {
+    "id": "demonstrate",
+    "text": "demonstrate",
+    "pack": 6,
+    "path": "audio/pack6/a65dd3628de58bb9f3ee.mp3"
+  },
+  {
+    "id": "the guide demonstrated how to climb the rock",
+    "text": "The guide demonstrated how to climb the rock.",
+    "pack": 3,
+    "path": "audio/pack3/437a491b7f8b07966e11.mp3"
+  },
+  {
+    "id": "deny",
+    "text": "deny",
+    "pack": 0,
+    "path": "audio/pack0/3026a0ca485e5831657b.mp3"
+  },
+  {
+    "id": "no one can deny the beauty of the summit",
+    "text": "No one can deny the beauty of the summit.",
+    "pack": 7,
+    "path": "audio/pack7/bf15b015e005d854f896.mp3"
+  },
+  {
+    "id": "depress",
+    "text": "depress",
+    "pack": 7,
+    "path": "audio/pack7/f7d680f4aa63059ca89d.mp3"
+  },
+  {
+    "id": "the long rain depressed the tired hikers",
+    "text": "The long rain depressed the tired hikers.",
+    "pack": 2,
+    "path": "audio/pack2/d266fd6ff419f91244d4.mp3"
+  },
+  {
+    "id": "derive",
+    "text": "derive",
+    "pack": 6,
+    "path": "audio/pack6/46023b2bfb8ba6dc6fdc.mp3"
+  },
+  {
+    "id": "many english words derive from latin",
+    "text": "Many English words derive from Latin.",
+    "pack": 1,
+    "path": "audio/pack1/596d107d49a07846be8c.mp3"
+  },
+  {
+    "id": "descend",
+    "text": "descend",
+    "pack": 4,
+    "path": "audio/pack4/e424ec88ff49966434a9.mp3"
+  },
+  {
+    "id": "we descended slowly through the mist",
+    "text": "We descended slowly through the mist.",
+    "pack": 0,
+    "path": "audio/pack0/a03f8e8443acc6d83a5e.mp3"
+  },
+  {
+    "id": "adjacent",
+    "text": "adjacent",
+    "pack": 0,
+    "path": "audio/pack0/b80ad2e9ee18fef36731.mp3"
+  },
+  {
+    "id": "the two peaks are adjacent but very different",
+    "text": "The two peaks are adjacent but very different.",
+    "pack": 7,
+    "path": "audio/pack7/2fb29710fa57e314fec7.mp3"
+  },
+  {
+    "id": "affiliate",
+    "text": "affiliate",
+    "pack": 6,
+    "path": "audio/pack6/3e6f3ef30c9311c70865.mp3"
+  },
+  {
+    "id": "the institute is affiliated with the university near the hill",
+    "text": "The institute is affiliated with the university near the hill.",
+    "pack": 3,
+    "path": "audio/pack3/033bfd8614597d5d469d.mp3"
+  },
+  {
+    "id": "aggregate",
+    "text": "aggregate",
+    "pack": 6,
+    "path": "audio/pack6/ee3c65b5c7f4dd0ebed8.mp3"
+  },
+  {
+    "id": "the aggregate height of all seven hills is surprising",
+    "text": "The aggregate height of all seven hills is surprising.",
+    "pack": 4,
+    "path": "audio/pack4/f44322095554d3cd745a.mp3"
+  },
+  {
+    "id": "alien",
+    "text": "alien",
+    "pack": 4,
+    "path": "audio/pack4/a49c1d0380688dd9e189.mp3"
+  },
+  {
+    "id": "the rocky summit felt alien to the forest below",
+    "text": "The rocky summit felt alien to the forest below.",
+    "pack": 2,
+    "path": "audio/pack2/82bdb125848b24dc27bb.mp3"
+  },
+  {
+    "id": "alleviate",
+    "text": "alleviate",
+    "pack": 1,
+    "path": "audio/pack1/b9468c68a44d39d06d9e.mp3"
+  },
+  {
+    "id": "the cool breeze alleviated our fatigue",
+    "text": "The cool breeze alleviated our fatigue.",
+    "pack": 7,
+    "path": "audio/pack7/07d9355a0613003bce1c.mp3"
+  },
+  {
+    "id": "analogy",
+    "text": "analogy",
+    "pack": 5,
+    "path": "audio/pack5/fd7bdeae637576ba80a7.mp3"
+  },
+  {
+    "id": "learning a language is an analogy to climbing a mountain",
+    "text": "Learning a language is an analogy to climbing a mountain.",
+    "pack": 5,
+    "path": "audio/pack5/3599bc0a99e4e950319f.mp3"
+  },
+  {
+    "id": "anonymous",
+    "text": "anonymous",
+    "pack": 7,
+    "path": "audio/pack7/2f183a4e64493af3f377.mp3"
+  },
+  {
+    "id": "an anonymous hiker left the trail gate open",
+    "text": "An anonymous hiker left the trail gate open.",
+    "pack": 7,
+    "path": "audio/pack7/079c6bb1c311bb9ccd6c.mp3"
+  },
+  {
+    "id": "appraisal",
+    "text": "appraisal",
+    "pack": 6,
+    "path": "audio/pack6/eefaf5d1efd089614703.mp3"
+  },
+  {
+    "id": "the guide gave a careful appraisal of the weather",
+    "text": "The guide gave a careful appraisal of the weather.",
+    "pack": 1,
+    "path": "audio/pack1/7985f7798096fd27c2ec.mp3"
+  },
+  {
+    "id": "articulate",
+    "text": "articulate",
+    "pack": 7,
+    "path": "audio/pack7/b788bcce1bb80bda0cb2.mp3"
+  },
+  {
+    "id": "he articulated every word of the sentence",
+    "text": "He articulated every word of the sentence.",
+    "pack": 1,
+    "path": "audio/pack1/f98cdf07b6051f8981e9.mp3"
+  },
+  {
+    "id": "ascertain",
+    "text": "ascertain",
+    "pack": 4,
+    "path": "audio/pack4/44ea8bc2a14c5611a38b.mp3"
+  },
+  {
+    "id": "we climbed the tree to ascertain the direction",
+    "text": "We climbed the tree to ascertain the direction.",
+    "pack": 4,
+    "path": "audio/pack4/fc3c4c7b0a9f641f2855.mp3"
+  },
+  {
+    "id": "ascribe",
+    "text": "ascribe",
+    "pack": 2,
+    "path": "audio/pack2/7217f864490897031e87.mp3"
+  },
+  {
+    "id": "the accident was ascribed to the loose rock",
+    "text": "The accident was ascribed to the loose rock.",
+    "pack": 4,
+    "path": "audio/pack4/148d6bc40e25df3ccee8.mp3"
+  },
+  {
+    "id": "assault",
+    "text": "assault",
+    "pack": 3,
+    "path": "audio/pack3/8b074093a573c93f866d.mp3"
+  },
+  {
+    "id": "the wind made a sudden assault on the ridge",
+    "text": "The wind made a sudden assault on the ridge.",
+    "pack": 0,
+    "path": "audio/pack0/184e36b2ffe4788d2146.mp3"
+  },
+  {
+    "id": "asset",
+    "text": "asset",
+    "pack": 5,
+    "path": "audio/pack5/d59386e0ae435e292fbe.mp3"
+  },
+  {
+    "id": "a good vocabulary is a lifelong asset",
+    "text": "A good vocabulary is a lifelong asset.",
+    "pack": 4,
+    "path": "audio/pack4/cced36bf92f1d4ba71c8.mp3"
+  },
+  {
+    "id": "assumption",
+    "text": "assumption",
+    "pack": 0,
+    "path": "audio/pack0/c081dd376ba93a530dd0.mp3"
+  },
+  {
+    "id": "the assumption of a clear trail was wrong",
+    "text": "The assumption of a clear trail was wrong.",
+    "pack": 0,
+    "path": "audio/pack0/a8666ea32aa75a6c0dcd.mp3"
+  },
+  {
+    "id": "assurance",
+    "text": "assurance",
+    "pack": 3,
+    "path": "audio/pack3/9b2d53abee432c914a12.mp3"
+  },
+  {
+    "id": "the summit cross gave us assurance of the way",
+    "text": "The summit cross gave us assurance of the way.",
+    "pack": 0,
+    "path": "audio/pack0/f067ca8c2c2d56046151.mp3"
+  },
+  {
+    "id": "attorney",
+    "text": "attorney",
+    "pack": 5,
+    "path": "audio/pack5/5561ba03cac2c86f883d.mp3"
+  },
+  {
+    "id": "the attorney preferred hiking to arguing in court",
+    "text": "The attorney preferred hiking to arguing in court.",
+    "pack": 2,
+    "path": "audio/pack2/aa3c231e90f7083effb9.mp3"
+  },
+  {
+    "id": "augment",
+    "text": "augment",
+    "pack": 5,
+    "path": "audio/pack5/5d69825fe9a39338c74c.mp3"
+  },
+  {
+    "id": "the steep slope augmented our fear of heights",
+    "text": "The steep slope augmented our fear of heights.",
+    "pack": 5,
+    "path": "audio/pack5/2de46c546ec817ff3400.mp3"
+  },
+  {
+    "id": "avail",
+    "text": "avail",
+    "pack": 0,
+    "path": "audio/pack0/a85099cd5a3dd017757d.mp3"
+  },
+  {
+    "id": "our shouts were of no avail in the wide valley",
+    "text": "Our shouts were of no avail in the wide valley.",
+    "pack": 6,
+    "path": "audio/pack6/06aa482e3f269d6c273e.mp3"
+  },
+  {
+    "id": "baffle",
+    "text": "baffle",
+    "pack": 2,
+    "path": "audio/pack2/6a339259edf4e1758a36.mp3"
+  },
+  {
+    "id": "the dense fog baffled even the guide",
+    "text": "The dense fog baffled even the guide.",
+    "pack": 3,
+    "path": "audio/pack3/0b9325a4918783f57d0c.mp3"
+  },
+  {
+    "id": "batch",
+    "text": "batch",
+    "pack": 3,
+    "path": "audio/pack3/4bb24efc9641afc5ded1.mp3"
+  },
+  {
+    "id": "learn each batch of words before you move on",
+    "text": "Learn each batch of words before you move on.",
+    "pack": 5,
+    "path": "audio/pack5/15ddda03c4ceaf7019cc.mp3"
+  },
+  {
+    "id": "bizarre",
+    "text": "bizarre",
+    "pack": 6,
+    "path": "audio/pack6/b6e4acc0d58497837b12.mp3"
+  },
+  {
+    "id": "a bizarre rock shape stood on the ridge",
+    "text": "A bizarre rock shape stood on the ridge.",
+    "pack": 1,
+    "path": "audio/pack1/019918272cfa10d20123.mp3"
+  },
+  {
+    "id": "blaze",
+    "text": "blaze",
+    "pack": 0,
+    "path": "audio/pack0/88a5c49d8cb7f295df95.mp3"
+  },
+  {
+    "id": "the sunset blazed across the western sky",
+    "text": "The sunset blazed across the western sky.",
+    "pack": 1,
+    "path": "audio/pack1/39a728d631eb841bd606.mp3"
+  },
+  {
+    "id": "bleak",
+    "text": "bleak",
+    "pack": 5,
+    "path": "audio/pack5/e5d97df386282dd329e4.mp3"
+  },
+  {
+    "id": "the bare peak looked bleak in winter",
+    "text": "The bare peak looked bleak in winter.",
+    "pack": 3,
+    "path": "audio/pack3/6b0ce27006f50fff0cb1.mp3"
+  },
+  {
+    "id": "bless",
+    "text": "bless",
+    "pack": 2,
+    "path": "audio/pack2/d2ba2144f6cd7505f252.mp3"
+  },
+  {
+    "id": "the clear morning sky blessed our climb",
+    "text": "The clear morning sky blessed our climb.",
+    "pack": 6,
+    "path": "audio/pack6/3e7329c4af07d46b1d25.mp3"
+  },
+  {
+    "id": "blossom",
+    "text": "blossom",
+    "pack": 1,
+    "path": "audio/pack1/59d98c516f8b4e28e554.mp3"
+  },
+  {
+    "id": "the wild cherry trees blossom along the lake trail",
+    "text": "The wild cherry trees blossom along the lake trail.",
+    "pack": 3,
+    "path": "audio/pack3/4b7b14a21b1c83df0745.mp3"
+  },
+  {
+    "id": "blur",
+    "text": "blur",
+    "pack": 4,
+    "path": "audio/pack4/e42932b7a79c40e45f6b.mp3"
+  },
+  {
+    "id": "the rain blurred the distant city skyline",
+    "text": "The rain blurred the distant city skyline.",
+    "pack": 4,
+    "path": "audio/pack4/44f5c500ee6499423cbc.mp3"
+  },
+  {
+    "id": "blunt",
+    "text": "blunt",
+    "pack": 3,
+    "path": "audio/pack3/bb79caae5f8c42a67e56.mp3"
+  },
+  {
+    "id": "the blunt edge of the rock cut like a wall",
+    "text": "The blunt edge of the rock cut like a wall.",
+    "pack": 4,
+    "path": "audio/pack4/4cbe5017e18cf7e6e6c3.mp3"
+  },
+  {
+    "id": "boast",
+    "text": "boast",
+    "pack": 2,
+    "path": "audio/pack2/d265d1416b14d7aa3678.mp3"
+  },
+  {
+    "id": "the summit boasts the finest view of the lake",
+    "text": "The summit boasts the finest view of the lake.",
+    "pack": 6,
+    "path": "audio/pack6/aeb452725d19e2ed633c.mp3"
+  },
+  {
+    "id": "bonus",
+    "text": "bonus",
+    "pack": 7,
+    "path": "audio/pack7/5f220b4a45832c0710e5.mp3"
+  },
+  {
+    "id": "the unexpected rainbow was a bonus at the top",
+    "text": "The unexpected rainbow was a bonus at the top.",
+    "pack": 5,
+    "path": "audio/pack5/fdf36ee509dfac7ab580.mp3"
+  },
+  {
+    "id": "boom",
+    "text": "boom",
+    "pack": 1,
+    "path": "audio/pack1/81f52337ebb4cb1669bb.mp3"
+  },
+  {
+    "id": "thunder boomed over the distant hills",
+    "text": "Thunder boomed over the distant hills.",
+    "pack": 2,
+    "path": "audio/pack2/1a65ac33898cccc4535d.mp3"
+  },
+  {
+    "id": "boycott",
+    "text": "boycott",
+    "pack": 6,
+    "path": "audio/pack6/aee566239c5b56383111.mp3"
+  },
+  {
+    "id": "the hikers boycotted the noisy new path",
+    "text": "The hikers boycotted the noisy new path.",
+    "pack": 5,
+    "path": "audio/pack5/c5efed1675001e5418d5.mp3"
+  },
+  {
+    "id": "brace",
+    "text": "brace",
+    "pack": 5,
+    "path": "audio/pack5/3da83d37afaeb057e063.mp3"
+  },
+  {
+    "id": "brace yourself for the steepest part",
+    "text": "Brace yourself for the steepest part.",
+    "pack": 3,
+    "path": "audio/pack3/ebd763947b520e29f033.mp3"
+  },
+  {
+    "id": "breach",
+    "text": "breach",
+    "pack": 6,
+    "path": "audio/pack6/2e02fd39b865c1f21791.mp3"
+  },
+  {
+    "id": "a narrow breach in the rocks led to the summit",
+    "text": "A narrow breach in the rocks led to the summit.",
+    "pack": 4,
+    "path": "audio/pack4/84dd1dd62703fa20f87a.mp3"
+  },
+  {
+    "id": "breakdown",
+    "text": "breakdown",
+    "pack": 6,
+    "path": "audio/pack6/aefd8e134c3a939c5fe5.mp3"
+  },
+  {
+    "id": "the muddy slope caused a breakdown in our pace",
+    "text": "The muddy slope caused a breakdown in our pace.",
+    "pack": 7,
+    "path": "audio/pack7/57fb5c80b30f9cf362ae.mp3"
+  },
+  {
+    "id": "brew",
+    "text": "brew",
+    "pack": 1,
+    "path": "audio/pack1/a9aa09fca88e09829702.mp3"
+  },
+  {
+    "id": "a storm was brewing beyond the western ridge",
+    "text": "A storm was brewing beyond the western ridge.",
+    "pack": 6,
+    "path": "audio/pack6/865bfaac31c82e8628cb.mp3"
+  },
+  {
+    "id": "bribe",
+    "text": "bribe",
+    "pack": 4,
+    "path": "audio/pack4/fce07324e0e72e071842.mp3"
+  },
+  {
+    "id": "the monkeys expected snacks, almost like a bribe",
+    "text": "The monkeys expected snacks, almost like a bribe.",
+    "pack": 7,
+    "path": "audio/pack7/07c082eaab6c7ebc9d90.mp3"
+  },
+  {
+    "id": "brisk",
+    "text": "brisk",
+    "pack": 0,
+    "path": "audio/pack0/201cd0cd6b8a35ff9f95.mp3"
+  },
+  {
+    "id": "a brisk wind swept the morning ridge",
+    "text": "A brisk wind swept the morning ridge.",
+    "pack": 3,
+    "path": "audio/pack3/8beb40807a399714a844.mp3"
+  },
+  {
+    "id": "brittle",
+    "text": "brittle",
+    "pack": 6,
+    "path": "audio/pack6/0e0df1707c03b95a2523.mp3"
+  },
+  {
+    "id": "the brittle leaves cracked under our boots",
+    "text": "The brittle leaves cracked under our boots.",
+    "pack": 0,
+    "path": "audio/pack0/d013bb71680ecf72940c.mp3"
+  },
+  {
+    "id": "bronze",
+    "text": "bronze",
+    "pack": 4,
+    "path": "audio/pack4/fcbbcd5a59bf48a18e71.mp3"
+  },
+  {
+    "id": "the sunset turned the lake to bronze",
+    "text": "The sunset turned the lake to bronze.",
+    "pack": 0,
+    "path": "audio/pack0/f8b661d3a9d20a068c7e.mp3"
+  },
+  {
+    "id": "brood",
+    "text": "brood",
+    "pack": 0,
+    "path": "audio/pack0/78d6dc0333043a1204ef.mp3"
+  },
+  {
+    "id": "the dark mountain brooded over the still lake",
+    "text": "The dark mountain brooded over the still lake.",
+    "pack": 7,
+    "path": "audio/pack7/3f23847cc22aefb2db56.mp3"
+  },
+  {
+    "id": "bruise",
+    "text": "bruise",
+    "pack": 1,
+    "path": "audio/pack1/a9f4b8a0587af2d0c080.mp3"
+  },
+  {
+    "id": "the sharp rock bruised his arm",
+    "text": "The sharp rock bruised his arm.",
+    "pack": 5,
+    "path": "audio/pack5/ad0d98b1573f2a860eb9.mp3"
+  },
+  {
+    "id": "brutal",
+    "text": "brutal",
+    "pack": 6,
+    "path": "audio/pack6/5e6747bd219dfaa7573f.mp3"
+  },
+  {
+    "id": "the final climb was brutal in the midday heat",
+    "text": "The final climb was brutal in the midday heat.",
+    "pack": 4,
+    "path": "audio/pack4/f4ea51a864c5df057b35.mp3"
+  },
+  {
+    "id": "bulletin",
+    "text": "bulletin",
+    "pack": 4,
+    "path": "audio/pack4/24c5f5564184a4fb93ec.mp3"
+  },
+  {
+    "id": "a trail bulletin warned of falling rocks",
+    "text": "A trail bulletin warned of falling rocks.",
+    "pack": 7,
+    "path": "audio/pack7/6fca420b22af8a526ead.mp3"
+  },
+  {
+    "id": "bump",
+    "text": "bump",
+    "pack": 7,
+    "path": "audio/pack7/5fbde9bb9c3fd8c22402.mp3"
+  },
+  {
+    "id": "the backpack bumped against the narrow rocks",
+    "text": "The backpack bumped against the narrow rocks.",
+    "pack": 7,
+    "path": "audio/pack7/77b7ff919affba17a7c0.mp3"
+  },
+  {
+    "id": "bureaucracy",
+    "text": "bureaucracy",
+    "pack": 0,
+    "path": "audio/pack0/f8b73d9a3cfbd0ef331c.mp3"
+  },
+  {
+    "id": "the trail permit was lost in endless bureaucracy",
+    "text": "The trail permit was lost in endless bureaucracy.",
+    "pack": 7,
+    "path": "audio/pack7/9f951da2fcb56e151d66.mp3"
+  },
+  {
+    "id": "burial",
+    "text": "burial",
+    "pack": 4,
+    "path": "audio/pack4/4c991cf8e303d8013a9b.mp3"
+  },
+  {
+    "id": "the old burial stones marked the summit path",
+    "text": "The old burial stones marked the summit path.",
+    "pack": 6,
+    "path": "audio/pack6/460644a798a07e4193a6.mp3"
+  },
+  {
+    "id": "buzz",
+    "text": "buzz",
+    "pack": 7,
+    "path": "audio/pack7/9fff3bcb10ca5e87b810.mp3"
+  },
+  {
+    "id": "insects buzzed in the warm summer grass",
+    "text": "Insects buzzed in the warm summer grass.",
+    "pack": 7,
+    "path": "audio/pack7/c721c6af7bf7e608b8f3.mp3"
+  },
+  {
+    "id": "bypass",
+    "text": "bypass",
+    "pack": 2,
+    "path": "audio/pack2/f271a122bf4230c7c217.mp3"
+  },
+  {
+    "id": "the new trail bypasses the steepest rock",
+    "text": "The new trail bypasses the steepest rock.",
+    "pack": 7,
+    "path": "audio/pack7/df8cc47370ebc2d4c889.mp3"
+  },
+  {
+    "id": "census",
+    "text": "census",
+    "pack": 1,
+    "path": "audio/pack1/7969bf2d3a9ceff9f774.mp3"
+  },
+  {
+    "id": "the park did a census of the mountain monkeys",
+    "text": "The park did a census of the mountain monkeys.",
+    "pack": 4,
+    "path": "audio/pack4/6c811d0a3b4effd3aacf.mp3"
+  },
+  {
+    "id": "ceramic",
+    "text": "ceramic",
+    "pack": 3,
+    "path": "audio/pack3/cb816f613ff3b3600ab6.mp3"
+  },
+  {
+    "id": "a ceramic tile map stood at the trail gate",
+    "text": "A ceramic tile map stood at the trail gate.",
+    "pack": 7,
+    "path": "audio/pack7/770043a7c42782b454aa.mp3"
+  },
+  {
+    "id": "cereal",
+    "text": "cereal",
+    "pack": 0,
+    "path": "audio/pack0/38c09b54483898f2aea7.mp3"
+  },
+  {
+    "id": "we carried cereal bars for the long climb",
+    "text": "We carried cereal bars for the long climb.",
+    "pack": 4,
+    "path": "audio/pack4/6cc1137d1e20adb34d49.mp3"
+  },
+  {
+    "id": "certainty",
+    "text": "certainty",
+    "pack": 1,
+    "path": "audio/pack1/d14d5090afcde8381fc2.mp3"
+  },
+  {
+    "id": "there is no certainty about the mountain weather",
+    "text": "There is no certainty about the mountain weather.",
+    "pack": 7,
+    "path": "audio/pack7/9fff8ec6f9fb0e0021f2.mp3"
+  },
+  {
+    "id": "certify",
+    "text": "certify",
+    "pack": 7,
+    "path": "audio/pack7/6706b672c3d63aa4b4c6.mp3"
+  },
+  {
+    "id": "the summit stamp certifies your achievement",
+    "text": "The summit stamp certifies your achievement.",
+    "pack": 0,
+    "path": "audio/pack0/c0fd440055d5015a8c28.mp3"
+  },
+  {
+    "id": "chord",
+    "text": "chord",
+    "pack": 5,
+    "path": "audio/pack5/25735baaa5b4e4cc238f.mp3"
+  },
+  {
+    "id": "the wind in the wires struck a soft chord",
+    "text": "The wind in the wires struck a soft chord.",
+    "pack": 4,
+    "path": "audio/pack4/7c8c1aa32c6018941df5.mp3"
+  },
+  {
+    "id": "chorus",
+    "text": "chorus",
+    "pack": 2,
+    "path": "audio/pack2/ca6e99a67a7a8aa26bc0.mp3"
+  },
+  {
+    "id": "the birds joined in a morning chorus",
+    "text": "The birds joined in a morning chorus.",
+    "pack": 2,
+    "path": "audio/pack2/f2eb5e6a9ba09fc1fa01.mp3"
+  },
+  {
+    "id": "climax",
+    "text": "climax",
+    "pack": 4,
+    "path": "audio/pack4/dcc43fc8a425bedac5f8.mp3"
+  },
+  {
+    "id": "the summit was the climax of the long journey",
+    "text": "The summit was the climax of the long journey.",
+    "pack": 5,
+    "path": "audio/pack5/ad72b58aee6c97c4158f.mp3"
+  },
+  {
+    "id": "cling",
+    "text": "cling",
+    "pack": 1,
+    "path": "audio/pack1/4151dc4c63622213d3dc.mp3"
+  },
+  {
+    "id": "the mist clung to the dark pine trees",
+    "text": "The mist clung to the dark pine trees.",
+    "pack": 5,
+    "path": "audio/pack5/1540d9f25ad05ffa0023.mp3"
+  },
+  {
+    "id": "clip",
+    "text": "clip",
+    "pack": 7,
+    "path": "audio/pack7/67905ad3cc2dd52b1f5f.mp3"
+  },
+  {
+    "id": "the steep cliff clipped the edge of the trail",
+    "text": "The steep cliff clipped the edge of the trail.",
+    "pack": 2,
+    "path": "audio/pack2/e2e0d1965f279ebc3807.mp3"
+  },
+  {
+    "id": "cluster",
+    "text": "cluster",
+    "pack": 6,
+    "path": "audio/pack6/164cf1ca8391532e4f23.mp3"
+  },
+  {
+    "id": "a cluster of pines marked the summit",
+    "text": "A cluster of pines marked the summit.",
+    "pack": 4,
+    "path": "audio/pack4/0cd460606b04fe3a205c.mp3"
+  },
+  {
+    "id": "clutch",
+    "text": "clutch",
+    "pack": 2,
+    "path": "audio/pack2/c278be9e224723ac9008.mp3"
+  },
+  {
+    "id": "he clutched the wet rock on the exposed climb",
+    "text": "He clutched the wet rock on the exposed climb.",
+    "pack": 1,
+    "path": "audio/pack1/a11ed4bb73381cf7b706.mp3"
+  },
+  {
+    "id": "coherent",
+    "text": "coherent",
+    "pack": 1,
+    "path": "audio/pack1/e972546000b214f35e6a.mp3"
+  },
+  {
+    "id": "the guide gave a coherent account of the trail",
+    "text": "The guide gave a coherent account of the trail.",
+    "pack": 5,
+    "path": "audio/pack5/9dda0569ae8823466c7a.mp3"
+  },
+  {
+    "id": "collaboration",
+    "text": "collaboration",
+    "pack": 5,
+    "path": "audio/pack5/0d5a011050205b392ce2.mp3"
+  },
+  {
+    "id": "the trail was built through local collaboration",
+    "text": "The trail was built through local collaboration.",
+    "pack": 4,
+    "path": "audio/pack4/ecb126f5fd9b58046b51.mp3"
+  },
+  {
+    "id": "collide",
+    "text": "collide",
+    "pack": 4,
+    "path": "audio/pack4/acd9e56b5701c9c5e22d.mp3"
+  },
+  {
+    "id": "two hikers collided on the narrow ridge",
+    "text": "Two hikers collided on the narrow ridge.",
+    "pack": 4,
+    "path": "audio/pack4/247d212a43a5aff43fd3.mp3"
+  },
+  {
+    "id": "commemorate",
+    "text": "commemorate",
+    "pack": 3,
+    "path": "audio/pack3/7b5dc435d187fe90f895.mp3"
+  },
+  {
+    "id": "the summit stone commemorates the trail builders",
+    "text": "The summit stone commemorates the trail builders.",
+    "pack": 3,
+    "path": "audio/pack3/f323dcb823f73a59ff0b.mp3"
+  },
+  {
+    "id": "commend",
+    "text": "commend",
+    "pack": 6,
+    "path": "audio/pack6/267c6a72ed128b94df89.mp3"
+  },
+  {
+    "id": "the guide commended our steady pace",
+    "text": "The guide commended our steady pace.",
+    "pack": 0,
+    "path": "audio/pack0/38abf06e959f1f8de671.mp3"
+  },
+  {
+    "id": "commentary",
+    "text": "commentary",
+    "pack": 1,
+    "path": "audio/pack1/f1a0c11a728e36ab0181.mp3"
+  },
+  {
+    "id": "the recorded guide gave a commentary on the hills",
+    "text": "The recorded guide gave a commentary on the hills.",
+    "pack": 2,
+    "path": "audio/pack2/4ade939465c7b751ac2f.mp3"
+  },
+  {
+    "id": "commodity",
+    "text": "commodity",
+    "pack": 5,
+    "path": "audio/pack5/25206cd612b1f2dcce99.mp3"
+  },
+  {
+    "id": "water became a precious commodity on the ridge",
+    "text": "Water became a precious commodity on the ridge.",
+    "pack": 7,
+    "path": "audio/pack7/cfe45ba792e90f76cb3e.mp3"
+  },
+  {
+    "id": "commonplace",
+    "text": "commonplace",
+    "pack": 0,
+    "path": "audio/pack0/c09c49345962148832e0.mp3"
+  },
+  {
+    "id": "a lake view is commonplace here, yet always new",
+    "text": "A lake view is commonplace here, yet always new.",
+    "pack": 1,
+    "path": "audio/pack1/b9eebef18681b75acd5b.mp3"
+  },
+  {
+    "id": "preside",
+    "text": "preside",
+    "pack": 7,
+    "path": "audio/pack7/afa5349d7ce567160c0e.mp3"
+  },
+  {
+    "id": "the old pine presides over the summit",
+    "text": "The old pine presides over the summit.",
+    "pack": 2,
+    "path": "audio/pack2/d21de802888d23624dd5.mp3"
+  },
+  {
+    "id": "retrospect",
+    "text": "retrospect",
+    "pack": 0,
+    "path": "audio/pack0/4836600918f39fa20fd2.mp3"
+  },
+  {
+    "id": "in retrospect, the steep climb was worth every step",
+    "text": "In retrospect, the steep climb was worth every step.",
+    "pack": 1,
+    "path": "audio/pack1/f9058ef873a259c1b225.mp3"
+  },
+  {
+    "id": "a quiet morning",
+    "text": "A Quiet Morning",
+    "pack": 5,
+    "path": "audio/pack5/75f77f3d5b95ab8ac84d.mp3"
+  },
+  {
+    "id": "why does the writer stop",
+    "text": "Why does the writer stop?",
+    "pack": 7,
+    "path": "audio/pack7/ffabb6ea5b446a768d2d.mp3"
+  },
+  {
+    "id": "to listen to a bird",
+    "text": "To listen to a bird.",
+    "pack": 4,
+    "path": "audio/pack4/7cbb1ba7025c965d78bc.mp3"
+  },
+  {
+    "id": "to find a boat",
+    "text": "To find a boat.",
+    "pack": 3,
+    "path": "audio/pack3/53d76621008eea78c31c.mp3"
+  },
+  {
+    "id": "to buy some food",
+    "text": "To buy some food.",
+    "pack": 1,
+    "path": "audio/pack1/0199fb81105c65bc6741.mp3"
+  },
+  {
+    "id": "i stop and listen",
+    "text": "I stop and listen.",
+    "pack": 1,
+    "path": "audio/pack1/2920e27ff947a5c1558d.mp3"
+  },
+  {
+    "id": "the sun is coming up",
+    "text": "The sun is coming up.",
+    "pack": 7,
+    "path": "audio/pack7/47ca83ae97274c3e5912.mp3"
+  },
+  {
+    "id": "i walk along a small path beside the lake",
+    "text": "I walk along a small path beside the lake.",
+    "pack": 6,
+    "path": "audio/pack6/d68773055a773f30ad83.mp3"
+  },
+  {
+    "id": "the air is cool, and the water is still",
+    "text": "The air is cool, and the water is still.",
+    "pack": 2,
+    "path": "audio/pack2/32d48ee1fa36f8e4b7fc.mp3"
+  },
+  {
+    "id": "a bird lands on a tree",
+    "text": "A bird lands on a tree.",
+    "pack": 4,
+    "path": "audio/pack4/2c4c823a53403560f137.mp3"
+  },
+  {
+    "id": "it sings a short song",
+    "text": "It sings a short song.",
+    "pack": 3,
+    "path": "audio/pack3/4bb2cb998e9927555672.mp3"
+  },
+  {
+    "id": "for a moment, there is nothing i need to hurry for",
+    "text": "For a moment, there is nothing I need to hurry for.",
+    "pack": 5,
+    "path": "audio/pack5/2d4472448c191d3b1d33.mp3"
+  },
+  {
+    "id": "i learn one new word before i move on: gentle",
+    "text": "I learn one new word before I move on: gentle.",
+    "pack": 2,
+    "path": "audio/pack2/0215894a9279f5c2f507.mp3"
+  },
+  {
+    "id": "a gentle wind touches my face",
+    "text": "A gentle wind touches my face.",
+    "pack": 3,
+    "path": "audio/pack3/933099c0f80d0d27c557.mp3"
+  },
+  {
+    "id": "a little progress can be gentle, too",
+    "text": "A little progress can be gentle, too.",
+    "pack": 1,
+    "path": "audio/pack1/e1d5e7d128fd10100f7a.mp3"
+  },
+  {
+    "id": "still",
+    "text": "still",
+    "pack": 4,
+    "path": "audio/pack4/94e8566ddfc123edf115.mp3"
+  },
+  {
+    "id": "a light at the camp",
+    "text": "A Light at the Camp",
+    "pack": 6,
+    "path": "audio/pack6/46d21e6cd69930a51a23.mp3"
+  },
+  {
+    "id": "what does the other walker think about resting",
+    "text": "What does the other walker think about resting?",
+    "pack": 3,
+    "path": "audio/pack3/5bc30837f3c375950e18.mp3"
+  },
+  {
+    "id": "it means giving up",
+    "text": "It means giving up.",
+    "pack": 7,
+    "path": "audio/pack7/d7f180d51324c5823d15.mp3"
+  },
+  {
+    "id": "it is part of the journey",
+    "text": "It is part of the journey.",
+    "pack": 3,
+    "path": "audio/pack3/93fba113a921721bedd7.mp3"
+  },
+  {
+    "id": "it is a waste of time",
+    "text": "It is a waste of time.",
+    "pack": 6,
+    "path": "audio/pack6/36ae0b3c5f0f4a963bb3.mp3"
+  },
+  {
+    "id": "when i arrive at the camp, the sky is turning gold",
+    "text": "When I arrive at the camp, the sky is turning gold.",
+    "pack": 6,
+    "path": "audio/pack6/66fe807d77eb5f9175ea.mp3"
+  },
+  {
+    "id": "another walker is sitting by a small lamp",
+    "text": "Another walker is sitting by a small lamp.",
+    "pack": 4,
+    "path": "audio/pack4/8c9b495a4c66637ce67e.mp3"
+  },
+  {
+    "id": "we have taken different paths, but we have reached the same place",
+    "text": "We have taken different paths, but we have reached the same place.",
+    "pack": 3,
+    "path": "audio/pack3/1bb48a48d32d1af914e9.mp3"
+  },
+  {
+    "id": "was the climb difficult",
+    "text": "Was the climb difficult?",
+    "pack": 5,
+    "path": "audio/pack5/2d424d529c47b5029926.mp3"
+  },
+  {
+    "id": "she asks",
+    "text": "\" she asks.",
+    "pack": 3,
+    "path": "audio/pack3/434e7bba74b1059d4fed.mp3"
+  },
+  {
+    "id": "i tell her that i nearly gave up",
+    "text": "I tell her that I nearly gave up.",
+    "pack": 7,
+    "path": "audio/pack7/a7da4bf5df7ad72730e3.mp3"
+  },
+  {
+    "id": "she smiles and says that resting is part of the journey, not the end of it",
+    "text": "She smiles and says that resting is part of the journey, not the end of it.",
+    "pack": 1,
+    "path": "audio/pack1/c9aa9d96a2a7e8acff2d.mp3"
+  },
+  {
+    "id": "we share a few stories before the stars appear",
+    "text": "We share a few stories before the stars appear.",
+    "pack": 3,
+    "path": "audio/pack3/7b3084cadf967c6a964b.mp3"
+  },
+  {
+    "id": "tomorrow, i will continue at my own pace",
+    "text": "Tomorrow, I will continue at my own pace.",
+    "pack": 3,
+    "path": "audio/pack3/4bfe95b164665ca28453.mp3"
+  },
+  {
+    "id": "tonight, it is enough to know that i am not walking alone",
+    "text": "Tonight, it is enough to know that I am not walking alone.",
+    "pack": 5,
+    "path": "audio/pack5/651ceac860e740835423.mp3"
+  },
+  {
+    "id": "arrive",
+    "text": "arrive",
+    "pack": 5,
+    "path": "audio/pack5/6dc09a300747b82d8bfe.mp3"
+  },
+  {
+    "id": "pace",
+    "text": "pace",
+    "pack": 1,
+    "path": "audio/pack1/19b87ac5ecb1afe2d7f3.mp3"
+  },
+  {
+    "id": "the small things we notice",
+    "text": "The Small Things We Notice",
+    "pack": 5,
+    "path": "audio/pack5/c5cf771789d35ab95a2f.mp3"
+  },
+  {
+    "id": "what changes on the second visit",
+    "text": "What changes on the second visit?",
+    "pack": 6,
+    "path": "audio/pack6/ce76799e6b425e43bf60.mp3"
+  },
+  {
+    "id": "the mountain becomes smaller",
+    "text": "The mountain becomes smaller.",
+    "pack": 7,
+    "path": "audio/pack7/07c5d715c6f501d1c0fe.mp3"
+  },
+  {
+    "id": "the writer walks faster",
+    "text": "The writer walks faster.",
+    "pack": 3,
+    "path": "audio/pack3/6bc7b7a4495cf18a7b7c.mp3"
+  },
+  {
+    "id": "the writer pays more attention",
+    "text": "The writer pays more attention.",
+    "pack": 4,
+    "path": "audio/pack4/ac0253193ebd43e5a67f.mp3"
+  },
+  {
+    "id": "on my first visit to the mountain, i was determined to reach the summit as quickly as possible",
+    "text": "On my first visit to the mountain, I was determined to reach the summit as quickly as possible.",
+    "pack": 2,
+    "path": "audio/pack2/caeeb6b8b26fbfa41420.mp3"
+  },
+  {
+    "id": "i measured success in minutes and distance, and hardly noticed the world around me",
+    "text": "I measured success in minutes and distance, and hardly noticed the world around me.",
+    "pack": 2,
+    "path": "audio/pack2/1a64f156a42c191d8c87.mp3"
+  },
+  {
+    "id": "this time, a tiny snail changes my plans",
+    "text": "This time, a tiny snail changes my plans.",
+    "pack": 3,
+    "path": "audio/pack3/7338297dd89417306199.mp3"
+  },
+  {
+    "id": "its shell carries a perfect spiral, and its patient movement reminds me that speed is only one way to describe progress",
+    "text": "Its shell carries a perfect spiral, and its patient movement reminds me that speed is only one way to describe progress.",
+    "pack": 1,
+    "path": "audio/pack1/598ca96155e0048079d1.mp3"
+  },
+  {
+    "id": "by paying attention, i discover patterns in leaves and unfamiliar sounds in the trees",
+    "text": "By paying attention, I discover patterns in leaves and unfamiliar sounds in the trees.",
+    "pack": 2,
+    "path": "audio/pack2/b22545d26d76d41afbbc.mp3"
+  },
+  {
+    "id": "the mountain has not changed",
+    "text": "The mountain has not changed.",
+    "pack": 0,
+    "path": "audio/pack0/30a61b0183ab04282e19.mp3"
+  },
+  {
+    "id": "what has changed is the quality of my attention",
+    "text": "What has changed is the quality of my attention.",
+    "pack": 5,
+    "path": "audio/pack5/b57184acc66fec0bb747.mp3"
+  },
+  {
+    "id": "determined",
+    "text": "determined",
+    "pack": 1,
+    "path": "audio/pack1/891af2861ee601923b01.mp3"
+  },
+  {
+    "id": "attention",
+    "text": "attention",
+    "pack": 0,
+    "path": "audio/pack0/e0787d272a439bb74b76.mp3"
+  },
+  {
+    "id": "squirrel",
+    "text": "squirrel",
+    "pack": 6,
+    "path": "audio/pack6/960a38ace75a2fe9426a.mp3"
+  },
+  {
+    "id": "a squirrel is hiding behind the tree",
+    "text": "A squirrel is hiding behind the tree.",
+    "pack": 2,
+    "path": "audio/pack2/daa5189f11289402a96c.mp3"
+  },
+  {
+    "id": "butterfly",
+    "text": "butterfly",
+    "pack": 4,
+    "path": "audio/pack4/fcfd075cbe367c158d5c.mp3"
+  },
+  {
+    "id": "the butterfly rests on a flower",
+    "text": "The butterfly rests on a flower.",
+    "pack": 1,
+    "path": "audio/pack1/0105100dfd30793e174c.mp3"
+  },
+  {
+    "id": "snail",
+    "text": "snail",
+    "pack": 2,
+    "path": "audio/pack2/62156a7b494a332c0b9b.mp3"
+  },
+  {
+    "id": "the snail moves slowly on a leaf",
+    "text": "The snail moves slowly on a leaf.",
+    "pack": 6,
+    "path": "audio/pack6/3ee6a79ea3f567c119a7.mp3"
+  },
+  {
+    "id": "a bird sings in the morning",
+    "text": "A bird sings in the morning.",
+    "pack": 1,
+    "path": "audio/pack1/59cc2d0c73a9e4373d5a.mp3"
+  },
+  {
+    "id": "firefly",
+    "text": "firefly",
+    "pack": 7,
+    "path": "audio/pack7/afac327e73694e68c02f.mp3"
+  },
+  {
+    "id": "a firefly shines in the dark",
+    "text": "A firefly shines in the dark.",
+    "pack": 4,
+    "path": "audio/pack4/9464db8e7535f062b37f.mp3"
+  },
+  {
+    "id": "ladybird",
+    "text": "ladybird",
+    "pack": 0,
+    "path": "audio/pack0/d8875d72c39a408c6b90.mp3"
+  },
+  {
+    "id": "the ladybird has small black spots",
+    "text": "The ladybird has small black spots.",
+    "pack": 0,
+    "path": "audio/pack0/80182ba7c1dc8f7d4758.mp3"
+  },
+  {
+    "id": "walking english",
+    "text": "Walking English",
+    "pack": 7,
+    "path": "audio/pack7/7f547e41c77e57d3381e.mp3"
+  },
+  {
+    "id": "stories along the way",
+    "text": "Stories Along the Way",
+    "pack": 4,
+    "path": "audio/pack4/a4856a4fc712a4a43693.mp3"
+  },
+  {
+    "id": "take your time",
+    "text": "Take Your Time",
+    "pack": 4,
+    "path": "audio/pack4/0ca7da55239636e9f5dc.mp3"
+  },
+  {
+    "id": "a little every day",
+    "text": "A Little Every Day",
+    "pack": 0,
+    "path": "audio/pack0/100bcf5d45f24f5e6f89.mp3"
+  },
+  {
+    "id": "wonder a little further",
+    "text": "Wonder a Little Further",
+    "pack": 0,
+    "path": "audio/pack0/909360b06b00ae35ba6f.mp3"
+  },
+  {
+    "id": "your own little journey",
+    "text": "Your Own Little Journey",
+    "pack": 7,
+    "path": "audio/pack7/2f8c12c72cec63bebc15.mp3"
+  },
+  {
+    "id": "meet",
+    "text": "Meet.",
+    "pack": 4,
+    "path": "audio/pack4/8ccb033c0e48b27ff91e.mp3"
+  },
+  {
+    "id": "keep going",
+    "text": "Keep Going.",
+    "pack": 6,
+    "path": "audio/pack6/6e7ecf10083ec035057b.mp3"
+  },
+  {
+    "id": "people on your path",
+    "text": "People on Your Path",
+    "pack": 0,
+    "path": "audio/pack0/e0512ab98832253705a1.mp3"
+  },
+  {
+    "id": "noun",
+    "text": "noun",
+    "pack": 3,
+    "path": "audio/pack3/1351d52cee6cc1c07849.mp3"
+  },
+  {
+    "id": "verb",
+    "text": "verb",
+    "pack": 0,
+    "path": "audio/pack0/6806f86a17f0ae04d4ad.mp3"
+  },
+  {
+    "id": "adjective",
+    "text": "adjective",
+    "pack": 7,
+    "path": "audio/pack7/2f2473fd837c0cb7e322.mp3"
+  },
+  {
+    "id": "adverb",
+    "text": "adverb",
+    "pack": 7,
+    "path": "audio/pack7/cf1fd59bdb9518fb8429.mp3"
+  },
+  {
+    "id": "preposition",
+    "text": "preposition",
+    "pack": 2,
+    "path": "audio/pack2/9aeb4569988b718c9f9c.mp3"
+  },
+  {
+    "id": "conjunction",
+    "text": "conjunction",
+    "pack": 2,
+    "path": "audio/pack2/12abd6fbac0f2f0e8c38.mp3"
+  },
+  {
+    "id": "pronoun",
+    "text": "pronoun",
+    "pack": 0,
+    "path": "audio/pack0/d890b4d728276df31edf.mp3"
+  },
+  {
+    "id": "interjection",
+    "text": "interjection",
+    "pack": 1,
+    "path": "audio/pack1/516d940fda36ffd106f4.mp3"
+  },
+  {
+    "id": "phrase",
+    "text": "phrase",
+    "pack": 0,
+    "path": "audio/pack0/c00062f7ec9c80e2e77a.mp3"
+  }
+]

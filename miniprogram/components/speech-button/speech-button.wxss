@@ -1,0 +1,7 @@
+:host { display: inline-block; vertical-align: middle; max-width: 100%; }
+.listen { display: inline-flex; align-items: center; justify-content: center; gap: 9rpx; box-sizing: border-box; min-height: 64rpx; margin: 8rpx 0; padding: 8rpx 20rpx; background: #e4ebdf; color: #365b48; border: 1rpx solid #bdcdb8; border-radius: 30rpx; font-size: 23rpx; line-height: 1.5; font-weight: 500; white-space: nowrap; }
+.listen::after { border: 0; }
+.listen.active { background: #365b48; color: #fffaf0; border-color: #365b48; }
+.listen.compact { min-height: 56rpx; padding: 7rpx 13rpx; font-size: 21rpx; }
+.symbol { font-size: 19rpx; }
+.progress { opacity: .8; font-size: 20rpx; }

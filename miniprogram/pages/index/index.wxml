@@ -1,0 +1,16 @@
+<view class="hub">
+  <view class="row"><view class="english-heading"><text class="eyebrow">WALKING ENGLISH</text><speech-button text="WALKING ENGLISH" compact="{{true}}" label="听读"/></view><text class="link" bindtap="goDiscover">{{city.name}} · 换座山 ↗</text></view>
+  <view class="title">让每个单词，<view>陪你走一段山路。</view></view><view class="subtitle">不赶路，慢慢积累。今天也向前一点。</view>
+  <view class="hero"><image class="hero-image" src="/assets/trail/watercolor-valley.jpg" mode="aspectFill"/><view class="hero-shade"/><view class="hero-content">
+    <text class="eyebrow">继续你的山间旅程</text><view class="hero-title">{{current.name}} <text class="hero-alias">{{current.alias}}</text></view>
+    <view class="subtitle">{{book.name}} · 已走过 {{current.pct}}% · {{current.learned}} / {{current.totalWords}} 词</view>
+    <button class="hero-button" data-id="{{current.id}}" bindtap="enterTrail">{{current.done ? '重游这段山路' : '开始今天的徒步'}} <text>→</text></button>
+  </view></view>
+  <view class="stat-grid"><view class="stat"><text class="stat-num">{{totalLearned}}</text><text class="muted">当前城市已学</text></view><view class="stat"><text class="stat-num">{{reviewDue}}</text><text class="muted">本词书待复习</text></view><view class="stat"><text class="stat-num">{{doneCount}}</text><text class="muted">当前城市登顶</text></view></view>
+  <view class="section"><view class="row"><text class="section-title">背一本自己喜欢的词书</text><text class="muted">独立进度</text></view>
+    <view class="chips"><button wx:for="{{books}}" wx:key="id" class="chip {{bookId === item.id ? 'active' : ''}}" data-id="{{item.id}}" bindtap="selectBook">{{item.name}}</button></view>
+    <view class="muted">{{book.description}} · {{book.count}} 词 · 每座城市都能完整学一遍</view>
+  </view>
+  <view class="card section"><view class="row"><view class="grow"><view class="name">{{reviewDue ? '营地里的旧朋友' : '给记忆一点时间'}}</view><view class="muted spaced">{{reviewDue ? reviewDue + ' 个单词等待重逢' : reviewHint}}</view></view><button wx:if="{{reviewDue}}" class="small-btn" bindtap="goReview">去复习 →</button><button wx:else class="small-btn" bindtap="goPractice">小练习 →</button></view></view>
+  <view class="muted footer-note">一程山路，一点收获。你的进步会被好好记住。</view>
+</view>

@@ -1,0 +1,23 @@
+// 本地视觉验收：直接加载山道 JS / WXML / WXSS，模拟 wx Canvas 和组件接口。
+// 音频使用真实 MP3；不模拟微信授权、分包下载策略、分享或真机性能，不用于发布。
+const http = require('node:http')
+const fs = require('node:fs')
+const path = require('node:path')
+const root = path.resolve(__dirname, '..')
+const port = Number(process.env.PREVIEW_PORT || 4173)
+const server = http.createServer((req, res) => {
+  const url = new URL(req.url, 'http://localhost')
+  let file = decodeURIComponent(url.pathname)
+  if (file === '/') file = '/tools/preview.html'
+  if (file.startsWith('/assets/') || file.startsWith('/audio/')) file = '/miniprogram' + file
+  const target = path.resolve(root, '.' + file)
+  const allowed = ['miniprogram', 'tools'].some((dir) => target.startsWith(path.join(root, dir) + path.sep))
+  if (!allowed) { res.writeHead(403); res.end(); return }
+  fs.readFile(target, (error, data) => {
+    if (error) { res.writeHead(404); res.end('Not found'); return }
+    const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.wxss': 'text/plain; charset=utf-8', '.wxml': 'text/plain; charset=utf-8', '.jpg': 'image/jpeg', '.png': 'image/png', '.mp3':'audio/mpeg' }
+    res.writeHead(200, { 'Content-Type': types[path.extname(target)] || 'application/octet-stream', 'Cache-Control': 'no-store' })
+    res.end(data)
+  })
+})
+server.listen(port, '127.0.0.1', () => console.log('Trail preview: http://127.0.0.1:' + port))

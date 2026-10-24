@@ -1,0 +1,82 @@
+{
+  "title": "Child of Light - Steam reference images",
+  "sourcePage": "https://store.steampowered.com/app/256290/?l=schinese",
+  "downloadedAt": "2026-10-23T04:56:15.221Z",
+  "note": "Flattened screenshots and store cover; no layered source art or character animation files.",
+  "fileCount": 8,
+  "totalBytes": 6154956,
+  "files": [
+    {
+      "filename": "screenshot-01.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_c8b078e853b8535c51512694ba2b82ead4f02d8a.1920x1080.jpg?t=1777993974",
+      "bytes": 309158,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9c42a33708f987e4f942b441350f4a703647280c62c7a42fa6c47149e5481b2a",
+      "reused": false
+    },
+    {
+      "filename": "screenshot-02.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_6de7a1ca8ec7a59fa68065d418f247675de3e1a5.1920x1080.jpg?t=1777993974",
+      "bytes": 816959,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "37c655d34bb3b71c9dc9b0cfb8c7de91c96426a7c2af865281c6c5eb90b60045",
+      "reused": false
+    },
+    {
+      "filename": "screenshot-03.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_aa99e09c5d3d5936b820555448bbf123479104df.1920x1080.jpg?t=1777993974",
+      "bytes": 431850,
+      "width": 1728,
+      "height": 1080,
+      "sha256": "16ab05e7c30895f85c527d828eebc6b3123c75debbf7d4793c3a8b019a6fa113",
+      "reused": false
+    },
+    {
+      "filename": "screenshot-04.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_224e8004b6e8f9de0b3d524e9d465e998c46fd99.1920x1080.jpg?t=1777993974",
+      "bytes": 1173232,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "877a06548dc1f8a841f2f499d4cd257d3d9e4796aabc1b92f06f08ae455392ad",
+      "reused": false
+    },
+    {
+      "filename": "screenshot-05.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_d6c2e812f72dd9eae818a97eb0700428a3b11d46.1920x1080.jpg?t=1777993974",
+      "bytes": 661900,
+      "width": 1729,
+      "height": 1080,
+      "sha256": "de7036984a47b17cae243631557784774f2c316ae194cc85da0659cedfde0d33",
+      "reused": false
+    },
+    {
+      "filename": "screenshot-06.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_38a89565412b4a729fc92d8417b25cdd1e841d61.1920x1080.jpg?t=1777993974",
+      "bytes": 1311513,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fc5af8ef5442b08f93cfe102dc54f206828d8f44c6a06f479cd02bb27b4b3a32",
+      "reused": false
+    },
+    {
+      "filename": "screenshot-07.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/ss_edb83545058283ab79755fe6de98ea0b7686ad99.1920x1080.jpg?t=1777993974",
+      "bytes": 1415297,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0e6aea71ad2f3445f26b3cbabbc70aa696a6928e6e68c266358b13089bace565",
+      "reused": false
+    },
+    {
+      "filename": "header.jpg",
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256290/header.jpg?t=1777993974",
+      "bytes": 35047,
+      "width": 460,
+      "height": 215,
+      "sha256": "e93dd777478b8f80a182ac8f1b72933d97d33928ab2d31b9cdeac40aec797b72",
+      "reused": false
+    }
+  ]
+}

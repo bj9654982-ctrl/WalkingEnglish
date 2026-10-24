@@ -1,0 +1,38 @@
+<view class="trail-page {{studyOpen ? 'trail-studying' : ''}}">
+  <canvas type="2d" id="landscape" class="landscape-canvas" bindtouchstart="onTouchStart" catchtouchmove="onTouchMove" bindtouchend="onTouchEnd" bindtouchcancel="onTouchEnd"></canvas>
+  <view wx:if="{{loading || sceneError}}" class="scene-status">
+    <text>{{loading ? '正在展开山间画卷…' : '山路暂未加载，仍可继续背词'}}</text>
+    <button wx:if="{{sceneError}}" class="scene-retry" bindtap="initScene">重新加载</button>
+  </view>
+  <view class="hud-top" style="top: {{hudTop}}px; padding-right: {{hudRight}}px;">
+    <view class="page-back page-back-inline" hover-class="page-back-hover" bindtap="goBack"><text class="page-back-icon">‹</text><text>返回</text></view>
+    <view class="hud-title"><view class="hud-name">{{mountain.name}}</view><view class="hud-level">{{mountain.levelName}}</view></view>
+  </view>
+  <view wx:if="{{!studyOpen}}" class="hud-progress-wrap" style="top: {{hudProgressTop}}px;">
+    <view class="chapter-line"><text class="chapter-label">第 {{chapter}} 程 · {{moodLabel}}</text><text>{{pct}}%</text></view>
+    <view class="hud-progress-bar"><view class="hud-progress-fill" style="width: {{pct}}%;"></view></view>
+    <view class="hud-progress-text"><text>{{mountain.tagline}}</text><text>{{learned}} / {{totalWords}} 词</text></view>
+  </view>
+  <view wx:if="{{!studyOpen}}" class="hud-bottom">
+    <button wx:if="{{encounter}}" class="encounter-badge" bindtap="openEncounter">{{encounter.icon}} 遇见了{{encounter.name}} · 停下来看看 ↗</button>
+    <button wx:if="{{lookingAround}}" class="reset-view" bindtap="resetView">回到旅人身边 ↗</button>
+    <view wx:if="{{artFallback}}" class="hud-review-hint">背景暂未载入，山道与学习仍可使用</view>
+    <view class="trail-camps">
+      <view wx:for="{{camps}}" wx:key="id" data-index="{{index}}" bindtap="enterCamp" class="trail-camp {{item.lit ? 'trail-camp-lit' : ''}} {{item.due ? 'trail-camp-due' : ''}} {{item.reached ? 'camp-reached' : ''}}">
+        <view class="camp-lantern">{{item.reached ? '△' : '◇'}}</view><text>营地 {{index + 1}}</text><text class="camp-state">{{item.reached ? '进入 · 遇见旅人' : '前方营地'}}</text>
+      </view>
+    </view>
+    <view class="hud-review-hint">{{reviewDue ? reviewDue + ' 词到期 · 先回忆，再出发' : reviewHint}}</view>
+    <button wx:if="{{reviewDue}}" class="hud-review-btn" bindtap="goReview">复习营地 · {{reviewDue}} 词</button>
+    <button class="hud-btn" bindtap="goLearn">{{btnText}} <text class="btn-arrow">→</text></button>
+    <view class="hud-tip">轻拖看风景 · 双指缩放</view>
+  </view>
+  <view wx:if="{{encounterOpen && encounter}}" class="encounter-mask">
+    <view class="encounter-card"><text class="encounter-label">山林里的小小相遇</text><view class="encounter-icon">{{encounter.icon}}</view><view class="encounter-name">{{encounter.name}}</view><view class="encounter-hint">{{encounter.hint}}</view>
+      <view wx:if="{{!animalCorrect}}"><view class="encounter-question">你知道它的英文名字吗？</view><view wx:for="{{encounter.choices}}" wx:key="*this" class="animal-answer"><button class="animal-choice" data-word="{{item}}" bindtap="chooseAnimal">{{item}}</button><speech-button text="{{item}}" label="听发音" compact="{{true}}"/></view></view>
+      <view wx:else><view class="encounter-word">{{encounter.word}}</view><speech-button text="{{encounter.word}}" label="单词发音" /><view class="encounter-sentence">{{encounter.sentence}}</view><speech-button text="{{encounter.sentence}}" label="朗读例句" /><view class="encounter-hint">{{encounter.translation}}</view><view class="encounter-fact">{{encounter.fact}}</view></view>
+      <view class="animal-feedback">{{animalFeedback}}</view><button wx:if="{{animalCorrect}}" class="animal-collect" bindtap="collectAnimal">记入观察手册</button><button class="animal-skip" bindtap="closeEncounter">轻轻告别，继续前行</button>
+    </view>
+  </view>
+  <study-sheet wx:if="{{studyOpen}}" id="study" mountain-id="{{mountainId}}" book-id="{{bookId}}" mode="{{studyMode}}" bind:progress="onStudyProgress" bind:complete="onStudyComplete" bind:close="onStudyClose"></study-sheet>
+</view>

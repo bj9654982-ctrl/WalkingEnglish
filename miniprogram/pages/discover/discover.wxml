@@ -1,0 +1,11 @@
+<view class="hub">
+  <view class="english-heading"><text class="eyebrow">WONDER A LITTLE FURTHER</text><speech-button text="WONDER A LITTLE FURTHER" compact="{{true}}" label="听读"/></view><view class="title">下一程，去哪座山？</view><view class="subtitle">换一座城市，遇见新的风景和同行的人。</view>
+  <view class="chips"><button wx:for="{{cities}}" wx:key="id" data-id="{{item.id}}" bindtap="selectCity" class="chip {{city.id === item.id ? 'active' : ''}}">{{item.name}}</button></view>
+  <view class="city-cover"><image src="/assets/trail/watercolor-valley.jpg" mode="aspectFill"/><view class="city-overlay"/><view class="city-copy"><text class="eyebrow">{{city.name}} / {{city.theme}}</text><view class="hero-title">{{city.subtitle}}</view><view class="subtitle">{{city.note}}</view></view></view>
+  <view class="section row"><text class="section-title">{{city.id === 'wuhan' ? '东湖七山' : city.name + '山间路线'}}</text><text class="muted">{{completed}} / {{mountains.length}} 已登顶</text></view>
+  <view class="card mountain-card" wx:for="{{mountains}}" wx:key="id" data-id="{{item.id}}" bindtap="enterTrail" hover-class="mountain-hover">
+    <view class="row"><text class="mountain-number">{{item.chapter}}</text><view class="grow"><view class="row"><text class="name">{{item.name}}</text><text class="tag">{{item.done ? '已登顶' : item.learned ? '徒步中' : '待启程'}}</text></view><view class="muted">{{item.tagline}}</view></view><text class="link">↗</text></view>
+    <view class="bar"><view class="fill" style="width:{{item.pct}}%"/></view><view class="row muted"><text>{{book.name}} · {{item.totalWords}} 词</text><text>{{item.learned}} / {{item.totalWords}}</text></view>
+  </view>
+  <view class="notice">这里是以城市名山为灵感的虚拟学习路线。各城市进度独立，场景不对应真实步道。</view>
+</view>

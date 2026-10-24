@@ -1,0 +1,61 @@
+<!--pages/summit/summit.wxml-->
+<view class="summit-page">
+  <view class="page-back" hover-class="page-back-hover" bindtap="goBack">
+    <text class="page-back-icon">‹</text>
+    <text>返回</text>
+  </view>
+
+  <!-- 背景：夕阳云海 -->
+  <view class="sky">
+    <view class="sun-disc"></view>
+    <view class="cloud-sea"></view>
+    <view class="far-hills"></view>
+    <view class="lake-view"></view>
+  </view>
+
+  <view class="cert">
+    <view class="cert-top">
+      <view class="cert-brand">{{city.name}}山径 · 登顶证书</view>
+      <view class="cert-no">No. {{certNo}}</view>
+    </view>
+
+    <view class="cert-name">{{mountain.name}}</view>
+    <view class="cert-alias">{{bookName}}</view>
+    <view class="cert-alias">{{mountain.tagline}}</view>
+
+    <view class="cert-line"></view>
+
+    <view class="cert-stats">
+      <view class="cs-item">
+        <view class="cs-num">{{learned}}</view>
+        <view class="cs-label">背会单词</view>
+      </view>
+      <view class="cs-item">
+        <view class="cs-num">{{mountain.routeIndex + 1}} / {{routeCount}}</view>
+        <view class="cs-label">城市章节</view>
+      </view>
+      <view class="cs-item">
+        <view class="cs-num">{{durationText}}</view>
+        <view class="cs-label">攀登用时</view>
+        <view wx:if="{{durationNote}}" class="cs-label">{{durationNote}}</view>
+      </view>
+    </view>
+
+    <view class="cert-foot">
+      <text>山径英语 · 每一步都算数</text>
+    </view>
+  </view>
+
+  <view wx:if="{{allDone}}" class="grand-slam">
+    <view class="gs-title">{{city.name}}群山 · 全程完成</view>
+    <view class="gs-sub">这本词书的{{routeCount}}座山都已走完，下一程去发现新的城市</view>
+  </view>
+
+  <view class="actions">
+    <button class="act-share" open-type="share">分享登顶喜悦</button>
+    <view class="act-row">
+      <view wx:if="{{nextMountain}}" class="act-next" bindtap="nextMountainGo">下一座：{{nextMountain.name}} ›</view>
+      <view class="act-home" bindtap="backHome">返回单词</view>
+    </view>
+  </view>
+</view>

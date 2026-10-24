@@ -1,0 +1,11 @@
+{
+  "description": "在云开发控制台按下列字段建立索引；本文件是部署清单，不会自动修改远程数据库。",
+  "indexes": [
+    { "collection": "trail_visits", "name": "camp_members", "unique": false, "fields": [{ "field": "campKey", "order": "asc" }, { "field": "_id", "order": "asc" }] },
+    { "collection": "trail_follows", "name": "following", "unique": false, "fields": [{ "field": "uid", "order": "asc" }, { "field": "active", "order": "asc" }, { "field": "_id", "order": "asc" }] },
+    { "collection": "trail_conversations", "name": "member_inbox", "unique": false, "fields": [{ "field": "members", "order": "asc" }, { "field": "_id", "order": "asc" }] },
+    { "collection": "trail_messages", "name": "message_sequence", "unique": true, "fields": [{ "field": "conversationId", "order": "asc" }, { "field": "seq", "order": "asc" }] },
+    { "collection": "trail_messages", "name": "message_history", "unique": false, "fields": [{ "field": "conversationId", "order": "asc" }, { "field": "seq", "order": "desc" }] },
+    { "collection": "trail_blocks", "name": "blocked_users", "unique": false, "fields": [{ "field": "uid", "order": "asc" }, { "field": "active", "order": "asc" }, { "field": "_id", "order": "asc" }] }
+  ]
+}

@@ -1,0 +1,2 @@
+iframe { height:min(844px,calc(100vh - 58px)); }
+@media(max-width:700px) { iframe { height:100vh; } }

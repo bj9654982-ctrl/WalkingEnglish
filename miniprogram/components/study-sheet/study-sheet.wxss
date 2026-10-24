@@ -1,0 +1,61 @@
+@import "../../pages/word/word.wxss";
+.study-backdrop { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: rgba(8, 13, 25, 0.24); z-index: 20; }
+.study-sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 21; background: #141e33; border-radius: 36rpx 36rpx 0 0; border-top: 1rpx solid rgba(245,201,123,.4); padding-bottom: env(safe-area-inset-bottom); box-shadow: 0 -12rpx 48rpx rgba(0,0,0,.3); }
+.sheet-handle { width: 72rpx; height: 6rpx; border-radius: 8rpx; background: #63718b; margin: 14rpx auto 0; }
+.sheet-head { display: flex; align-items: center; justify-content: space-between; padding: 16rpx 32rpx; }
+.sheet-title { color: #f5c97b; font-size: 28rpx; font-weight: 600; }
+.sheet-sub { color: #95a7c4; font-size: 22rpx; margin-left: 16rpx; }
+.sheet-close { margin: 0; background: rgba(255,255,255,.07); color: #cdd8ee; font-size: 24rpx; line-height: 2; padding: 0 24rpx; border-radius: 28rpx; }
+.sheet-close::after { border: none; }
+.sheet-scroll { height: 63vh; }
+.word-page { min-height: 0; padding: 12rpx 28rpx 32rpx; background: transparent; }
+.learn-head { margin-bottom: 16rpx; }
+.word-card { padding: 28rpx 24rpx; }
+.word-spell { font-size: 52rpx; word-break: break-word; }
+.word-mean { margin-top: 16rpx; }
+.mean-text { font-size: 30rpx; }
+.card-line { margin: 20rpx auto; }
+.speak-btn { margin-top: 20rpx; }
+.learn-nav { margin-top: 24rpx; }
+.nav-primary { padding: 18rpx 30rpx; }
+.nav-ghost { padding: 18rpx 24rpx; }
+.quiz-word-card { padding: 24rpx 0; }
+.quiz-word { font-size: 50rpx; }
+.quiz-progress-bar { margin-bottom: 16rpx; }
+.quiz-title { font-size: 24rpx; }
+.quiz-progress { font-size: 22rpx; }
+.options { margin-top: 18rpx; }
+.option { padding: 20rpx 24rpx; margin-bottom: 14rpx; }
+.result-wrap { padding-top: 36rpx; }
+.result-title { font-size: 36rpx; }
+.result-stats { margin-top: 32rpx; }
+.result-btn { margin-top: 32rpx; }
+.glass-card { background: rgba(31,42,68,.72); border: 1rpx solid rgba(245,201,123,.22); border-radius: 28rpx; }
+
+/* 山道中的单词卡采用暖纸色，答题状态仍保持清晰的绿 / 红反馈。 */
+.study-backdrop { background: rgba(25,44,33,.08); }
+.study-sheet { background: #eee9d7; border-color: #c5c3a5; border-radius: 28rpx 28rpx 0 0; box-shadow: 0 -12rpx 48rpx rgba(34,51,36,.18); color: #3f5142; }
+.sheet-handle { background: #b0b299; }
+.sheet-title, .learn-mountain, .result-step { color: #4c644b; }
+.sheet-sub, .learn-count, .quiz-progress, .rs-label { color: #78816a; }
+.sheet-close { background: rgba(93,113,76,.09); color: #4b614a; }
+.word-card, .quiz-word-card { background: linear-gradient(150deg,#f9f4e4,#e9e5cf); border-color: #ceceb1; box-shadow: 0 5rpx 16rpx rgba(64,79,49,.06); border-radius: 10rpx 28rpx 10rpx 28rpx; }
+.word-spell, .quiz-word, .result-title { color: #344d3c; }
+.word-phonetic, .quiz-phonetic, .word-example-zh { color: #7d826c; }
+.mean-text, .word-example, .quiz-title { color: #4e5e48; }
+.word-pos, .speak-btn { color: #62754e; border-color: #b4bf98; background: rgba(161,173,128,.1); }
+.card-line { background: #c3c7a8; }
+.dot { background: #c9ccb2; }
+.dot-active { background: #7b8e5e; box-shadow: 0 0 8rpx rgba(121,146,84,.2); }
+.nav-ghost { color: #66775b; border-color: #b9c1a1; }
+.nav-primary, .result-btn { color: #354b36; background: linear-gradient(125deg,#e3d3a2,#c6b77e); box-shadow: 0 5rpx 16rpx rgba(113,111,67,.13); }
+.quiz-progress-bar { background: #d8dac0; }
+.quiz-progress-fill { background: linear-gradient(90deg,#758c61,#b5a56a); }
+.option { background: rgba(250,248,234,.8); border-color: #c9cfb4; color: #455b43; }
+.option-right { background: #dde9cb; border-color: #7c9a62; color: #36582d; }
+.option-wrong { background: #f0dcd0; border-color: #b97d65; color: #864f3c; }
+.option-right .option-mark { color: #5e884a; }
+.option-wrong .option-mark { color: #ac654c; }
+.quiz-tip { color: #878c75; }
+.glass-card { background: #e2e4ce; border-color: #c9ceb0; }
+.rs-num { color: #6d8050; }
