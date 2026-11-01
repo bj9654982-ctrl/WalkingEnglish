@@ -4788,6 +4788,264 @@
     "path": "audio/pack0/80182ba7c1dc8f7d4758.mp3"
   },
   {
+    "id": "a universal image quality index",
+    "text": "A Universal Image Quality Index",
+    "pack": 6,
+    "path": "audio/pack6/66fef842c93ffbf15cb2.mp3"
+  },
+  {
+    "id": "image quality assessment: from error visibility to structural similarity",
+    "text": "Image Quality Assessment: From Error Visibility to Structural Similarity",
+    "pack": 0,
+    "path": "audio/pack0/58cea3341766ec586167.mp3"
+  },
+  {
+    "id": "multi-scale structural similarity for image quality assessment",
+    "text": "Multi-Scale Structural Similarity for Image Quality Assessment",
+    "pack": 2,
+    "path": "audio/pack2/da26155e6e0f3cf127a3.mp3"
+  },
+  {
+    "id": "an information fidelity criterion for image quality assessment using natural scene statistics",
+    "text": "An Information Fidelity Criterion for Image Quality Assessment Using Natural Scene Statistics",
+    "pack": 1,
+    "path": "audio/pack1/a14075b4e2825cb04570.mp3"
+  },
+  {
+    "id": "maximum differentiation (mad) competition: a methodology for comparing computational models of perceptual quantities",
+    "text": "Maximum Differentiation (MAD) Competition: A Methodology for Comparing Computational Models of Perceptual Quantities",
+    "pack": 3,
+    "path": "audio/pack3/eb2added16c16dacd558.mp3"
+  },
+  {
+    "id": "fsim: a feature similarity index for image quality assessment",
+    "text": "FSIM: A Feature Similarity Index for Image Quality Assessment",
+    "pack": 3,
+    "path": "audio/pack3/9300ec3a5c9b1dc79389.mp3"
+  },
+  {
+    "id": "information content weighting for perceptual image quality assessment",
+    "text": "Information Content Weighting for Perceptual Image Quality Assessment",
+    "pack": 6,
+    "path": "audio/pack6/369c41e49364d23ddd26.mp3"
+  },
+  {
+    "id": "gradient magnitude similarity deviation: a highly efficient perceptual image quality index",
+    "text": "Gradient Magnitude Similarity Deviation: A Highly Efficient Perceptual Image Quality Index",
+    "pack": 7,
+    "path": "audio/pack7/af3eaf207e0058cee1da.mp3"
+  },
+  {
+    "id": "vsi: a visual saliency-induced index for perceptual image quality assessment",
+    "text": "VSI: A Visual Saliency-Induced Index for Perceptual Image Quality Assessment",
+    "pack": 2,
+    "path": "audio/pack2/a248d09241dc48c6456f.mp3"
+  },
+  {
+    "id": "a haar wavelet-based perceptual similarity index for image quality assessment",
+    "text": "A Haar Wavelet-Based Perceptual Similarity Index for Image Quality Assessment",
+    "pack": 3,
+    "path": "audio/pack3/f3f1b89d0bacdefddc58.mp3"
+  },
+  {
+    "id": "the unreasonable effectiveness of deep features as a perceptual metric",
+    "text": "The Unreasonable Effectiveness of Deep Features as a Perceptual Metric",
+    "pack": 4,
+    "path": "audio/pack4/ac66fed7d921134233ef.mp3"
+  },
+  {
+    "id": "pieapp: perceptual image-error assessment through pairwise preference",
+    "text": "PieAPP: Perceptual Image-Error Assessment through Pairwise Preference",
+    "pack": 0,
+    "path": "audio/pack0/50f7729be6ee65baf437.mp3"
+  },
+  {
+    "id": "image quality assessment: unifying structure and texture similarity",
+    "text": "Image Quality Assessment: Unifying Structure and Texture Similarity",
+    "pack": 6,
+    "path": "audio/pack6/f63448aaa3f8531f7be9.mp3"
+  },
+  {
+    "id": "reduced-reference image quality assessment using divisive normalization-based image representation",
+    "text": "Reduced-Reference Image Quality Assessment Using Divisive Normalization-Based Image Representation",
+    "pack": 2,
+    "path": "audio/pack2/528037c3111f106a13fa.mp3"
+  },
+  {
+    "id": "rred indices: reduced reference entropic differencing for image quality assessment",
+    "text": "RRED Indices: Reduced Reference Entropic Differencing for Image Quality Assessment",
+    "pack": 2,
+    "path": "audio/pack2/223bedeb636ffeb587b0.mp3"
+  },
+  {
+    "id": "a two-step framework for constructing blind image quality indices",
+    "text": "A Two-Step Framework for Constructing Blind Image Quality Indices",
+    "pack": 7,
+    "path": "audio/pack7/b77d7a4b8d7deda1e8c9.mp3"
+  },
+  {
+    "id": "blind image quality assessment: from natural scene statistics to perceptual quality",
+    "text": "Blind Image Quality Assessment: From Natural Scene Statistics to Perceptual Quality",
+    "pack": 4,
+    "path": "audio/pack4/94fdb99ea0c82195df53.mp3"
+  },
+  {
+    "id": "model-based blind image quality assessment using natural dct statistics",
+    "text": "Model-Based Blind Image Quality Assessment Using Natural DCT Statistics",
+    "pack": 0,
+    "path": "audio/pack0/38808c18d05fc9fb97fa.mp3"
+  },
+  {
+    "id": "no-reference image quality assessment in the spatial domain",
+    "text": "No-Reference Image Quality Assessment in the Spatial Domain",
+    "pack": 3,
+    "path": "audio/pack3/0362bb035d0d914ec544.mp3"
+  },
+  {
+    "id": "making a completely blind image quality analyzer",
+    "text": "Making a Completely Blind Image Quality Analyzer",
+    "pack": 4,
+    "path": "audio/pack4/44f25f132b1b77332b8b.mp3"
+  },
+  {
+    "id": "a feature-enriched completely blind image quality evaluator",
+    "text": "A Feature-Enriched Completely Blind Image Quality Evaluator",
+    "pack": 5,
+    "path": "audio/pack5/451556d3c28e431a93bf.mp3"
+  },
+  {
+    "id": "perceptual quality prediction on authentically distorted images using a bag of features approach",
+    "text": "Perceptual Quality Prediction on Authentically Distorted Images Using a Bag of Features Approach",
+    "pack": 2,
+    "path": "audio/pack2/9a39e29b559b44589dbf.mp3"
+  },
+  {
+    "id": "convolutional neural networks for no-reference image quality assessment",
+    "text": "Convolutional Neural Networks for No-Reference Image Quality Assessment",
+    "pack": 7,
+    "path": "audio/pack7/c72e248d506201a97972.mp3"
+  },
+  {
+    "id": "deep blind image quality assessment by employing fr-iqa",
+    "text": "Deep Blind Image Quality Assessment by Employing FR-IQA",
+    "pack": 6,
+    "path": "audio/pack6/f69002bc9487847484a2.mp3"
+  },
+  {
+    "id": "rankiqa: learning from rankings for no-reference image quality assessment",
+    "text": "RankIQA: Learning from Rankings for No-reference Image Quality Assessment",
+    "pack": 5,
+    "path": "audio/pack5/8de89d7ec02b2cf4b46b.mp3"
+  },
+  {
+    "id": "deep neural networks for no-reference and full-reference image quality assessment",
+    "text": "Deep Neural Networks for No-Reference and Full-Reference Image Quality Assessment",
+    "pack": 5,
+    "path": "audio/pack5/75f0575816fa39c7a67d.mp3"
+  },
+  {
+    "id": "end-to-end blind image quality assessment using deep neural networks",
+    "text": "End-to-End Blind Image Quality Assessment Using Deep Neural Networks",
+    "pack": 0,
+    "path": "audio/pack0/a0f916968dc8d37c04eb.mp3"
+  },
+  {
+    "id": "nima: neural image assessment",
+    "text": "NIMA: Neural Image Assessment",
+    "pack": 4,
+    "path": "audio/pack4/54cfa39c8e69832ae52a.mp3"
+  },
+  {
+    "id": "a probabilistic quality representation approach to deep blind image quality prediction",
+    "text": "A Probabilistic Quality Representation Approach to Deep Blind Image Quality Prediction",
+    "pack": 3,
+    "path": "audio/pack3/c3326f47626e72c5c3d3.mp3"
+  },
+  {
+    "id": "blind image quality assessment using a deep bilinear convolutional neural network",
+    "text": "Blind Image Quality Assessment Using a Deep Bilinear Convolutional Neural Network",
+    "pack": 7,
+    "path": "audio/pack7/8f6c094f3f7e23c490b8.mp3"
+  },
+  {
+    "id": "blindly assess image quality in the wild guided by a self-adaptive hyper network",
+    "text": "Blindly Assess Image Quality in the Wild Guided by a Self-Adaptive Hyper Network",
+    "pack": 7,
+    "path": "audio/pack7/6fb107a3a8c85a8cacd6.mp3"
+  },
+  {
+    "id": "metaiqa: deep meta-learning for no-reference image quality assessment",
+    "text": "MetaIQA: Deep Meta-learning for No-Reference Image Quality Assessment",
+    "pack": 5,
+    "path": "audio/pack5/ddc43adf0094b9953fec.mp3"
+  },
+  {
+    "id": "musiq: multi-scale image quality transformer",
+    "text": "MUSIQ: Multi-scale Image Quality Transformer",
+    "pack": 1,
+    "path": "audio/pack1/199b3656c19842bf62e7.mp3"
+  },
+  {
+    "id": "uncertainty-aware blind image quality assessment in the laboratory and wild",
+    "text": "Uncertainty-Aware Blind Image Quality Assessment in the Laboratory and Wild",
+    "pack": 4,
+    "path": "audio/pack4/6c8aaaef3fed8630634c.mp3"
+  },
+  {
+    "id": "rapique: rapid and accurate video quality prediction of user generated content",
+    "text": "RAPIQUE: Rapid and Accurate Video Quality Prediction of User Generated Content",
+    "pack": 1,
+    "path": "audio/pack1/e1493c33307e4df8cd8b.mp3"
+  },
+  {
+    "id": "image quality assessment using contrastive learning",
+    "text": "Image Quality Assessment Using Contrastive Learning",
+    "pack": 2,
+    "path": "audio/pack2/aa4cee4a697cb1be66fc.mp3"
+  },
+  {
+    "id": "maniqa: multi-dimension attention network for no-reference image quality assessment",
+    "text": "MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment",
+    "pack": 7,
+    "path": "audio/pack7/0f09d3f1393517a74de1.mp3"
+  },
+  {
+    "id": "exploring clip for assessing the look and feel of images",
+    "text": "Exploring CLIP for Assessing the Look and Feel of Images",
+    "pack": 6,
+    "path": "audio/pack6/263bce81e2fa49cb470f.mp3"
+  },
+  {
+    "id": "topiq: a top-down approach from semantics to distortions for image quality assessment",
+    "text": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+    "pack": 2,
+    "path": "audio/pack2/c2516c9b605fb92fae48.mp3"
+  },
+  {
+    "id": "q-align: teaching lmms for visual scoring via discrete text-defined levels",
+    "text": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+    "pack": 3,
+    "path": "audio/pack3/c390943399b25c80248b.mp3"
+  },
+  {
+    "id": "the effects of a visual fidelity criterion on the encoding of images",
+    "text": "The Effects of a Visual Fidelity Criterion on the Encoding of Images",
+    "pack": 0,
+    "path": "audio/pack0/50632a4d7e1b83286bae.mp3"
+  },
+  {
+    "id": "blind image quality assessment based on sparse representation of multi-level information",
+    "text": "Blind Image Quality Assessment Based on Sparse Representation of Multi-level Information",
+    "pack": 5,
+    "path": "audio/pack5/4d0007c16895c7ebf0f2.mp3"
+  },
+  {
+    "id": "image quality papers",
+    "text": "Image Quality Papers",
+    "pack": 1,
+    "path": "audio/pack1/29e9a8a4f82f23bd37b7.mp3"
+  },
+  {
     "id": "walking english",
     "text": "Walking English",
     "pack": 7,

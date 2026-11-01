@@ -37,7 +37,7 @@ async function source(text, token) {
     return { src: '/' + local, dispose() {} }
   }
   // Arbitrary player text stays within the app's own cloud service; never send it to a dictionary URL.
-  if (!cloudConfig.envId || !wx.cloud) throw Error('这段自定义英文需要云端朗读服务，连接云环境后即可使用。')
+  if (!cloudConfig.envId || !wx.cloud) throw Error('这段内容需要云端朗读，连接语音服务后即可收听。')
   if (!require('./social.js').init()) throw Error('暂时无法连接云端朗读服务。')
   const response = await wx.cloud.callFunction({ name: 'trailSpeech', data: { text } })
   if (token !== generation) return null

@@ -4,6 +4,8 @@ const {getBook}=require('../../utils/wordCatalog.js')
 const {ANIMALS}=require('../../utils/wildlife.js')
 const journal=require('../../utils/journal.js')
 const social=require('../../utils/social.js')
+const paperLibrary=require('../../utils/paperLibrary.js')
+const vocabulary=require('../../utils/vocabulary.js')
 Page({
  data:{avatars:social.AVATARS,avatarIndex:0,nickname:'',bio:'',profile:null,configured:false,saving:false,error:'',animals:[]},
  onLoad(){this.destroyed=false},
@@ -12,8 +14,8 @@ Page({
   const seen=new Set(Object.values(notes.encounters).map(r=>r.animalId))
   const animals=ANIMALS.map(a=>Object.assign({},a,{seen:seen.has(a.id)}))
   this.setData({configured:social.available(),book:getBook(bookId),learned:progress.totalLearned,minutes:Math.round(progress.totalMinutes),
-   summits:ALL_MOUNTAINS.filter(m=>storage.isMountainDone(m.id,bookId)).length,readingCount:Object.keys(notes.reading).length,
-   animalCount:seen.size,animals,error:''})
+   summits:ALL_MOUNTAINS.filter(m=>storage.isMountainDone(m.id,bookId)).length,readingCount:paperLibrary.stats().completed,
+   animalCount:seen.size,animals,error:'',vocabularyCount:vocabulary.all().length})
   if(!social.available())return
   try{const result=await social.call('me');if(!this.destroyed)this.setData({profile:result.profile,nickname:result.profile?result.profile.nickname:'',bio:result.profile?result.profile.bio:'',avatarIndex:result.profile?result.profile.avatarIndex:0})}
   catch(e){if(!this.destroyed)this.setData({error:e.message})}
@@ -30,5 +32,7 @@ Page({
   finally{if(!this.destroyed)this.setData({saving:false})}
  },
  openSocial(e){wx.navigateTo({url:'/pages/social/social?mode='+e.currentTarget.dataset.mode})},
- resetProgress(){wx.showModal({title:'清空本机学习记录？',content:'将清空所有词书、城市的登山与复习记录，以及阅读、练习和生物手册。云端营地、关注与私信不受影响。此操作不可恢复。',confirmColor:'#a85340',success:r=>{if(r.confirm){storage.resetAll();journal.reset();this.onShow()}}})}
+ openVocabulary(){wx.navigateTo({url:'/pages/vocabulary/vocabulary'})},
+ openAnimal(e){wx.navigateTo({url:'/pages/animal/animal?id='+encodeURIComponent(e.currentTarget.dataset.id)})},
+ resetProgress(){wx.showModal({title:'清空本机学习记录？',content:'将清空所有词书、城市的登山与复习记录，以及论文阅读位置、收藏、练习和生物手册。生词本与云端营地、关注、私信不受影响。此操作不可恢复。',confirmColor:'#a85340',success:r=>{if(r.confirm){storage.resetAll();journal.reset();paperLibrary.reset();this.onShow()}}})}
 })

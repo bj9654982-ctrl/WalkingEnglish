@@ -1,5 +1,5 @@
 <view class="hub">
-  <view class="row"><view class="english-heading"><text class="eyebrow">WALKING ENGLISH</text><speech-button text="WALKING ENGLISH" compact="{{true}}" label="听读"/></view><text class="link" bindtap="goDiscover">{{city.name}} · 换座山 ↗</text></view>
+  <view class="row"><view class="english-heading"><view class="eyebrow"><lookup-text text="WALKING ENGLISH" source="页面寄语"/></view><speech-button text="WALKING ENGLISH" compact="{{true}}" label="听读"/></view><text class="link" bindtap="goDiscover">{{city.name}} · 换座山 ↗</text></view>
   <view class="title">让每个单词，<view>陪你走一段山路。</view></view><view class="subtitle">不赶路，慢慢积累。今天也向前一点。</view>
   <view class="hero"><image class="hero-image" src="/assets/trail/watercolor-valley.jpg" mode="aspectFill"/><view class="hero-shade"/><view class="hero-content">
     <text class="eyebrow">继续你的山间旅程</text><view class="hero-title">{{current.name}} <text class="hero-alias">{{current.alias}}</text></view>

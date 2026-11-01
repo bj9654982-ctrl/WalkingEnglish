@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/skywind3000/ECDICT",
+  "sha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
+  "entries": 13720,
+  "corpusTokens": 11572,
+  "corpusMatched": 9047,
+  "packageBytes": [
+    292634,
+    290839,
+    291521,
+    290625
+  ]
+}

@@ -1,0 +1,4 @@
+:host{display:inline;font:inherit;color:inherit;line-height:inherit}
+.lookup-copy{white-space:pre-wrap;word-wrap:break-word;font:inherit;color:inherit;line-height:inherit}
+.lookup-word{border-radius:4rpx}
+.lookup-pressed{background:#d7e8d8;color:#254c39}

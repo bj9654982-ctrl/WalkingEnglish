@@ -1,2 +1,4 @@
 @import '../../styles/hub.wxss';
+.word-audio { display: flex; justify-content: center; align-items: center; margin: -20rpx 0 24rpx; }
+.choice { display:block; width:100%; }
 .practice-art{padding:65rpx 0;color:#8b9e6f;font-size:86rpx;text-align:center}.practice-art text{display:block;font-size:24rpx;margin-top:20rpx;letter-spacing:4rpx}.quiz-word{font-size:64rpx;font-family:Georgia,serif;text-align:center;margin-top:60rpx}.phonetic{text-align:center;color:#89937e;margin:12rpx 0 42rpx;font-size:27rpx}.choice{padding:24rpx;margin:16rpx 0;background:#fcfaf3;border:1rpx solid #dedfcc;border-radius:18rpx;text-align:left;font-size:28rpx;line-height:1.6;color:#3c5544}.choice.selected{background:#dee6d2}.choice[disabled]{color:#687560}

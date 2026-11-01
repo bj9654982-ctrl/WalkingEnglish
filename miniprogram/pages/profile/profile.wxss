@@ -1,2 +1,4 @@
 @import '../../styles/hub.wxss';
+.animal-entry-note { display:block; margin-top:14rpx; font-size:21rpx; color:#859079; }
+.animal-pressed { opacity:.75; }
 .menu{font-size:28rpx;padding:6rpx 0}.animal-grid{display:flex;flex-wrap:wrap;gap:16rpx}.animal-cell{box-sizing:border-box;width:calc((100% - 32rpx)/3);text-align:center;background:#fcfaf3;border:1rpx solid #e1e1d2;border-radius:20rpx;padding:25rpx 6rpx;font-size:24rpx}.animal-icon{font-size:44rpx;margin-bottom:14rpx}.unseen{color:#a1aa95;background:#eeeee2}.bio{height:160rpx}.reset-link{font-size:23rpx;color:#a2816c;background:transparent;margin-top:45rpx}

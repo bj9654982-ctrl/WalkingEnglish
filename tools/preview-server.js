@@ -8,6 +8,21 @@ const port = Number(process.env.PREVIEW_PORT || 4173)
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost')
   let file = decodeURIComponent(url.pathname)
+  const paperMatch = /^\/paper-original\/([a-z0-9-]+)\.pdf$/.exec(file)
+  if (paperMatch) {
+    const paper = require('../miniprogram/data/papers.js').papers.find(p=>p.id===paperMatch[1])
+    if (!paper) { res.writeHead(404); res.end('Paper not found'); return }
+    const original = path.join(root,'references/paper-import/originals',paper.filename)
+    const size = fs.statSync(original).size, range = req.headers.range && /^bytes=(\d+)-(\d*)$/.exec(req.headers.range)
+    let start=0,end=size-1,status=200
+    if(range){start=Number(range[1]);end=range[2]?Math.min(Number(range[2]),size-1):end;status=206}
+    if(start>end||start>=size){res.writeHead(416,{'Content-Range':'bytes */'+size});res.end();return}
+    const headers={'Content-Type':'application/pdf','Content-Length':end-start+1,'Accept-Ranges':'bytes','Cache-Control':'no-store'}
+    if(status===206)headers['Content-Range']='bytes '+start+'-'+end+'/'+size
+    res.writeHead(status,headers)
+    if(req.method==='HEAD'){res.end();return}
+    const stream=fs.createReadStream(original,{start,end});stream.on('error',()=>res.destroy());stream.pipe(res);return
+  }
   if (file === '/') file = '/tools/preview.html'
   if (file.startsWith('/assets/') || file.startsWith('/audio/')) file = '/miniprogram' + file
   const target = path.resolve(root, '.' + file)

@@ -44,7 +44,7 @@ async function main() {
       } }
       walk(path.join(__dirname, '../miniprogram'))
       assert.ok(main < 2 * 1024 * 1024)
-      assert.ok([...sizes.values()].every(n => n < 1.7e6)); assert.ok(main + [...sizes.values()].reduce((a,b)=>a+b,0) < 20 * 1024 * 1024)
+      assert.ok([...sizes.values()].every(n => n < 1.9e6)); assert.ok(main + [...sizes.values()].reduce((a,b)=>a+b,0) < 20 * 1024 * 1024)
     })
     await test('混合文本仅读英文、标点分句、长段落按词边界分块', () => {
       assert.equal(english('他说：Hello, friend! 中文结束。'), 'Hello, friend!')

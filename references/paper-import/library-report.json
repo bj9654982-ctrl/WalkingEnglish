@@ -1,0 +1,17 @@
+{
+  "papers": 42,
+  "pages": 496,
+  "duplicates": [
+    {
+      "file": "TOPIQ-chenchaofeng.pdf",
+      "sameAs": "45-TOPIQ-2024.pdf"
+    }
+  ],
+  "textPackages": [
+    586921,
+    631161,
+    545670,
+    455954
+  ],
+  "pdfBytes": 153937752
+}

@@ -1,0 +1,6 @@
+<view class="hub vocabulary-page"><view class="title">把遇见的词，留下来。</view><view class="subtitle">已收藏 {{total}} 个生词 · 保存在本机</view>
+  <block wx:if="{{total}}"><input class="field search-field" value="{{query}}" bindinput="search" placeholder="搜索单词、释义、笔记或来源"/><view class="row section"><text class="muted">{{matched}} 个匹配</text><button class="sort-button" bindtap="sort">{{sort==='recent'?'最近收藏 ↓':'字母 A–Z ↓'}}</button></view>
+  <view wx:for="{{items}}" wx:key="word" class="card vocabulary-card" data-word="{{item.word}}" bindtap="open" hover-class="card-pressed" aria-role="button" aria-label="{{'查看生词 '+item.word}}"><view class="row"><text class="saved-word">{{item.word}}</text><speech-button text="{{item.word}}" label="听发音" compact="{{true}}"/></view><view class="saved-meaning">{{item.meaning||item.note||'暂未收录释义，点击补充笔记'}}</view><view wx:if="{{item.source}}" class="muted source">{{item.source}}</view><view class="link detail-link">查看释义与笔记 ›</view></view>
+  <view wx:if="{{!matched}}" class="empty">没有找到匹配的生词，换个关键词试试。</view><button wx:if="{{matched>items.length}}" class="secondary full" bindtap="more">加载更多生词</button></block>
+  <view wx:else class="empty"><view class="book-art">✧</view><view>还没有收藏生词。</view><view class="subtitle">阅读论文或英文例句时，轻点单词即可查义并加入生词本。</view><button class="primary spaced" bindtap="goReading">去阅读，遇见新词</button></view>
+</view>

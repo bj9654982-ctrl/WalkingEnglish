@@ -1,0 +1,298 @@
+
+verify.js
+
+[1] 页面文件完整性
+  PASS  pages/index/index.js
+  PASS  pages/index/index.wxml
+  PASS  pages/index/index.wxss
+  PASS  pages/index/index.json
+  PASS  pages/reading/reading.js
+  PASS  pages/reading/reading.wxml
+  PASS  pages/reading/reading.wxss
+  PASS  pages/reading/reading.json
+  PASS  pages/practice/practice.js
+  PASS  pages/practice/practice.wxml
+  PASS  pages/practice/practice.wxss
+  PASS  pages/practice/practice.json
+  PASS  pages/discover/discover.js
+  PASS  pages/discover/discover.wxml
+  PASS  pages/discover/discover.wxss
+  PASS  pages/discover/discover.json
+  PASS  pages/profile/profile.js
+  PASS  pages/profile/profile.wxml
+  PASS  pages/profile/profile.wxss
+  PASS  pages/profile/profile.json
+  PASS  pages/camp/camp.js
+  PASS  pages/camp/camp.wxml
+  PASS  pages/camp/camp.wxss
+  PASS  pages/camp/camp.json
+  PASS  pages/social/social.js
+  PASS  pages/social/social.wxml
+  PASS  pages/social/social.wxss
+  PASS  pages/social/social.json
+  PASS  pages/chat/chat.js
+  PASS  pages/chat/chat.wxml
+  PASS  pages/chat/chat.wxss
+  PASS  pages/chat/chat.json
+  PASS  pages/trail/trail.js
+  PASS  pages/trail/trail.wxml
+  PASS  pages/trail/trail.wxss
+  PASS  pages/trail/trail.json
+  PASS  pages/word/word.js
+  PASS  pages/word/word.wxml
+  PASS  pages/word/word.wxss
+  PASS  pages/word/word.json
+  PASS  pages/summit/summit.js
+  PASS  pages/summit/summit.wxml
+  PASS  pages/summit/summit.wxss
+  PASS  pages/summit/summit.json
+  PASS  pages/animal/animal.js
+  PASS  pages/animal/animal.wxml
+  PASS  pages/animal/animal.wxss
+  PASS  pages/animal/animal.json
+  PASS  pages/paper/paper.js
+  PASS  pages/paper/paper.wxml
+  PASS  pages/paper/paper.wxss
+  PASS  pages/paper/paper.json
+  PASS  components/study-sheet/study-sheet.js
+  PASS  components/study-sheet/study-sheet.wxml
+  PASS  components/study-sheet/study-sheet.wxss
+  PASS  components/study-sheet/study-sheet.json
+
+[2] JSON 合法性
+  PASS  project.config.json
+  PASS  miniprogram/sitemap.json
+  PASS  miniprogram/app.json
+  PASS  miniprogram/pages/index/index.json
+  PASS  miniprogram/pages/reading/reading.json
+  PASS  miniprogram/pages/practice/practice.json
+  PASS  miniprogram/pages/discover/discover.json
+  PASS  miniprogram/pages/profile/profile.json
+  PASS  miniprogram/pages/camp/camp.json
+  PASS  miniprogram/pages/social/social.json
+  PASS  miniprogram/pages/chat/chat.json
+  PASS  miniprogram/pages/trail/trail.json
+  PASS  miniprogram/pages/word/word.json
+  PASS  miniprogram/pages/summit/summit.json
+  PASS  miniprogram/pages/animal/animal.json
+  PASS  miniprogram/pages/paper/paper.json
+  PASS  miniprogram/audio/pack0/ready.json
+  PASS  miniprogram/audio/pack1/ready.json
+  PASS  miniprogram/audio/pack2/ready.json
+  PASS  miniprogram/audio/pack3/ready.json
+  PASS  miniprogram/audio/pack4/ready.json
+  PASS  miniprogram/audio/pack5/ready.json
+  PASS  miniprogram/audio/pack6/ready.json
+  PASS  miniprogram/audio/pack7/ready.json
+  PASS  miniprogram/papers/pack0/ready.json
+  PASS  miniprogram/papers/pack1/ready.json
+  PASS  miniprogram/papers/pack2/ready.json
+  PASS  miniprogram/papers/pack3/ready.json
+  PASS  miniprogram/components/speech-button/speech-button.json
+  PASS  miniprogram/components/study-sheet/study-sheet.json
+  PASS  sitemap 在小程序打包目录内且存在
+  PASS  水彩山道背景已包含在小程序运行包内
+  PASS  水彩背景 JPEG 完整且小于 600 KB
+
+[3] 词库
+  PASS  云端营地词表与客户端 22 座山、5 本词书一致
+  PASS  底部导航图标齐全
+  PASS  部署权限模板禁止客户端直接读写社交数据库
+  PASS  easy: 85 词 >= 山需求 85
+  PASS  easy: 全部条目字段完整（w/ph/pos/mean/ex/exZh）
+  PASS  easy: 无重复单词
+  PASS  cet4: 100 词 >= 山需求 100
+  PASS  cet4: 全部条目字段完整（w/ph/pos/mean/ex/exZh）
+  PASS  cet4: 无重复单词
+  PASS  cet6: 115 词 >= 山需求 115
+  PASS  cet6: 全部条目字段完整（w/ph/pos/mean/ex/exZh）
+  PASS  cet6: 无重复单词
+  PASS  kaoyan: 70 词 >= 山需求 70
+  PASS  kaoyan: 全部条目字段完整（w/ph/pos/mean/ex/exZh）
+  PASS  kaoyan: 无重复单词
+
+[4] JS 语法检查
+  PASS  miniprogram\app.js
+  PASS  miniprogram\audio\pack0\loader.js
+  PASS  miniprogram\audio\pack0\ready.js
+  PASS  miniprogram\audio\pack1\loader.js
+  PASS  miniprogram\audio\pack1\ready.js
+  PASS  miniprogram\audio\pack2\loader.js
+  PASS  miniprogram\audio\pack2\ready.js
+  PASS  miniprogram\audio\pack3\loader.js
+  PASS  miniprogram\audio\pack3\ready.js
+  PASS  miniprogram\audio\pack4\loader.js
+  PASS  miniprogram\audio\pack4\ready.js
+  PASS  miniprogram\audio\pack5\loader.js
+  PASS  miniprogram\audio\pack5\ready.js
+  PASS  miniprogram\audio\pack6\loader.js
+  PASS  miniprogram\audio\pack6\ready.js
+  PASS  miniprogram\audio\pack7\loader.js
+  PASS  miniprogram\audio\pack7\ready.js
+  PASS  miniprogram\components\speech-button\speech-button.js
+  PASS  miniprogram\components\study-sheet\study-sheet.js
+  PASS  miniprogram\config\cloud.js
+  PASS  miniprogram\config\papers.js
+  PASS  miniprogram\data\papers.js
+  PASS  miniprogram\data\readings.js
+  PASS  miniprogram\data\speechManifest.js
+  PASS  miniprogram\data\words\cet4.js
+  PASS  miniprogram\data\words\cet6.js
+  PASS  miniprogram\data\words\easy.js
+  PASS  miniprogram\data\words\kaoyan.js
+  PASS  miniprogram\pages\animal\animal.js
+  PASS  miniprogram\pages\camp\camp.js
+  PASS  miniprogram\pages\chat\chat.js
+  PASS  miniprogram\pages\discover\discover.js
+  PASS  miniprogram\pages\index\index.js
+  PASS  miniprogram\pages\paper\paper.js
+  PASS  miniprogram\pages\practice\practice.js
+  PASS  miniprogram\pages\profile\profile.js
+  PASS  miniprogram\pages\reading\reading.js
+  PASS  miniprogram\pages\social\social.js
+  PASS  miniprogram\pages\summit\summit.js
+  PASS  miniprogram\pages\trail\trail.js
+  PASS  miniprogram\pages\word\word.js
+  PASS  miniprogram\papers\pack0\library.js
+  PASS  miniprogram\papers\pack0\ready.js
+  PASS  miniprogram\papers\pack1\library.js
+  PASS  miniprogram\papers\pack1\ready.js
+  PASS  miniprogram\papers\pack2\library.js
+  PASS  miniprogram\papers\pack2\ready.js
+  PASS  miniprogram\papers\pack3\library.js
+  PASS  miniprogram\papers\pack3\ready.js
+  PASS  miniprogram\utils\campAccess.js
+  PASS  miniprogram\utils\cityCatalog.js
+  PASS  miniprogram\utils\journal.js
+  PASS  miniprogram\utils\paperDocument.js
+  PASS  miniprogram\utils\paperLibrary.js
+  PASS  miniprogram\utils\reviewSchedule.js
+  PASS  miniprogram\utils\social.js
+  PASS  miniprogram\utils\speech.js
+  PASS  miniprogram\utils\speechPackages.js
+  PASS  miniprogram\utils\speechText.js
+  PASS  miniprogram\utils\storage.js
+  PASS  miniprogram\utils\studySession.js
+  PASS  miniprogram\utils\trailData.js
+  PASS  miniprogram\utils\trailScene.js
+  PASS  miniprogram\utils\wildlife.js
+  PASS  miniprogram\utils\wordCatalog.js
+  PASS  miniprogram\utils\wordEngine.js
+  PASS  cloudfunctions\trailSocial\db.js
+  PASS  cloudfunctions\trailSocial\index.js
+  PASS  cloudfunctions\trailSocial\service.js
+  PASS  cloudfunctions\trailSpeech\index.js
+  PASS  cloudfunctions\trailSpeech\service.js
+
+ALL CHECKS PASSED
+
+tests/regression.js
+PASS 七山覆盖 370 个不同单词；尾组不补重复词，通关不再发词
+PASS 旧版完整存档迁移为 225 词；备份不变，补学后达到 370 词
+PASS 外山词不能计数；重置单山同步扣除本版本学习用时
+PASS 答错须重试；连续点击不重复作答，完成不会重复保存
+PASS 中途后台停留不计时；隐藏时暂停答题回调，返回可继续
+PASS 最后一题答完后退出并重置，旧回调不能写回进度
+PASS 中途离开保留有效学习时间，重复卸载不重复计时
+PASS 第一组 20 分钟加后续 7 分钟，证书显示 27 分钟
+PASS 山道面板完成七山，页面栈最多 2 层，证书下不残留山道
+PASS Canvas 仅在 onReady 查询；空节点可重试，退出后回调不初始化
+PASS 场景隐藏/重显保持单个动画循环；登顶延迟在离开时取消
+PASS 场景销毁取消图片回调并释放缓存，重复销毁安全
+PASS 登顶延迟在前后台切换后重新开始，证书只跳转一次
+PASS 七山 2.5D 山道始终上坡，人物位置与路面一致，横竖屏绘制有效
+PASS 观景拖拽与缩放不改学习进度，手势切换不跳变，回中可恢复
+PASS 背景失败仍能学习，迟到的图片在后台不绘制，重显后显示
+PASS Canvas 改变尺寸后更新像素比例，离开后的 resize 无副作用
+PASS 全新用户默认日常词书；四本词书各自无重复地覆盖七座山
+PASS 切换词书保留独立进度，已打开的学习固定写入原词书
+PASS v2 升级保留原路线计时和备份，导入已学词但不伪造掌握度
+PASS 新词次日复习，正确复习间隔递增，重复提交不增加掌握或已学数
+PASS 错词十分钟后重现，同日纠错不会提高长期掌握度
+PASS 营地在覆盖词隔天复习后点亮；再次到期后提示复习
+PASS 答对即时保存并改变山道目标位置，收起后从剩余新词继续
+PASS 学习时静止场景停止刷新，答对只播放前进动画，收起恢复场景
+PASS 复习直接进入回忆测验；不会重复增加已学单词
+PASS 已掌握词复习答错后退出，也会降低掌握度并安排重试
+PASS 已登顶山道重新进入可复习，不会自动跳走；最后一词结果面板不会被证书打断
+PASS 面板的页面生命周期暂停计时和答题回调，返回后继续
+PASS 首页的复习入口携带词书和山峰，页面就绪后打开复习面板
+
+30/30 regression checks passed
+
+tests/features.js
+PASS 五个底部导航顺序与本地图标完整
+PASS 每座城市完整覆盖每本词书，不重复也不丢词
+PASS 旧 v3 七山存档扩展后保留原记录，新城市不继承假进度
+PASS 跨城同词独立进度，总已学词去重，重置一山不影响其他城市
+PASS 城市选择同步发现与单词页，切换后链接使用正确的山峰 ID
+PASS 新城市登顶证书按本城市判断，不串到下一座城市
+PASS 动物只在达到节点后出现；观察收集持久化且不增加背词进度
+PASS 营地阈值向上取整，非法营地拒绝；镜头拖动不能解锁
+PASS 营地页面拒绝未学进度，未配置后端不会生成玩家或发云请求
+PASS 所有城市场景和六种生物在有效 Canvas 坐标内绘制
+PASS 阅读页使用 42 篇本地论文，搜索和分类取交集，打开正确的论文详情
+PASS 练习抽取已学词、锁定重复点击、完成才累计且不改登山进度
+PASS 空存档有可作答的体验题，中途退出不虚增练习统计
+13 feature checks passed
+
+tests/social.js
+PASS 云端身份只来自 OPENID，拒绝未登录及未知操作
+PASS 首次入营需要公开资料，进度证明去重并校验路线词库
+PASS 未到营地的人不能读取名单或随意联系陌生人
+PASS 玩家资料只返回公开字段，关注操作可重复提交
+PASS 同营地或已关注玩家建立同一会话，外人不能读、发、标已读
+PASS 文本审核拒绝或不可用时不写消息，非法长度也不入库
+PASS 重复和并发发送保持幂等；客户端不能冒用他人的 sender
+PASS 未读与已读游标只更新本人，读取历史不会回退
+PASS 消息超过一页后，历史与新增游标完整连续，不丢同一时间的消息
+PASS 举报只能针对同营地或本会话玩家，重复举报每天归并
+PASS 双向屏蔽立即禁止读取、发送与关注；解除后可恢复会话
+PASS 营地名单分页不会泄露其他营地成员，包含本人时也不会提前截断
+PASS 数据库适配器处理普通与事务文档形态，并解包事务返回值
+13 social checks passed (mocked database and content moderation; no external messages sent)
+
+tests/social-client.js
+PASS 空环境和初始化失败均保留本机功能，不发出云请求
+PASS 营地加入失败显示设置资料入口；成功后才显示名单
+PASS 私信断网保留草稿，重试沿用消息 ID，成功回执后才清空
+PASS 轮询按序号去重，同一阅读位置不反复写入；后台停止请求
+PASS 离开页面后迟到的响应不更新界面或重新启动轮询
+5 social client checks passed
+
+tests/speech.js
+PASS 全部内置语料均有非空 MP3；主包、每个分包和总包均在预算内
+PASS 混合文本仅读英文、标点分句、长段落按词边界分块
+PASS 仅点击才播放；状态等待真实 onPlay；同按钮再次点击停止
+PASS 整篇连续朗读按队列播放，每句只在上一句结束后启动
+PASS 切换声音销毁旧音频，迟到回调不能打断新声音
+PASS 页面隐藏时取消尚未完成的分包加载，完成后不偷偷播放
+PASS 分包失败会提示并允许重新加载；停止清除超时
+PASS 播放报错和超时均停止且可重试
+PASS 纯中文不启动播放器；任意英文在未配置云端时如实提示
+PASS 自定义文本只调用自有云函数；取消后的迟到结果不落盘
+PASS 听读组件文本变更、卸载及切页停止自己的声音
+PASS 云端临时音频播放结束或写入失败时清理文件
+PASS 云端拒绝匿名、非英文、超长与 SSML，未启用时不计费
+PASS 云端额度优先、鉴权使用调用身份，供应商错误不泄漏详情
+14 speech tests passed.
+
+tests/papers.js
+PASS 43 个源 PDF 按哈希去重为 42 篇，496 页文字完整且页码连续
+PASS 本地错名稿件按 PDF 内容标注，不把 MAD competition 当作 MAD 指标
+PASS UQI 乱码页面经 OCR 恢复，左右栏保持阅读顺序
+PASS 搜索支持中英文、方法、年份，分类交集和年份排序正确
+PASS 浏览、收藏、手动已读分别持久化，重进从上次原文页码继续
+PASS 非法页码与旧存档损坏不污染进度，论文重置不清空动物手册
+PASS 原生异步分包可载入每篇全文，同包缓存，失败允许重试
+PASS 论文页加载失败可重试，页码跳转和摘要切换不破坏位置
+PASS 离开论文页后，迟到的加载结果不更新界面或写入阅读进度
+PASS 观察手册条目进入详情，未发现条目不泄露内容或伪造收集
+PASS 公开资料页统计论文而非旧故事，清空记录包含论文收藏
+PASS PDF 原件未配置时明确提示；只允许 HTTPS 或自有云文件
+PASS PDF 下载回调迟到时，不在已离开的页面突然打开文档
+13 paper and bug regression checks passed
+
+tools/check-native.js
+PASS wcc.exe: 27 files compiled (158877 bytes)
+PASS wcsc.exe: 29 files compiled (56216 bytes)

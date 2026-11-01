@@ -2,7 +2,7 @@ const speech = require('../../utils/speech.js')
 const { english } = require('../../utils/speechText.js')
 let sequence = 0
 Component({
-  properties: { text: { type: String, value: '' }, segments: { type: Array, value: [] }, label: { type: String, value: '听读' }, compact: { type: Boolean, value: false } },
+  properties: { text: { type: String, value: '' }, segments: { type: Array, value: [] }, label: { type: String, value: '听读' }, compact: { type: Boolean, value: false }, iconOnly: { type: Boolean, value: false } },
   data: { readable: false, active: false, loading: false, failed: false, progress: '' },
   observers: { 'text, segments': function () { if (this.speechOwner) speech.stop(this.speechOwner); this.refreshText() } },
   lifetimes: {

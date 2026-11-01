@@ -1,0 +1,1 @@
+<text class="lookup-copy"><block wx:for="{{tokens}}" wx:key="id"><text wx:if="{{item.word}}" class="lookup-word" data-offset="{{item.id}}" catchtap="openWord" hover-class="lookup-pressed" aria-role="button" aria-label="{{'查看 '+item.text+' 的释义'}}">{{item.text}}</text><text wx:else>{{item.text}}</text></block></text>

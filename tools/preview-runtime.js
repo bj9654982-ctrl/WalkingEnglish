@@ -9,9 +9,17 @@ async function loadModule(url) {
   const localRequire = ref => modules.get(resolve(ref)).exports
   localRequire.async = ref => loadModule(resolve(ref))
   new Function('require', 'module', 'exports', source + '\n//# sourceURL=' + url)(localRequire, module, module.exports)
+  if (url === '/miniprogram/utils/paperDocument.js') {
+    const catalog = await loadModule('/miniprogram/data/papers.js')
+    // Browser-only original-PDF preview. The native app uses configured cloud files.
+    module.exports = {open:id=>new Promise((resolve,reject)=>{
+      if(!catalog.papers.some(p=>p.id===id)){reject(Error('Paper not found'));return}
+      wx.openDocument({filePath:location.origin+'/paper-original/'+id+'.pdf',success:()=>resolve(true),fail:reject})
+    })}
+  }
   return module.exports
 }
-let pageDefinition, sheetDefinition, speechDefinition, page, sheet, template, sheetTemplate, speechTemplate, scheduled = false
+let pageDefinition, sheetDefinition, speechDefinition, lookupDefinition, page, sheet, template, sheetTemplate, speechTemplate, lookupTemplate, scheduled = false
 const speechComponents = new Map()
 let speechCursor = 0
 const query = new URLSearchParams(location.search)
@@ -47,6 +55,9 @@ window.wx = {
   redirectTo: ({ url }) => navigate(url, true),
   showToast: ({ title }) => { const message = parent.document.getElementById('result'); if (message) message.textContent = title },
   setNavigationBarTitle() {},
+  pageScrollTo: ({scrollTop}) => window.scrollTo({top:scrollTop,behavior:'instant'}),
+  downloadFile: ({url,success,fail}) => fetch(url,{method:'HEAD'}).then(r=>success({statusCode:r.status,tempFilePath:url})).catch(fail),
+  openDocument: ({filePath,success,fail}) => { try { window.open(filePath,'_blank'); if(success)success() } catch(error) { if(fail)fail(error) } },
   showActionSheet: ({ itemList, success }) => { const choice = prompt(itemList.map((item, i) => (i + 1) + '. ' + item).join('\n')); if (choice && itemList[Number(choice) - 1]) success({ tapIndex: Number(choice) - 1 }) },
   createInnerAudioContext: () => {
     const media = new Audio(), handlers = {}, events = { Play: 'playing', Ended: 'ended', Error: 'error', Waiting: 'waiting', TimeUpdate: 'timeupdate' }
@@ -84,10 +95,21 @@ function children(nodes, data, owner, target) {
 }
 function renderNode(node, data, owner, target) {
   if (node.tagName.toLowerCase() === 'block') { children(node.childNodes, data, owner, target); return }
+  if (node.tagName.toLowerCase() === 'lookup-text') {
+    const properties={}
+    for(const [name,info] of Object.entries(lookupDefinition.properties)){
+      const attr=node.getAttribute(name)
+      properties[name]=attr===null?info.value:attr.startsWith('{{')?evaluate(attr,data):attr
+    }
+    const component={...lookupDefinition.methods,properties,data:{tokens:[]},setData(patch){Object.assign(this.data,patch)}}
+    lookupDefinition.lifetimes.attached.call(component)
+    const el=document.createElement('lookup-text');el.style.display='inline'
+    children(lookupTemplate.content.childNodes,component.data,component,el);target.append(el);return
+  }
   if (node.tagName.toLowerCase() === 'speech-button') {
     const id = speechCursor++, properties = {}
     for (const [name, info] of Object.entries(speechDefinition.properties)) {
-      const attr = node.getAttribute(name)
+      const attr = node.getAttribute(name.replace(/[A-Z]/g,letter=>'-'+letter.toLowerCase()))
       properties[name] = attr === null ? structuredClone(info.value) : attr.startsWith('{{') ? evaluate(attr, data) : attr
       if (properties[name] == null) properties[name] = structuredClone(info.value)
     }
@@ -162,13 +184,15 @@ async function boot() {
   await loadModule('/miniprogram/components/study-sheet/study-sheet.js')
   const studyDefinition = sheetDefinition
   await loadModule('/miniprogram/components/speech-button/speech-button.js')
-  speechDefinition = sheetDefinition; sheetDefinition = studyDefinition
+  speechDefinition = sheetDefinition
+  await loadModule('/miniprogram/components/lookup-text/lookup-text.js')
+  lookupDefinition = sheetDefinition; sheetDefinition = studyDefinition
   async function loadCSS(url) {
     let css = await fetch(url).then((r) => r.text()), imports = ''
     for (const match of css.matchAll(/@import\s+['"]([^'"]+)['"];?/g)) imports += await loadCSS(new URL(match[1], location.origin + url).pathname)
     return imports + '\n' + css.replace(/@import[^;]+;/g, '')
   }
-  const cssFiles = ['app', ...(pageName === 'trail' ? ['components/study-sheet/study-sheet'] : []), 'pages/' + pageName + '/' + pageName, 'components/speech-button/speech-button']
+  const cssFiles = ['app', ...(pageName === 'trail' ? ['components/study-sheet/study-sheet'] : []), 'pages/' + pageName + '/' + pageName, 'components/speech-button/speech-button', 'components/lookup-text/lookup-text']
   const css = (await Promise.all(cssFiles.map((f) => loadCSS('/miniprogram/' + f + '.wxss')))).join('\n')
   const style = document.createElement('style')
   style.textContent = css.replace(/@import[^;]+;/g, '').replace(/(^|\n)\s*page\s*\{/g, '$1body {').replace(/(-?[\d.]+)rpx/g, 'calc($1 * var(--rpx))')
@@ -180,7 +204,9 @@ async function boot() {
   template.innerHTML = markup(await fetch('/miniprogram/pages/' + pageName + '/' + pageName + '.wxml').then((r) => r.text()))
   sheetTemplate.innerHTML = markup(await fetch('/miniprogram/components/study-sheet/study-sheet.wxml').then((r) => r.text()))
   speechTemplate.innerHTML = markup(await fetch('/miniprogram/components/speech-button/speech-button.wxml').then((r) => r.text()))
-  page = { ...pageDefinition, data: structuredClone(pageDefinition.data), setData(patch) { Object.assign(this.data, patch); scheduleRender() }, selectComponent: () => sheet }
+  lookupTemplate=document.createElement('template')
+  lookupTemplate.innerHTML=markup(await fetch('/miniprogram/components/lookup-text/lookup-text.wxml').then(r=>r.text()))
+  page = { ...pageDefinition, route:'pages/'+pageName+'/'+pageName, data: structuredClone(pageDefinition.data), setData(patch) { Object.assign(this.data, patch); scheduleRender() }, selectComponent: () => sheet }
   const storage = modules.get('/miniprogram/utils/storage.js').exports
   const engine = modules.get('/miniprogram/utils/wordEngine.js').exports
   window.previewAdvance = () => {
@@ -209,7 +235,10 @@ async function boot() {
     const title = document.createElement('span'); title.textContent = config.navigationBarTitleText
     header.append(back, title); document.body.prepend(header)
   }
-  if (page.onLoad) page.onLoad(Object.fromEntries(query)); if (page.onShow) page.onShow(); render(); if (page.onReady) page.onReady()
+  const options=Object.fromEntries(query)
+  // Native navigateTo delivers encoded query strings to onLoad.
+  if(pageName==='lexicon')for(const name of ['word','context','source'])if(query.has(name))options[name]=encodeURIComponent(query.get(name))
+  if (page.onLoad) page.onLoad(options); if (page.onShow) page.onShow(); render(); if (page.onReady) page.onReady()
   window.addEventListener('resize', () => { resize(); if (page.onResize) page.onResize({ size: { windowWidth: innerWidth, windowHeight: innerHeight } }) })
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) { if (page.onHide) page.onHide(); if (sheet) sheetDefinition.pageLifetimes.hide.call(sheet); speechComponents.forEach(c => speechDefinition.pageLifetimes.hide.call(c)) }

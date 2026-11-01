@@ -1,3 +1,22 @@
 @import '../../styles/hub.wxss';
-.reading-banner{padding:65rpx 28rpx;margin:30rpx 0;border-radius:24rpx;background:linear-gradient(110deg,#dce4cf,#ece7c9);text-align:center;font-size:36rpx;letter-spacing:7rpx}.reading-banner text{display:block;font-size:18rpx;margin-top:18rpx}
-.english-title{font-family:Georgia,serif;font-size:40rpx;line-height:1.35;margin:25rpx 0 12rpx}.paragraph{margin:34rpx 0}.english{font-family:Georgia,serif;font-size:33rpx;line-height:1.9;color:#374e41}.translation{margin-top:18rpx;line-height:1.9;font-size:26rpx;color:#82907b}.vocab{padding:16rpx 0;font-size:28rpx}.answer{text-align:left;padding:22rpx;margin:18rpx 0 0;font-size:27rpx;line-height:1.6;border-radius:14rpx;color:#415641;background:#eeeee1}.answer.selected{background:#dce6d1}.answer[disabled]{color:#536747}
+.shelf-summary { display:flex; gap:48rpx; margin:28rpx 0; padding:24rpx 0; border-top:1rpx solid #dfdfcf; border-bottom:1rpx solid #dfdfcf; }
+.shelf-summary>view { display:flex; align-items:baseline; gap:9rpx; }
+.summary-number { font-size:39rpx; font-weight:650; }
+.search-field { margin:24rpx 0 12rpx; border:1rpx solid #d7ddcd; }
+.paper-categories { gap:10rpx; margin:18rpx 0; }
+.paper-categories .chip { width:auto; font-size:21rpx; padding:12rpx 17rpx; }
+.shelf-tools { margin:24rpx 0 18rpx; }
+.tool-actions { display:flex; gap:14rpx; }
+.filter-button { width:auto; background:transparent; color:#7d8773; font-size:23rpx; padding:8rpx; margin:0; line-height:1.5; }
+.filter-button.chosen { color:#365b48; }
+.paper-card { padding:26rpx; }
+.method-tag { color:#365b48; font-size:27rpx; font-weight:700; letter-spacing:1rpx; }
+.paper-title { font-family:Georgia,serif; font-size:31rpx; line-height:1.5; margin:18rpx 0 10rpx; overflow-wrap:break-word; }
+.paper-title-row { display:flex; align-items:center; gap:14rpx; }
+.paper-title-row .paper-title { flex:1; min-width:0; }
+.paper-name { font-size:25rpx; color:#7b836f; line-height:1.6; }
+.paper-meta { display:flex; align-items:center; flex-wrap:wrap; gap:14rpx; margin-top:18rpx; }
+.version-tag { font-size:20rpx; color:#94764b; }
+.paper-tail { margin-top:22rpx; }
+.paper-pressed { opacity:.8; }
+.footer-note { margin:36rpx 0 0; }

@@ -7,7 +7,20 @@
         "type": "folder"
       }
     ],
-    "include": [{ "type": "folder", "value": "audio" }]
+    "include": [
+      {
+        "type": "folder",
+        "value": "audio"
+      },
+      {
+        "type": "folder",
+        "value": "papers"
+      },
+      {
+        "type": "folder",
+        "value": "dictionary"
+      }
+    ]
   },
   "setting": {
     "urlCheck": false,

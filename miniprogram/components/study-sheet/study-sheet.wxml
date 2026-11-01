@@ -17,14 +17,14 @@
     </view>
 
     <view class="word-card">
-      <view class="word-spell">{{card.w}}</view>
+      <view class="word-spell"><lookup-text text="{{card.w}}" source="沿途学习词卡"/></view>
       <view class="word-phonetic">{{card.ph}}</view><speech-button text="{{card.w}}" label="单词发音" />
       <view class="word-mean">
         <text class="word-pos">{{card.pos}}</text>
         <text class="mean-text">{{card.mean}}</text>
       </view>
       <view class="card-line"></view>
-      <view class="word-example">{{card.ex}}</view><speech-button text="{{card.ex}}" label="朗读例句" />
+      <view class="word-example"><lookup-text text="{{card.ex}}" source="{{card.w+' · 沿途学习例句'}}"/></view><speech-button text="{{card.ex}}" label="朗读例句" />
       <view class="word-example-zh">{{card.exZh}}</view>
       
     </view>

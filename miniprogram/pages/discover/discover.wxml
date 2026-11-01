@@ -1,5 +1,5 @@
 <view class="hub">
-  <view class="english-heading"><text class="eyebrow">WONDER A LITTLE FURTHER</text><speech-button text="WONDER A LITTLE FURTHER" compact="{{true}}" label="听读"/></view><view class="title">下一程，去哪座山？</view><view class="subtitle">换一座城市，遇见新的风景和同行的人。</view>
+  <view class="english-heading"><view class="eyebrow"><lookup-text text="WONDER A LITTLE FURTHER" source="页面寄语"/></view><speech-button text="WONDER A LITTLE FURTHER" compact="{{true}}" label="听读"/></view><view class="title">下一程，去哪座山？</view><view class="subtitle">换一座城市，遇见新的风景和同行的人。</view>
   <view class="chips"><button wx:for="{{cities}}" wx:key="id" data-id="{{item.id}}" bindtap="selectCity" class="chip {{city.id === item.id ? 'active' : ''}}">{{item.name}}</button></view>
   <view class="city-cover"><image src="/assets/trail/watercolor-valley.jpg" mode="aspectFill"/><view class="city-overlay"/><view class="city-copy"><text class="eyebrow">{{city.name}} / {{city.theme}}</text><view class="hero-title">{{city.subtitle}}</view><view class="subtitle">{{city.note}}</view></view></view>
   <view class="section row"><text class="section-title">{{city.id === 'wuhan' ? '东湖七山' : city.name + '山间路线'}}</text><text class="muted">{{completed}} / {{mountains.length}} 已登顶</text></view>

@@ -78,11 +78,12 @@ test('所有城市场景和六种生物在有效 Canvas 坐标内绘制',()=>{
   assert.ok(canvas.calls.some(c=>c.method==='fill'));renderer.dispose()
  }
 })
-test('阅读理解答错不计完成，答对持久化；收起译文不改变记录',()=>{
- const r=page('reading');r.onShow();r.openArticle({currentTarget:{dataset:{id:'morning'}}})
- r.choose({currentTarget:{dataset:{index:1}}});assert.equal(r.data.finished,false);assert.equal(Object.keys(journal.read().reading).length,0)
- r.choose({currentTarget:{dataset:{index:0}}});assert.equal(r.data.finished,true);assert.equal(Object.keys(journal.read().reading).length,1)
- r.toggleTranslation();assert.equal(r.data.showTranslation,true)
+test('阅读页使用 42 篇本地论文，搜索和分类取交集，打开正确的论文详情',()=>{
+ const r=page('reading');r.onShow();assert.equal(r.data.papers.length,42)
+ r.search({detail:{value:'SSIM'}});assert.ok(r.data.papers.every(p=>p.search.includes('ssim')))
+ r.selectCategory({currentTarget:{dataset:{id:'nr-deep'}}});assert.equal(r.data.papers.length,0)
+ r.clearSearch();r.openPaper({currentTarget:{dataset:{id:'topiq'}}});assert.equal(lastNav,'/pages/paper/paper?id=topiq')
+ assert.equal(Object.keys(journal.read().reading).length,0)
 })
 test('练习抽取已学词、锁定重复点击、完成才累计且不改登山进度',()=>{
  storage.recordGroup(0,[{w:'trail',passed:true}],0,'easy')

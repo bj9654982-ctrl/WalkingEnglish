@@ -1,0 +1,10 @@
+<view class="hub word-detail">
+  <view class="detail-label">点词查义</view><view class="lookup-title">{{word}}</view>
+  <view wx:if="{{entry.phonetic}}" class="phonetic">{{entry.phonetic}}</view><speech-button text="{{word}}" label="单词发音"/>
+  <view wx:if="{{loading}}" class="notice">正在加载词典…</view>
+  <view wx:if="{{error}}" class="notice"><view>{{error}}</view><button wx:if="{{word}}" class="secondary spaced" bindtap="load">重试查义</button></view>
+  <view wx:if="{{entry.meaning}}" class="card section"><view class="section-title">单词释义</view><text class="definition" selectable>{{entry.meaning}}</text><view wx:if="{{entry.lemma}}" class="muted spaced">词形原型：{{entry.lemma}}</view><view class="muted spaced">{{entry.origin}} · 请结合上下文选择词义</view></view>
+  <view wx:elif="{{!loading && !error}}" class="notice">词典暂未收录这个词，可能是专业缩写、人名或文字识别片段。可以在下方补充释义或笔记并收藏。</view>
+  <view wx:if="{{context}}" class="card section"><view class="section-title">遇见它的原文</view><view class="context"><lookup-text text="{{context}}" source="{{source}}"/></view><speech-button text="{{context}}" label="朗读原句" compact="{{true}}"/><view wx:if="{{source}}" class="muted spaced">来源：{{source}}</view></view>
+  <block wx:if="{{word}}"><view class="section-title spaced">我的笔记</view><textarea class="field note" maxlength="500" value="{{note}}" bindinput="editNote" placeholder="记下语境中的含义、助记或自己的理解（可选）"/><button class="primary full spaced" bindtap="save" loading="{{saving}}" disabled="{{saving||loading}}">{{saved?'✓ 已在生词本 · 保存笔记':'＋ 加入生词本'}}</button><button wx:if="{{saved}}" class="remove-word" bindtap="remove">移出生词本</button><view class="muted storage-note">收藏保存在本机，可在「我的 → 生词本」查看。</view></block>
+</view>

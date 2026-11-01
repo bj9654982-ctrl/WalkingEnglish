@@ -1,0 +1,296 @@
+[
+  {
+    "id": "uqi",
+    "localFile": "references/paper-import/originals/02-UQI-2002.pdf",
+    "cloudPath": "papers/uqi.pdf",
+    "bytes": 1438444,
+    "sha256": "c210c8059ad6be7480312ba70da65452af0f35b0d3552d55f02b7e695a1e4085"
+  },
+  {
+    "id": "ssim",
+    "localFile": "references/paper-import/originals/03-SSIM-2004.pdf",
+    "cloudPath": "papers/ssim.pdf",
+    "bytes": 1647605,
+    "sha256": "c83f6f0f5357eb2714ce084d97bef4006358574d06ba546210e505149438b489"
+  },
+  {
+    "id": "ms-ssim",
+    "localFile": "references/paper-import/originals/04-MS-SSIM-2003.pdf",
+    "cloudPath": "papers/ms-ssim.pdf",
+    "bytes": 526666,
+    "sha256": "0770681d228ed8cf14e52add95385296a7d189fe3f97a3b5e551578e37e7d1aa"
+  },
+  {
+    "id": "ifc",
+    "localFile": "references/paper-import/originals/05-IFC-2005.pdf",
+    "cloudPath": "papers/ifc.pdf",
+    "bytes": 455231,
+    "sha256": "1d637539a97740ee32b511beb8cacb5e28be3a64ded53ca1ed66f8d5e9f7a507"
+  },
+  {
+    "id": "mad",
+    "localFile": "references/paper-import/originals/08-MAD-2010.pdf",
+    "cloudPath": "papers/mad.pdf",
+    "bytes": 1003165,
+    "sha256": "9338a10fbae264ea7f82b701062be4915fe3cb176099ad7fb9aa0fef681196ec"
+  },
+  {
+    "id": "fsim",
+    "localFile": "references/paper-import/originals/09-FSIM-2011.pdf",
+    "cloudPath": "papers/fsim.pdf",
+    "bytes": 758175,
+    "sha256": "7aaf36df0a201959e9989cd91ef7bf2e16eaa81ba588ebab08bb2420388b9a02"
+  },
+  {
+    "id": "iw-ssim",
+    "localFile": "references/paper-import/originals/10-IW-SSIM-2011.pdf",
+    "cloudPath": "papers/iw-ssim.pdf",
+    "bytes": 3711031,
+    "sha256": "3c80453644a3aa781ecb872797156225ab9df03dfca8fb4d8dc253b6604d3da8"
+  },
+  {
+    "id": "gmsd",
+    "localFile": "references/paper-import/originals/11-GMSD-2014.pdf",
+    "cloudPath": "papers/gmsd.pdf",
+    "bytes": 1373817,
+    "sha256": "b45f85267c09fe3cb3b1ee998b8741c0e86a20feee260cb96274545bd48bc06a"
+  },
+  {
+    "id": "vsi",
+    "localFile": "references/paper-import/originals/12-VSI-2014.pdf",
+    "cloudPath": "papers/vsi.pdf",
+    "bytes": 4050401,
+    "sha256": "4573f0c3dc731ab538f73c5761dd637c51e2936f92a758e639ab3c46ea60da09"
+  },
+  {
+    "id": "haarpsi",
+    "localFile": "references/paper-import/originals/13-HaarPSI-2018.pdf",
+    "cloudPath": "papers/haarpsi.pdf",
+    "bytes": 3269336,
+    "sha256": "3757a2a4d990e9efd8d1e926e0fedaa05762446bda442199070ba86f687cf77e"
+  },
+  {
+    "id": "lpips",
+    "localFile": "references/paper-import/originals/14-LPIPS-2018.pdf",
+    "cloudPath": "papers/lpips.pdf",
+    "bytes": 1712552,
+    "sha256": "6809251d37d9d9847335e27da3bd71fdab15197219841ebe9706e6e3d18cc35b"
+  },
+  {
+    "id": "pieapp",
+    "localFile": "references/paper-import/originals/15-PieAPP-2018.pdf",
+    "cloudPath": "papers/pieapp.pdf",
+    "bytes": 1403333,
+    "sha256": "70866e5968b177b1183fa97ca0109aa47cacd460ed8aa37cac82279960d53db7"
+  },
+  {
+    "id": "dists",
+    "localFile": "references/paper-import/originals/16-DISTS-2022.pdf",
+    "cloudPath": "papers/dists.pdf",
+    "bytes": 5875849,
+    "sha256": "bb82eab96af10d622780f95166b0379442741b90f83030a80dc3d0ebbd6a81ad"
+  },
+  {
+    "id": "rr-wnism",
+    "localFile": "references/paper-import/originals/17-RR-WNISM-2004.pdf",
+    "cloudPath": "papers/rr-wnism.pdf",
+    "bytes": 904544,
+    "sha256": "e22845cbef1edc6d3c9e4285ac0bb9d88b9f5dbb390c5cc21a43b13a7f690764"
+  },
+  {
+    "id": "rred",
+    "localFile": "references/paper-import/originals/18-RRED-2012.pdf",
+    "cloudPath": "papers/rred.pdf",
+    "bytes": 559474,
+    "sha256": "33d99787b91c515fa7aab3179c0c58d17b9e7e56b770ce1d2420a468bf4d0839"
+  },
+  {
+    "id": "biqi",
+    "localFile": "references/paper-import/originals/19-BIQI-2010.pdf",
+    "cloudPath": "papers/biqi.pdf",
+    "bytes": 302819,
+    "sha256": "3f88fc305cf4e888e3bf3d3456ae3b20b1a9ac3528f33379a1f40e82ee871960"
+  },
+  {
+    "id": "diivine",
+    "localFile": "references/paper-import/originals/20-DIIVINE-2011.pdf",
+    "cloudPath": "papers/diivine.pdf",
+    "bytes": 4208955,
+    "sha256": "7b99c0c17d205a66f66bc44e76915b31ff12392d5345ee155f4b1aa294b81ddc"
+  },
+  {
+    "id": "bliinds-ii",
+    "localFile": "references/paper-import/originals/21-BLIINDS-II-2012.pdf",
+    "cloudPath": "papers/bliinds-ii.pdf",
+    "bytes": 2693308,
+    "sha256": "1ac930ea9140f78544a07f0244d910031f61b3f53e0dcc14e31d9ab61cbd3419"
+  },
+  {
+    "id": "brisque",
+    "localFile": "references/paper-import/originals/22-BRISQUE-2012.pdf",
+    "cloudPath": "papers/brisque.pdf",
+    "bytes": 1861258,
+    "sha256": "95c0965b456ace5cfa3eef5a92dd961e4bcad0dbb9c13a4ff334709aa3e1a52a"
+  },
+  {
+    "id": "niqe",
+    "localFile": "references/paper-import/originals/24-NIQE-2013.pdf",
+    "cloudPath": "papers/niqe.pdf",
+    "bytes": 215404,
+    "sha256": "068b1c7b0f1455cafafdeb45d49c8c1e933bd34ee3bf5dc72786c6d1c1468853"
+  },
+  {
+    "id": "il-niqe",
+    "localFile": "references/paper-import/originals/26-IL-NIQE-2015.pdf",
+    "cloudPath": "papers/il-niqe.pdf",
+    "bytes": 5909768,
+    "sha256": "85e6548f0fa08d381fef8c6b0fdfe505a9a0da6949c8bec9f4b2a9a4705bb05f"
+  },
+  {
+    "id": "friquee",
+    "localFile": "references/paper-import/originals/28-FRIQUEE-2017.pdf",
+    "cloudPath": "papers/friquee.pdf",
+    "bytes": 4385481,
+    "sha256": "8b506aa791d082d08518f88e5eacd75f704e3f5b86ff3ae7ec2e71ff57157608"
+  },
+  {
+    "id": "cnniqa",
+    "localFile": "references/paper-import/originals/29-CNNIQA-2014.pdf",
+    "cloudPath": "papers/cnniqa.pdf",
+    "bytes": 6046187,
+    "sha256": "714ca764ba8119ec21ecbe3585f3f6b08e1974a0445211ac8c1f2f6a847b37d3"
+  },
+  {
+    "id": "biecon",
+    "localFile": "references/paper-import/originals/30-BIECON-2017.pdf",
+    "cloudPath": "papers/biecon.pdf",
+    "bytes": 168453,
+    "sha256": "935bfcdd9dc49354123977d1a3a1d1ef3be3046bf3a3157bf869ca85b1443e3a"
+  },
+  {
+    "id": "rankiqa",
+    "localFile": "references/paper-import/originals/31-RankIQA-2017.pdf",
+    "cloudPath": "papers/rankiqa.pdf",
+    "bytes": 1500009,
+    "sha256": "8524923c8058ebab6d24b17ab996b69e5062af516b77209f581c885abdaddbb9"
+  },
+  {
+    "id": "wadiqam",
+    "localFile": "references/paper-import/originals/32-WaDIQaM-2018.pdf",
+    "cloudPath": "papers/wadiqam.pdf",
+    "bytes": 2644922,
+    "sha256": "cfc822a3c35940a3859f1b41be641ee4feea88aaf1bd1201e2354188518f72d8"
+  },
+  {
+    "id": "meon",
+    "localFile": "references/paper-import/originals/33-MEON-2018.pdf",
+    "cloudPath": "papers/meon.pdf",
+    "bytes": 4510590,
+    "sha256": "a37b5e2d4dc0029073b2cba4da1ff716a673866c646b7b762826baa5ece8442b"
+  },
+  {
+    "id": "nima",
+    "localFile": "references/paper-import/originals/34-NIMA-2018.pdf",
+    "cloudPath": "papers/nima.pdf",
+    "bytes": 13054783,
+    "sha256": "f292f8d89d7ffca6dd38c8eed36f6c8d1741ca9058d081d5307e8d208780e9de"
+  },
+  {
+    "id": "pqr",
+    "localFile": "references/paper-import/originals/35-PQR-2018.pdf",
+    "cloudPath": "papers/pqr.pdf",
+    "bytes": 425110,
+    "sha256": "ad4d42e0b175c6b2c1d96e0c141eb105bf5cc2060a74c25ae35d167d33534e78"
+  },
+  {
+    "id": "dbcnn",
+    "localFile": "references/paper-import/originals/36-DBCNN-2020.pdf",
+    "cloudPath": "papers/dbcnn.pdf",
+    "bytes": 3905559,
+    "sha256": "0fdb3ecf4f7f87546ab69c63e9761a5c1643a7652ef3d7b1d5b8a243ccec0579"
+  },
+  {
+    "id": "hyperiqa",
+    "localFile": "references/paper-import/originals/37-HyperIQA-2020.pdf",
+    "cloudPath": "papers/hyperiqa.pdf",
+    "bytes": 4420147,
+    "sha256": "e11f5911147a4f591d82e974125dbbfbe4f7c67773aeeab6d6aae1a06e2aa2a6"
+  },
+  {
+    "id": "metaiqa",
+    "localFile": "references/paper-import/originals/38-MetaIQA-2020.pdf",
+    "cloudPath": "papers/metaiqa.pdf",
+    "bytes": 2550604,
+    "sha256": "6092ac40ce3e9836756bdb82cf543b47baa73c4c92ce4ffdb23f2492c3f4fd18"
+  },
+  {
+    "id": "musiq",
+    "localFile": "references/paper-import/originals/39-MUSIQ-2021.pdf",
+    "cloudPath": "papers/musiq.pdf",
+    "bytes": 2952073,
+    "sha256": "86e9e683cb2ff2da020cbd5d84a16413c99723f0156539da522f847798e50ab1"
+  },
+  {
+    "id": "unique",
+    "localFile": "references/paper-import/originals/40-UNIQUE-2021.pdf",
+    "cloudPath": "papers/unique.pdf",
+    "bytes": 6476501,
+    "sha256": "d2a7a6d053a7f71148bd6a933936dce512535f3a82103bebc1c994fc363c23fb"
+  },
+  {
+    "id": "rapique",
+    "localFile": "references/paper-import/originals/41-RAPIQUE-2021.pdf",
+    "cloudPath": "papers/rapique.pdf",
+    "bytes": 12889526,
+    "sha256": "96020dd5eab006dce951cf75a3c34fccd68c0a9e0bd61d5004ec395277643ea1"
+  },
+  {
+    "id": "contrique",
+    "localFile": "references/paper-import/originals/42-CONTRIQUE-2022.pdf",
+    "cloudPath": "papers/contrique.pdf",
+    "bytes": 2691275,
+    "sha256": "287643bd47b961f832d7bf7ca98567c0a31e325c510e131113f963e071ca5b01"
+  },
+  {
+    "id": "maniqa",
+    "localFile": "references/paper-import/originals/43-MANIQA-2022.pdf",
+    "cloudPath": "papers/maniqa.pdf",
+    "bytes": 2013981,
+    "sha256": "e086cf97faf7b5dc22c59ff6748c471f490717fbd7d19b984e61943a994680ee"
+  },
+  {
+    "id": "clip-iqa",
+    "localFile": "references/paper-import/originals/44-CLIP-IQA-2023.pdf",
+    "cloudPath": "papers/clip-iqa.pdf",
+    "bytes": 22355197,
+    "sha256": "43eb10b37623bd3aa6ddc25f73bc53e42591b1770d7f1c89025a35d588ac0e2a"
+  },
+  {
+    "id": "topiq",
+    "localFile": "references/paper-import/originals/45-TOPIQ-2024.pdf",
+    "cloudPath": "papers/topiq.pdf",
+    "bytes": 7230055,
+    "sha256": "4aa0ad51e674d17a093677ee8d7078742e2cb9985309f35ee885a42d8152f653"
+  },
+  {
+    "id": "q-align",
+    "localFile": "references/paper-import/originals/46-Q-Align-2024.pdf",
+    "cloudPath": "papers/q-align.pdf",
+    "bytes": 5978626,
+    "sha256": "141676afdb09b3eae9dad6537881e98a3f0e484aad91126c2d399dd5a5093385"
+  },
+  {
+    "id": "csf",
+    "localFile": "references/paper-import/originals/CSF.pdf",
+    "cloudPath": "papers/csf.pdf",
+    "bytes": 2430422,
+    "sha256": "66b0ff20ec84c931a7c54e6c66587b5c0e50ade57e3ea93ed51746dce8dc486e"
+  },
+  {
+    "id": "sparse-iqa",
+    "localFile": "references/paper-import/originals/基于多层级信息稀疏表征的盲图像质量评价_NormalPdf.pdf",
+    "cloudPath": "papers/sparse-iqa.pdf",
+    "bytes": 1427116,
+    "sha256": "735412ead613673f553b6db9f930ad33862019c0337d98374249b8a443a52930"
+  }
+]

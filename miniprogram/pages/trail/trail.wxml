@@ -30,7 +30,7 @@
   <view wx:if="{{encounterOpen && encounter}}" class="encounter-mask">
     <view class="encounter-card"><text class="encounter-label">山林里的小小相遇</text><view class="encounter-icon">{{encounter.icon}}</view><view class="encounter-name">{{encounter.name}}</view><view class="encounter-hint">{{encounter.hint}}</view>
       <view wx:if="{{!animalCorrect}}"><view class="encounter-question">你知道它的英文名字吗？</view><view wx:for="{{encounter.choices}}" wx:key="*this" class="animal-answer"><button class="animal-choice" data-word="{{item}}" bindtap="chooseAnimal">{{item}}</button><speech-button text="{{item}}" label="听发音" compact="{{true}}"/></view></view>
-      <view wx:else><view class="encounter-word">{{encounter.word}}</view><speech-button text="{{encounter.word}}" label="单词发音" /><view class="encounter-sentence">{{encounter.sentence}}</view><speech-button text="{{encounter.sentence}}" label="朗读例句" /><view class="encounter-hint">{{encounter.translation}}</view><view class="encounter-fact">{{encounter.fact}}</view></view>
+      <view wx:else><view class="encounter-word"><lookup-text text="{{encounter.word}}" source="山林相遇"/></view><speech-button text="{{encounter.word}}" label="单词发音" /><view class="encounter-sentence"><lookup-text text="{{encounter.sentence}}" source="{{encounter.name+' · 相遇例句'}}"/></view><speech-button text="{{encounter.sentence}}" label="朗读例句" /><view class="encounter-hint">{{encounter.translation}}</view><view class="encounter-fact">{{encounter.fact}}</view></view>
       <view class="animal-feedback">{{animalFeedback}}</view><button wx:if="{{animalCorrect}}" class="animal-collect" bindtap="collectAnimal">记入观察手册</button><button class="animal-skip" bindtap="closeEncounter">轻轻告别，继续前行</button>
     </view>
   </view>

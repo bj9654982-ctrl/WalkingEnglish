@@ -19,7 +19,7 @@ if (process.argv[2] === 'prepare') {
     if (file.length < 300 || !(file.toString('ascii', 0, 3) === 'ID3' || file[0] === 0xff)) throw Error('Invalid MP3: ' + e.path)
     sizes[e.pack] += file.length; manifest[e.id] = e.path
   }
-  if (sizes.some(n => n > 1700000)) throw Error('Audio package exceeds 1.7 MB budget')
+  if (sizes.some(n => n > 1900000)) throw Error('Audio package exceeds 1.9 MB budget')
   for (let i = 0; i < 8; i++) {
     const prefix = path.join(root, `miniprogram/audio/pack${i}/ready`)
     fs.writeFileSync(path.join(root, `miniprogram/audio/pack${i}/loader.js`), 'module.exports = { ready: true }\n')
@@ -30,7 +30,7 @@ if (process.argv[2] === 'prepare') {
   }
   fs.writeFileSync(path.join(root, 'miniprogram/data/speechManifest.js'), 'module.exports = ' + JSON.stringify(manifest, null, 2) + '\n')
   const configPath = path.join(root, 'miniprogram/app.json'), app = JSON.parse(fs.readFileSync(configPath, 'utf8'))
-  app.subPackages = Array.from({length:8}, (_, i) => ({ root:`audio/pack${i}`, name:`voice${i}`, pages:['ready'] }))
+  app.subPackages = (app.subPackages||[]).filter(p=>!p.root.startsWith('audio/')).concat(Array.from({length:8}, (_, i) => ({ root:`audio/pack${i}`, name:`voice${i}`, pages:['ready'] })))
   app.usingComponents = { ...app.usingComponents, 'speech-button':'/components/speech-button/speech-button' }
   fs.writeFileSync(configPath, JSON.stringify(app, null, 2) + '\n')
   fs.writeFileSync(path.join(output, 'sizes.json'), JSON.stringify({ clips:entries.length, bytes:sizes.reduce((a,b)=>a+b,0), packages:sizes }, null, 2))

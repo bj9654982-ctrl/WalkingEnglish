@@ -1,0 +1,9 @@
+<view class="hub animal-detail">
+  <block wx:if="{{seen}}">
+    <view class="animal-hero"><view class="animal-portrait">{{animal.icon}}</view><view class="title">{{animal.name}}</view><view class="animal-word"><lookup-text text="{{animal.word}}" source="山林观察手册"/></view><speech-button text="{{animal.word}}" label="听发音" compact="{{true}}"/></view>
+    <view class="card section"><view class="section-title">把这次遇见，记进一句英文</view><view class="animal-sentence"><lookup-text text="{{animal.sentence}}" source="{{animal.name+' · 观察例句'}}"/></view><speech-button text="{{animal.sentence}}" label="朗读例句" compact="{{true}}"/><view class="subtitle spaced">{{animal.translation}}</view></view>
+    <view class="card"><view class="section-title">认识这位小邻居</view><view class="detail-copy">{{animal.fact}}</view></view>
+    <view class="section"><view class="row"><view class="section-title">相遇的足迹</view><text class="muted">共 {{visitCount}} 次</text></view><view wx:for="{{visits}}" wx:key="index" class="visit-row"><text>{{item.mountain}}</text><text class="muted">{{item.date}}</text></view></view>
+  </block>
+  <view wx:else class="empty"><view class="unknown-portrait">?</view><view class="title">还没有遇见它</view><view>继续背词登山，收集后就能查看英文名字、例句和观察记录。</view><button class="primary spaced" bindtap="goDiscover">去山间走走</button></view>
+</view>

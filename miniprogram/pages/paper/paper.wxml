@@ -1,0 +1,19 @@
+<view class="hub paper-reader">
+  <view wx:if="{{loading}}" class="empty">正在打开论文资料…</view>
+  <view wx:elif="{{error}}" class="empty"><view>{{error}}</view><button class="secondary spaced" bindtap="loadPaper">重试加载</button><button class="filter-link spaced" bindtap="backToShelf">返回论文书架</button></view>
+  <block wx:else>
+    <view class="row"><text class="method-title">{{paper.method}}</text><button class="bookmark-btn {{bookmarked?'saved':''}}" bindtap="toggleBookmark">{{bookmarked?'★ 已收藏':'☆ 收藏'}}</button></view>
+    <view class="reader-title"><lookup-text text="{{paper.title}}" source="{{paper.method+' · 标题'}}"/></view><speech-button text="{{paper.title}}" label="听标题" compact="{{true}}"/>
+    <view class="reader-name">{{paper.name}}</view><view class="muted">{{paper.year}} · {{paper.categoryName}} · {{paper.pageCount}} 页</view>
+    <view wx:if="{{paper.versionNote}}" class="version-note"><text>版本说明</text><view>{{paper.versionNote}}</view></view>
+    <view class="reader-toolbar"><button wx:if="{{paper.abstract}}" class="reader-tool {{mode==='abstract'?'selected':''}}" bindtap="toggleAbstract">{{mode==='abstract'?'返回全文':'摘要摘录'}}</button><button class="reader-tool" bindtap="openPdf" loading="{{openingPdf}}" disabled="{{openingPdf}}">原始 PDF</button><view class="font-controls"><button class="font-btn" data-delta="-2" bindtap="changeFont" disabled="{{fontSize<=27}}" aria-label="缩小字号">－</button><text>字号</text><button class="font-btn" data-delta="2" bindtap="changeFont" disabled="{{fontSize>=39}}" aria-label="放大字号">＋</button></view></view>
+    <view class="bar"><view class="fill" style="width:{{percent}}%"/></view><view class="row"><text class="muted">已浏览 {{visited}} / {{paper.pageCount}} 页</text><text class="muted">{{finished?'已读 ✓':'阅读位置自动保存'}}</text></view>
+    <view class="page-header"><text class="page-heading">{{mode==='abstract'?'摘要摘录':'原文第 '+currentPage+' 页'}}</text><speech-button segments="{{pageAudio}}" label="{{mode==='abstract'?'朗读摘要':'朗读本页'}}" compact="{{true}}"/></view>
+    <view wx:if="{{ocr}}" class="muted source-hint">此页经 OCR 恢复文字，公式与符号请对照原始 PDF。</view>
+    <view class="muted source-hint">轻点英文单词，可查释义并加入生词本。</view>
+    <view wx:for="{{paragraphs}}" wx:key="index" class="paper-paragraph"><view class="body-text" style="font-size:{{fontSize}}rpx;"><lookup-text text="{{item}}" source="{{paper.method+' · '+(mode==='abstract'?'摘要':'第 '+currentPage+' 页')}}"/></view><view class="paragraph-audio"><speech-button text="{{item}}" label="朗读" compact="{{true}}"/></view></view>
+    <view class="page-navigation" wx:if="{{mode==='full'}}"><button class="secondary page-arrow" bindtap="previous" disabled="{{currentPage<=1}}">‹ 上一页</button><view class="jump-control"><input class="page-input" type="number" value="{{pageDraft}}" bindinput="editPage" bindconfirm="jump" aria-label="原文页码"/><text>/ {{paper.pageCount}}</text><button class="jump-button" bindtap="jump">跳转</button></view><button class="secondary page-arrow" bindtap="next" disabled="{{currentPage>=paper.pageCount}}">下一页 ›</button></view>
+    <button class="primary full spaced" bindtap="markRead" disabled="{{finished}}">{{finished?'已记录：这篇论文读完了':'将这篇论文标为已读'}}</button>
+    <view class="source-card"><view>来源：{{paper.filename}}</view><view>文字阅读版保留原文件页码；图表、公式和排版见原始 PDF。部分页面包含参考文献。</view><view>朗读优先使用本地音频，未收录的论文段落需连接云端语音服务。</view></view>
+  </block>
+</view>

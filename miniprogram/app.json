@@ -10,7 +10,11 @@
     "pages/chat/chat",
     "pages/trail/trail",
     "pages/word/word",
-    "pages/summit/summit"
+    "pages/summit/summit",
+    "pages/animal/animal",
+    "pages/paper/paper",
+    "pages/lexicon/lexicon",
+    "pages/vocabulary/vocabulary"
   ],
   "window": {
     "navigationBarBackgroundColor": "#f5f1e7",
@@ -116,9 +120,66 @@
       "pages": [
         "ready"
       ]
+    },
+    {
+      "root": "papers/pack0",
+      "name": "papers0",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "papers/pack1",
+      "name": "papers1",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "papers/pack2",
+      "name": "papers2",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "papers/pack3",
+      "name": "papers3",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "dictionary/pack0",
+      "name": "dictionary0",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "dictionary/pack1",
+      "name": "dictionary1",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "dictionary/pack2",
+      "name": "dictionary2",
+      "pages": [
+        "ready"
+      ]
+    },
+    {
+      "root": "dictionary/pack3",
+      "name": "dictionary3",
+      "pages": [
+        "ready"
+      ]
     }
   ],
   "usingComponents": {
+    "lookup-text": "/components/lookup-text/lookup-text",
     "speech-button": "/components/speech-button/speech-button"
   }
 }
